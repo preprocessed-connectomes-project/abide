@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ABIDE Preprocessed</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
+
+          <h1 id="project_title">ABIDE Preprocessed</h1><br>
+          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
+               -->    
+          <nav class="nav-global">
+              <ul>
+                  <li class="Overview"><a href="index.html">Overview</a></li>
+                  <li class="Download"><a href="download.html">Download</a></li>
+                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
+                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
+                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
+              </ul>
+          </nav>
+          
+          <!--
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
+            </section> -->
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+
+       <h1 id="qa">QA</h1>
+
+<p>Details on how to use the automated assessment protocol are <a href="http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/">here</a></p>
+
+<h2 id="the-phenotypic-file">The Phenotypic File</h2>
+<p>Here we detail the quality assessment (QA) columns given in the phenotypic file (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">download here</a>). There are automated metrics provided with columns having the prefix <code>anat_</code> or <code>func_</code>. There are also manual quality assessment of the data by three raters with columns having the prefix <code>qc_</code>.</p>
+
+<h2 id="automated-qa">Automated QA</h2>
+
+<p>These columns reflect automated metrics with descriptions given further down. To determine outliers one might use 1.5x or 3x the inter-quartile range (IQR). Here, we provide a list of the columns for automated anatomical or functional quality assessment. </p>
+
+<p><strong>Anatomical</strong></p>
+
+<ul>
+  <li>anat_cnr</li>
+  <li>anat_efc</li>
+  <li>anat_fber</li>
+  <li>anat_fwhm</li>
+  <li>anat_qi1</li>
+  <li>anat_snr</li>
+</ul>
+
+<p><strong>Functional</strong></p>
+
+<ul>
+  <li>func_efc</li>
+  <li>func_fber</li>
+  <li>func_fwhm</li>
+  <li>func_dvars</li>
+  <li>func_outlier</li>
+  <li>func_quality</li>
+  <li>func_mean_fd</li>
+  <li>func_num_fd</li>
+  <li>func_perc_fd</li>
+  <li>func_gsr</li>
+</ul>
+
+<h3 id="anatomical">Anatomical</h3>
+
+<p>For each point below, we will describe a given measure via the following format: “Measure - Column: Summary”</p>
+
+<ul>
+  <li><strong>Contrast to Noise Ratio [anat_cnr]:</strong> Calculated as the mean of the gray matter values minus the mean of the white matter values, divided by the standard deviation of the air values <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</li>
+  <li><strong>Entopy Focus Criterion [anat_efc]:</strong> Shannon’s entropy is used to summarize the principal directions distribution, higher energy indicating the distribution is more uniform (i.e., less noisy) <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>.</li>
+  <li><strong>Foreground to Background Energy Ratio [anat_fber]:</strong> Mean energy of image values (i.e., mean of squares) within the head relative to outside the head.</li>
+  <li><strong>Smoothness of Voxels [anat_fwhm]:</strong> The full-width half maximum (FWHM) of the spatial distribution of the image intensity values <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>.</li>
+  <li><strong>Artifact Detection [anat_qi1]:</strong> The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>.</li>
+  <li><strong>Signal-to-Noise Ratio [anat_snr]:</strong> The mean of image values within gray matter divided by the standard deviation of the image values within air (i.e., outside the head) <sup id="fnref:1:1"><a href="#fn:1" class="footnote">1</a></sup>.</li>
+</ul>
+
+<h3 id="functional">Functional</h3>
+
+<p>Note that some metrics quantify the quality of the data in the spatial domain (columns: func_efc, func_fber, func_fwhm, and func_gsr) and use the mean functional image for this purpose. Other metrics quantify the quality of the data in the temporal domain (columns: func_dvars, func_outlier, func_quality, func_mean_fd, func_num_fd, and func_perc_fd) and use the voxelwise time-series functional data.</p>
+
+<ul>
+  <li><strong>Entopy Focus Criterion [func_efc]:</strong> Shannon’s entropy is used to summarize the principal directions distribution, higher energy indicating the distribution is more uniform (i.e., less noisy) <sup id="fnref:2:1"><a href="#fn:2" class="footnote">2</a></sup>. <em>Uses mean functional.</em></li>
+  <li><strong>Foreground to Background Energy Ratio [func_fber]:</strong> Mean energy of image values (i.e., mean of squares) within the head relative to outside the head. <em>Uses mean functional.</em></li>
+  <li><strong>Smoothness of Voxels [func_fwhm]:</strong> The full-width half maximum (FWHM) of the spatial distribution of the image intensity values. <em>Uses mean functional.</em></li>
+  <li><strong>Standardized DVARS [func_dvars]:</strong> The spatial standard deviation of the temporal derivative of the data, normalized by the temporal standard deviation and temporal autocorrelation <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Outlier Detection [func_outlier]:</strong> The mean fraction of outliers found in each volume using 3dTout command in AFNI (http://afni.nimh.nih.gov/afni) <sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Median Distance Index [func_quality]:</strong> The mean distance (1 – spearman’s rho) between each time-point’s volume and the median volume using AFNI’s 3dTqual command (http://afni.nimh.nih.gov/afni) <sup id="fnref:7:1"><a href="#fn:7" class="footnote">7</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Mean Fractional Displacement - Jenkinson [func_mean_fd]:</strong> A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere <sup id="fnref:5:1"><a href="#fn:5" class="footnote">5</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Number of volumes with FD greater than 0.2mm [func_num_fd]:</strong> <em>Uses functional time-series.</em></li>
+  <li><strong>Percent of volumes with FD greater than 0.2mm [func_perc_fd]:</strong> <em>Uses functional time-series.</em></li>
+  <li><strong>Ghost to Signal Ratio [func_gsr]:</strong> A measure of the mean signal in the ‘ghost’ image (signal present outside the brain due to acquisition in the phase encoding direction) relative to mean signal within the brain. <em>Uses mean functional.</em></li>
+</ul>
+
+<h2 id="manual-qa">Manual QA</h2>
+
+<p>Manual inspection of the data was carried out by three independent raters. Rater 1 examined the general quality of the data focusing on the preprocessed functional data and derivatives. Raters 2-3 examined the quality of the raw anatomical and functional data. Ratings are given as OK and fail for raters 1 and 3, and OK, maybe, and fail for rater 2. Each rater also may have taken notes related to their ratings, thus there is a notes column associated with each rating column.</p>
+
+<h2 id="references">References</h2>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Magnotta, V. A., &amp; Friedman, L. (2006). Measurement of signal-to-noise and contrast-to-noise in the fBIRN multicenter imaging study. Journal of Digital Imaging, 19(2), 140-147. <a href="#fnref:1" class="reversefootnote">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:2">
+      <p>Farzinfar, M., Dietrich, C., Smith, R. G., Li, Y., Gupta, A., Liu, Z., &amp; Styner, M. A. (2012, May). Entropy based DTI quality control via regional orientation distribution. In Biomedical Imaging (ISBI), 2012 9th IEEE International Symposium on (pp. 22-25). IEEE. <a href="#fnref:2" class="reversefootnote">&#8617;</a> <a href="#fnref:2:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:3">
+      <p>Friedman, L., Stern, H., Brown, G. G., Mathalon, D. H., Turner, J., Glover, G. H., … &amp; Potkin, S. G. (2008). Test–retest and between‐site reliability in a multicenter fMRI study. Human brain mapping, 29(8), 958-972. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Mortamet, B., Bernstein, M. A., Jack, C. R., Gunter, J. L., Ward, C., Britson, P. J., … &amp; Krueger, G. (2009). Automatic quality assessment in structural brain magnetic resonance imaging. Magnetic Resonance in Medicine, 62(2), 365-372. <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L. &amp; Petersen, S. E. Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage 59, 2142-2154 (2012). <a href="#fnref:5" class="reversefootnote">&#8617;</a> <a href="#fnref:5:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:6">
+      <p>Nichols, T. (2012, Oct 28). Standardizing DVARS. Retrieved from http://blogs.warwick.ac.uk/nichols/entry/standardizing_dvars. <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>Cox, R.W.. AFNI: Software for analysis and visualization of functional magnetic resonance neuroimages. Computers and Biomedical Research, 29:162-173, 1996. <a href="#fnref:7" class="reversefootnote">&#8617;</a> <a href="#fnref:7:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:8">
+      <p>Jenkinson, M., Bannister, P., Brady, M., &amp; Smith, S. (2002). Improved optimization for the robust and accurate linear registration and motion correction of brain images. Neuroimage, 17(2), 825-841. <a href="#fnref:8" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
