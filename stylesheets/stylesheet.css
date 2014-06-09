@@ -133,19 +133,27 @@ strong {
   font-weight: bold;
 }
 
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
 img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  margin: 10px 20px 0px 10px;
 }
 
 p img {
@@ -264,7 +272,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -285,22 +293,37 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #077FB1;
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 40px 10px 1px 10px;
+}
+
+#header_wrap .nav-global li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-right: 32px;
+  margin-left: -18px;
+  word-spacing: normal;
+  vertical-align: middle;
+}
+
+#header_wrap .nav-global a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    background: none;
+    text-shadow: #111 0px 0px 10px;
 }
 
 #project_title {
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
@@ -353,7 +376,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #fff;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -363,7 +386,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #077FB1;
 }
 
 
