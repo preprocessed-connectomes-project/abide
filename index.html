@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ABIDE Preprocessed</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
+
+          <h1 id="project_title">ABIDE Preprocessed</h1><br>
+          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
+               -->    
+          <nav class="nav-global">
+              <ul>
+                  <li class="Overview"><a href="index.html">Overview</a></li>
+                  <li class="Download"><a href="download.html">Download</a></li>
+                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
+                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
+                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
+              </ul>
+          </nav>
+          
+          <!--
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
+            </section> -->
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+<!--
+<h2><a name="intro" class="anchor" href="#intro"><span class="octicon octicon-link"></span></a>Overview</h2>
+-->
+          
+<img src="images/abide_logo.jpg" align="left" width=30%>
+
+<p>The Preprocessed Connectomes Project (PCP) is pleased to announce the public release and open sharing of preprocessed neuroimaging data from the <a href="http://fcon_1000.projects.nitrc.org/indi/abide">Autism Brain Imaging Data Exchange (ABIDE)</a>. A consortium of the <a href="http://fcon_1000.projects.nitrc.org/indi">International Neuroimaging Datasharing Iniative (INDI)</a>, ABIDE is a collaboration of 16 international imaging sites that have aggregated and are openly sharing neuroimaging data from <strong>539 individuals suffering from  ASD</strong> and <strong>573 typical controls</strong>. These 1112 datsets are composed of structural and resting state functional MRI data along with an extensive array of phenotypic information.</a> 
+    
+<p>Data from ABIDE was preprocessed by five different teams using their preferred tools. Functional preprocessing was performed using: 
+the <a href="http://lfcd.psych.ac.cn/ccs.html">Connectome Computation System (CCS)</a>, 
+the <a href="http://http://fcp-indi.github.io/">Configurable Pipeline for the Analysis of Connectomes (CPAC)</a>,
+the <a href="http://rfmri.org/DPARSF">Data Processing Assistant for Resting-State fMRI (DPARSF)</a> and 
+the <a href="http://www.nitrc.org/projects/niak/">NeuroImaging Analysis Kit</a>. Due to the controversies surrounding bandpass filtering and global signal regression, four different preprocessing strategies were performed with each pipeline: all combinations of with and without filtering and with and without global signal correction. To limit the variance between outputs to just preprocessing, statistical derivatives for each pipeline and strategy were calcualted by the CPAC software. Structural preprocessing and calculation of cortical measures was performed using three different pipelines: 
+<a href-"http://picsl.upenn.edu/software/ants/">ANTS</a>, 
+<a href="http://www.bic.mni.mcgill.ca/ServicesSoftware/CIVET">CIVET</a>, 
+and <a href="https://surfer.nmr.mgh.harvard.edu/">FreeSurfer</a>. Refer to the links on the left for more information about the different pipelines and derivatives.</p>
+
+<p>In accordance with HIPAA guidelines and 1000 Functional Connectomes Project / INDI protocols, all datasets are anonymous, with no protected health information included.</p>
+
+<br>
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Credits</h3>
+<hr></hr>
+<p>
+    <strong>ABIDE Preprocessed Founders</strong><br>
+	  <a href="mailto:cameron.craddock@childmind.org">R. Cameron Craddock</a><sup>1,2</sup>, 
+      <a href="mailto:pierre.bellec@criugm.qc.ca">Pierre Bellec</a><sup>3,4</sup><br><br>
+	<strong>Project Coordinator</strong><br>
+	  R. Cameron Craddock<sup>1,2</sup><br><br>      
+	<strong>Data Aggregation and Organization</strong><br>
+	  Zarrar Shezhad<sup>2,5</sup>, Qingyang Li<sup>1</sup><br><br>
+  	<strong>Quality Assessment</strong><br>
+  	  Zarrar Shezhad<sup>2,5</sup>, Yassine Benhajali<sup>3,6</sup>, Aimi Watanabe<sup>1</sup>, 
+      Chao-Gan Yan<sup>2</sup>, Qingyang Li<sup>1</sup>, Zhen Yang<sup>1,2</sup><br><br>
+	<strong>Data Processing</strong><br>
+      <i><u>CCS and Freesurfer:</u></i>
+      Ting Xu<sup>7</sup>, <a href="mailto:zuoxn@psych.ac.cn">Xinian Zuo<sup>7</sup></a><br>
+	  <i><u>CIVET:</u></i>
+	  Buhachandra Khundrakpam<sup>8</sup>, John Lewis<sup>8</sup>, 
+      <a href="mailto:alan.evans@mcgill.ca">Alan Evans</a><sup>8</sup><br>
+	  <i><u>CPAC and ANTS:</u></i>
+	  Zarrar Shehzad<sup>2,5</sup>, Qingyang Li<sup>1</sup>, Daniel Clark<sup>1</sup>, 
+      Steven Giavasis<sup>1,2</sup>, <a href="mailto:cameron.craddock@childmind.org">R. Cameron 
+      Craddock</a><sup>1,2</sup><br>
+	  <i><u>DPARSF:</u></i>
+	  <a href="mailto:cgyan@NKI.RFMH.ORG">Chao-Gan Yan</a><sup>2</sup><br>
+	  <i><u>NIAK:</u></i>
+	  Yassine BenHajali<sup>3,6</sup>, Francois Chouinard<sup>3,8</sup>, 
+      <a href="mailto:pierre.bellec@criugm.qc.ca">Pierre Bellec</a><sup>3,4</sup><br><br>
+	<strong>Special thanks to the members of the ABIDE consortium, particularly Micheal P. Milham<sup>1,2</sup> and Adriana Di Martino<sup>9</sup> for their valuable advice and support.</strong>
+</p>
+
+<hr></hr>
+<p><small>
+   <sup>1</sup><a href="http://www.childmind.org/en/center-for-developing-brain/">Center for the Developing Brain</a>, Child Mind Institute</a>, New York, New York, United States of America,
+    <sup>2</sup><a href="http://www.rfmh.org/nki/">Nathan S. Kline Institute for Psychiatric Research</a>, Orangeburg, New York, United States of America,
+    <sup>3</sup><a href="http://www.criugm.qc.ca/">Centre de recherche de l'institut de gériatrie de Montréal</a>, Montréal, Québec, Canada,
+    <sup>4</sup><a href="http://diro.umontreal.ca/accueil/">Départmenet d'informatique et de recherche
+opérationnelle</a>, Université de Montréal, Montréal, Québec, Canada, 
+    <sup>5</sup><a href="http://psychology.yale.edu/">Department of Pyschology</a>, Yale University, New Haven, CT, United States of America,
+    <sup>6</sup><a href="http://anthropo.umontreal.ca/accueil/"> Département d'anthropologie</a>,Université de Montréal, Montréal, Québec, Canada,
+    <sup>7</sup><a href"http://lfcd.psych.ac.cn/">Laboratory for Functional Connectome and Development</a>, China Key Laboratory of Behavioral Science, Magnetic Resonance Imaging Research Center, Institute of Psychology, Chinese Academy of Sciences, Beijing, China, 
+    <sup>8</sup><a href="http://www.bic.mni.mcgill.ca/">The McConnell Brain Imaging Centre</a>, Montreal Neurological Insitute, McGill University, Montréal, Québec, Canada, 
+    <sup>9</sup><a href="http://www.aboutourkids.org/research/institutes_programs/phyllis_green_randolph_cowen_institute_pediatric_neuroscience">Phyllis Green and Randolph Co̅wen Institute for Pediatric Neuroscience</a> at the NYU Child Study Center, New York University Langone Medical Center, New York, New York, United States of America<br>
+</small></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

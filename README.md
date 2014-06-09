@@ -1,4 +1,0 @@
-abide
-=====
-
-ABIDE Preprocessed Initiative

@@ -1,6 +1,14 @@
+---
+layout: page
+title: abide-QA
+---
+
 # QA
 
-Here we detail the quality assessment (QA) columns given in the phenotypic file. There are automated metrics provided with columns having the prefix `anat_` or `func_`. There are also manual quality assessment of the data by three raters with columns having the prefix `qc_`.
+Details on how to use the automated assessment protocol are [here](http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/)
+
+## The Phenotypic File
+Here we detail the quality assessment (QA) columns given in the phenotypic file ([download here](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv)). There are automated metrics provided with columns having the prefix `anat_` or `func_`. There are also manual quality assessment of the data by three raters with columns having the prefix `qc_`.
 
 ## Automated QA
 
