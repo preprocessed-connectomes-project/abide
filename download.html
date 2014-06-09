@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ABIDE Preprocessed</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
+
+          <h1 id="project_title">ABIDE Preprocessed</h1><br>
+          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
+               -->    
+          <nav class="nav-global">
+              <ul>
+                  <li class="Overview"><a href="index.html">Overview</a></li>
+                  <li class="Download"><a href="download.html">Download</a></li>
+                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
+                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
+                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
+              </ul>
+          </nav>
+          
+          <!--
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
+            </section> -->
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+
+       <p>The results of the ABIDE Preprocessed initiative are available on a public Amazon S3 bucket and on NITRC. The data is available on the S3 bucket as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. The data on NITRC will be stored as a tarfile for each derivative, pipeline and strategy. </p>
+
+<h3 id="assessing-data-from-the-amazon-s3-bucket">Assessing data from the Amazon S3 bucket</h3>
+
+<h4 id="meta-data">Meta-Data</h4>
+<p>A spreadsheet that contains phenotypic data and quality assessment information is available at: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv</a>. Information from this file can be used to select a subset of the data that you would like to download. This file contains all of the information from the <a href="http://www.nitrc.org/frs/downloadlink.php/4912">original phenotypic file</a> provided with the ABIDE release, which is described in the ABIDE <a href="http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf">phenotypic data legend</a>, except that information about the preprocessed data has been added. </p>
+
+<p>A column has been added to assist with mapping the information to the preprocessed data (see below):</p>
+
+<pre><code>FILE_ID
+</code></pre>
+
+<p>Several columns contain quality measures from the <a href="http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/">PCP Quality Assessment Protocol</a> and are illustrated in detail on the <a href="quality_assessment.html">ABIDE Preprocessed quality assessment page</a>:</p>
+
+<pre><code>anat_cnr, anat_efc, anat_fber, anat_fwhm, anat_qi1, anat_snr,
+func_efc, func_fber, func_fwhm, func_dvars, func_outlier, func_quality, 
+func_mean_fd, func_num_fd, func_perc_fd, func_gsr
+</code></pre>
+
+<p>Also on this page are a description of the manual quality assessment annotations included in the columns: </p>
+
+<pre><code>qc_rater_1, qc_notes_rater_1, 
+qc_anat_rater_2, qc_anat_notes_rater_2, qc_func_rater_2, qc_func_notes_rater_2, 
+qc_anat_rater_3, qc_anat_notes_rater_3, qc_func_rater_3, qc_func_notes_rater_3 
+</code></pre>
+
+<p>The remaining additional column indicates whether the data was included in (<a href="http://www.ncbi.nlm.nih.gov/pubmed/23774715">DiMartino et al. 2014</a>):</p>
+
+<pre><code>SUB_IN_SMP
+</code></pre>
+
+<h4 id="functional-data">Functional Data</h4>
+<p>Preprocessed functional data can be downloaded from the bucket using the url:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/
+</code></pre>
+
+<p>appedend with the string: </p>
+
+<pre><code>[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
+</code></pre>
+
+<p>Where:<br /> </p>
+
+<pre><code>[pipeline] = ccs | cpac | dparsf | niak 
+[stratgey] = filt_global | filt_noglobal | nofilt_global | nofilt_noglobal
+[file identifier] comes from FILE_ID column of the summary spreadsheet
+[derivative] = alff | degree_binarize | degree_weighted | dual_regression | ... 
+               eigenvector_binarize | eigenvector_weighted | falff | func_mask | ... 
+               func_mean | func_preproc | lfcd | reho | rois_aal | rois_cc200 | ... 
+               rois_cc400 | rois_dosenbach160 | rois_ez | rois_ho | rois_tt | vmhc
+[ezt] = 1D | nii.gz
+</code></pre>
+
+<p>The file extension is determined by the derivative type. Use <code>nii.gz</code> for all derivatives except for the ROI time series files which end in <code>1D</code>. These derivative names begin with <code>roi_</code>.</p>
+
+<p>Here are a few examples that illustrate the construction of paths for a few different files:</p>
+
+<p>ALFF for ‘OHSU_0050147’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a><br />
+Harvard-Oxford ROI time series for ‘KKI_0050822’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a><br /></p>
+
+<p>The 3D binary derivatives (i.e. those ending in nii.gz except for ‘func_preproc’ and ‘dual_reg’) are roughly 256 KB to 512KB in size. The ‘dual_reg’ files are 10 times the size of the others (i.e. 2.5MB - 5MB) and the ‘func_preproc’ files are very large (30 MB - 200 MB). Extracted time series files are .5 - 1 MB in size.</p>
+
+<h4 id="structural-data">Structural Data</h4>
+<p>Due to the diversity of the structural pipelines, the </p>
+
+<h5 id="ants-cortical-thickness">ANTS Cortical Thickness</h5>
+
+<h5 id="civet">CIVET</h5>
+
+<h5 id="freesurfer">FreeSurfer</h5>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
