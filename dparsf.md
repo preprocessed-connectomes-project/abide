@@ -15,7 +15,7 @@ Global signal regression (GSR), a commonly used yet controversial practice in th
 
 Temporal filtering (0.01 - 0.1 Hz) was then performed on the time series except for the frequency-based R-fMRI indices: amplitude of low frequency.
 
-Most of the indices were calculated in native space based upon the preprocessed timeseries, and corresponding maps were then registered into MNI space with XX mm3 cubic voxels by using transformation information acquired from DARTEL. The maps were further smoothed by a kernel of XX mm. 
+Most of the indices were calculated in native space based upon the preprocessed timeseries, and corresponding maps were then registered into MNI space with 3 mm3 cubic voxels by using transformation information acquired from DARTEL. The maps were further smoothed by a kernel of 6 mm. 
 
 ReHo and DC were directly calculated in MNI space to ensure the same voxel size across sites in ReHo and DC calculation. Spatial maps of these measures were then spatially smoothed with the same Gaussian filter.
 

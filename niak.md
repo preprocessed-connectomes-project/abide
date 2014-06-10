@@ -9,7 +9,7 @@ title: niak
 
 The ABIDE sample was preprocessed using the NIAK release 0.7.1 (Bellec et al. HBM 2011, NIAK website)[^5]. 
 
-No volumes were suppressed at the beginning of each functional run and no correction was applied for inter-slice difference in acquisition time. A single non-uniformity field was estimated based on the median volume of each functional run using the N3 method[^6], and applied to all volumes in the run. 
+No volumes were suppressed at the beginning of each functional run and no correction was applied for inter-slice difference in acquisition time. A single non-uniformity field was estimated based on the median volume of each functional run using the N3 method[`^], and applied to all volumes in the run. 
 
 The parameters of a rigid-body motion was estimated for each time frame using the median volume of the run as a target. The median fMRI volume was was also coregistered with a T1 individual scan using Minctracc (Collins et al. 1997)[^7], which was itself non-linearly transformed to the Montreal Neurological Institute (MNI) template (Fonov et al 2011)[^8] using the CIVET pipeline (Zijdenbos et al. 2002)[^9]. The MNI asymmetric template was generated from the ICBM152 sample of 152 young adults, after 40 iterations of non-linear coregistration. The rigid-body transform, fMRI-to-T1 transform and T1-to-stereotaxic transform were all combined, and the functional volumes were resampled in the MNI space at a 3 mm isotropic resolution. 
 
@@ -28,5 +28,5 @@ The fMRI volumes were finally spatially smoothed with a 6 mm isotropic Gaussian 
 [^8]: Fonov, V., Evans, A. C., Botteron, K., Almli, C. R., McKinstry, R. C., & Collins, D. L. (2011). Unbiased average age-appropriate atlases for pediatric studies. Neuroimage, 54(1), 313-327.
 [^9]: Zijdenbos, A. P., Forghani, R., & Evans, A. C. (2002). Automatic" pipeline" analysis of 3-D MRI data for clinical trials: application to multiple sclerosis. Medical Imaging, IEEE Transactions on, 21(10), 1280-1291.
 [^10]: Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L., & Petersen, S. E. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage, 59(3), 2142-2154.
-[^11]: ?
+[^11]: Lund, T. E. (2001). fcMRI—Mapping functional connectivity or correlating cardiac‐induced noise?. Magnetic Resonance in Medicine, 46(3), 628-628.
 [^12]: Giove, F., Gili, T., Iacovella, V., Macaluso, E., & Maraviglia, B. (2009). Images-based suppression of unwanted global signals in resting-state functional connectivity studies. Magnetic resonance imaging, 27(8), 1058-1064.
