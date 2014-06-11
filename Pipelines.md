@@ -12,7 +12,7 @@ All the structural and functional scans were preprocessed with four different pi
 
 Below are the list of different pipelines with links to more detailed descriptions.
 
-* [Connectome Computation System (CCS)](http://preprocessed-connectomes-project.github.io/abide/ccs.html]): bash
+* [Connectome Computation System (CCS)](http://preprocessed-connectomes-project.github.io/abide/ccs.html): bash
 * [Configurable Pipeline for the Analysis of Connectomes (CPAC)](http://preprocessed-connectomes-project.github.io/abide/cpac.html): python
 * [Data Processing Assistant for Resting-State fMRI (DPARSF)](http://preprocessed-connectomes-project.github.io/abide/dparsf.html): matlab
 * [Neuroimaging Analysis Kit (NIAK)](http://preprocessed-connectomes-project.github.io/abide/niak.html): matlab
