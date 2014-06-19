@@ -7,8 +7,10 @@ title: abide-QA
 
 Details on how to use the automated assessment protocol are [here](http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/)
 
+
 ## The Phenotypic File
 Here we detail the quality assessment (QA) columns given in the phenotypic file ([download here](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv)). There are automated metrics provided with columns having the prefix `anat_` or `func_`. There are also manual quality assessment of the data by three raters with columns having the prefix `qc_`.
+
 
 ## Automated QA
 
@@ -36,7 +38,6 @@ These columns reflect automated metrics with descriptions given further down. To
 * func_perc_fd
 * func_gsr
 
-
 ### Anatomical
 
 For each point below, we will describe a given measure via the following format: "Measure - Column: Summary"
@@ -48,6 +49,19 @@ For each point below, we will describe a given measure via the following format:
 * **Artifact Detection [anat_qi1]:** The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background [^4].
 * **Signal-to-Noise Ratio [anat_snr]:** The mean of image values within gray matter divided by the standard deviation of the image values within air (i.e., outside the head) [^1].
 
+Below we show the results of the anatomical QA measures for all the ABIDE subjects.
+
+![Contrast to Noise Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot1.png "Contrast to Noise Ratio")
+
+![Entropy Focus Criterion](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot2.png "Entropy Focus Criterion")
+
+![Foreground to Background Energy Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot3.png "Foreground to Background Energy Ratio")
+
+![Smoothness of Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot4.png "Smoothness of Voxels")
+
+![Artifact Detection](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot5.png "Artifact Detection")
+
+![Signal-to-Noise Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot6.png "Signal-to-Noise Ratio")
 
 ### Functional
 
@@ -59,10 +73,30 @@ Note that some metrics quantify the quality of the data in the spatial domain (c
 * **Standardized DVARS [func_dvars]:** The spatial standard deviation of the temporal derivative of the data, normalized by the temporal standard deviation and temporal autocorrelation [^5][^6]. _Uses functional time-series._
 * **Outlier Detection [func_outlier]:** The mean fraction of outliers found in each volume using 3dTout command in AFNI (http://afni.nimh.nih.gov/afni) [^7]. _Uses functional time-series._
 * **Median Distance Index [func_quality]:** The mean distance (1 – spearman’s rho) between each time-point's volume and the median volume using AFNI’s 3dTqual command (http://afni.nimh.nih.gov/afni) [^7]. _Uses functional time-series._
-* **Mean Fractional Displacement - Jenkinson [func_mean_fd]:** A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere [^5][^8]. _Uses functional time-series._
+* **Mean Framewise Displacement - Jenkinson [func_mean_fd]:** A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere [^5][^8]. _Uses functional time-series._
 * **Number of volumes with FD greater than 0.2mm [func_num_fd]:** _Uses functional time-series._
 * **Percent of volumes with FD greater than 0.2mm [func_perc_fd]:** _Uses functional time-series._
 * **Ghost to Signal Ratio [func_gsr]:** A measure of the mean signal in the ‘ghost’ image (signal present outside the brain due to acquisition in the phase encoding direction) relative to mean signal within the brain. _Uses mean functional._
+
+Below we show the results of the functional QA measures for all the ABIDE subjects. We exclude the number of voxels with FD > 0.2mm and only show the percent of voxels with FD > 0.2mm.
+
+![Entropy Focus Criterion](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot1.png "Entropy Focus Criterion")
+
+![Foreground to Background Energy Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot2.png "Foreground to Background Energy Ratio")
+
+![Smoothness of Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot3.png "Smoothness of Voxels")
+
+![Standardized DVARS](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot1.png "Standardized DVARS")
+
+![Outlier Detection](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot2.png "Outlier Detection")
+
+![Median Distance Index](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot3.png "Median Distance Index")
+
+![Mean Framewise Displacement](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot4.png "Mean Framewise Displacement")
+
+![Percent FD greater than 0.2mm](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot5.png "Percent FD greater than 0.2mm")
+
+![Ghost to Signal Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot4.png "Ghost to Signal Ratio")
 
 
 ## Manual QA
