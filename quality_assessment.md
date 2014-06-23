@@ -45,9 +45,9 @@ For each point below, we will describe a given measure via the following format:
 * **Contrast to Noise Ratio [anat_cnr]:** Calculated as the mean of the gray matter values minus the mean of the white matter values, divided by the standard deviation of the air values [^1].
 * **Entopy Focus Criterion [anat_efc]:** Shannon’s entropy is used to summarize the principal directions distribution, higher energy indicating the distribution is more uniform (i.e., less noisy) [^2].
 * **Foreground to Background Energy Ratio [anat_fber]:** Mean energy of image values (i.e., mean of squares) within the head relative to outside the head.
-* **Smoothness of Voxels [anat_fwhm]:** The full-width half maximum (FWHM) of the spatial distribution of the image intensity values [^3].
-* **Artifact Detection [anat_qi1]:** The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background [^4].
-* **Signal-to-Noise Ratio [anat_snr]:** The mean of image values within gray matter divided by the standard deviation of the image values within air (i.e., outside the head) [^1].
+* **Smoothness of Voxels [anat_fwhm]:** The full-width half maximum (FWHM) of the spatial distribution of the image intensity values in terms of voxels (e.g., a value of 3 implies smoothness of 3 voxels) [^3].
+* **Percent of Artifact Voxels [anat_qi1]:** The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background [^4].
+* **Signal to Noise Ratio [anat_snr]:** The mean of image values within gray matter divided by the standard deviation of the image values within air (i.e., outside the head) [^1].
 
 Below we show the results of the anatomical QA measures for all the ABIDE subjects.
 
@@ -59,9 +59,9 @@ Below we show the results of the anatomical QA measures for all the ABIDE subjec
 
 ![Smoothness of Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot4.png "Smoothness of Voxels")
 
-![Artifact Detection](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot5.png "Artifact Detection")
+![Percent of Artifact Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot5.png "Percent of Artifact Voxels")
 
-![Signal-to-Noise Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot6.png "Signal-to-Noise Ratio")
+![Signal to Noise Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot6.png "Signal to Noise Ratio")
 
 ### Functional
 
@@ -71,11 +71,11 @@ Note that some metrics quantify the quality of the data in the spatial domain (c
 * **Foreground to Background Energy Ratio [func_fber]:** Mean energy of image values (i.e., mean of squares) within the head relative to outside the head. _Uses mean functional._
 * **Smoothness of Voxels [func_fwhm]:** The full-width half maximum (FWHM) of the spatial distribution of the image intensity values. _Uses mean functional._
 * **Standardized DVARS [func_dvars]:** The spatial standard deviation of the temporal derivative of the data, normalized by the temporal standard deviation and temporal autocorrelation [^5][^6]. _Uses functional time-series._
-* **Outlier Detection [func_outlier]:** The mean fraction of outliers found in each volume using 3dTout command in AFNI (http://afni.nimh.nih.gov/afni) [^7]. _Uses functional time-series._
-* **Median Distance Index [func_quality]:** The mean distance (1 – spearman’s rho) between each time-point's volume and the median volume using AFNI’s 3dTqual command (http://afni.nimh.nih.gov/afni) [^7]. _Uses functional time-series._
-* **Mean Framewise Displacement - Jenkinson [func_mean_fd]:** A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere [^5][^8]. _Uses functional time-series._
-* **Number of volumes with FD greater than 0.2mm [func_num_fd]:** _Uses functional time-series._
-* **Percent of volumes with FD greater than 0.2mm [func_perc_fd]:** _Uses functional time-series._
+* **Fraction of Outlier Voxels [func_outlier]:** The mean fraction of outliers found in each volume using 3dTout command in AFNI (http://afni.nimh.nih.gov/afni) [^7]. _Uses functional time-series._
+* **Mean Distance to Median Volume [func_quality]:** The mean distance (1 – spearman’s rho) between each time-point's volume and the median volume using AFNI’s 3dTqual command (http://afni.nimh.nih.gov/afni) [^7]. _Uses functional time-series._
+* **Mean Framewise Displacement (FD) [func_mean_fd]:** A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere [^5][^8]. _Uses functional time-series._
+* **Number FD greater than 0.2mm [func_num_fd]:** The number of frames or volumes with displacement greater than 0.2mm. This is not shown below. _Uses functional time-series._
+* **Percent FD greater than 0.2mm [func_perc_fd]:** The percent of frames or volumes with displacement greater than 0.2mm. _Uses functional time-series._
 * **Ghost to Signal Ratio [func_gsr]:** A measure of the mean signal in the ‘ghost’ image (signal present outside the brain due to acquisition in the phase encoding direction) relative to mean signal within the brain. _Uses mean functional._
 
 Below we show the results of the functional QA measures for all the ABIDE subjects. We exclude the number of voxels with FD > 0.2mm and only show the percent of voxels with FD > 0.2mm.
