@@ -4,7 +4,8 @@ title: ccs
 ---
 
 # Brief introduction of CCS processing procedure
-Three main analysis software packages, AFNI, FSL and FREESURFER, were integrated into CCS pipeline computation as follow.
+
+Three main analysis software packages, AFNI, FSL and Freesurfer, were integrated into CCS pipeline computation as follow.
 
 ## Structural image preprocessing
 1. MR denoised by a spatially adaptive non-local means filter (Xing et al., 2011; Zuo and Xing, 2011) using the extensions utility of VBM toolboxes of SPM8.
@@ -21,4 +22,4 @@ Three main analysis software packages, AFNI, FSL and FREESURFER, were integrated
 6. Nuisance correction was conducted by regression out the Friston’s 24-parameter motion signal, the mean time series or the principal component based on singular value decomposition from WM and CSF, then the linear and quadratic trends. The regression included and excluded global signal are both saved for the post process.
 7. Band-pass temporal filtering (0.01-0.1Hz) was performed for extracting the low frequency fluctuations with 3dFourier command in AFNI.
 8. Registered the individual functional images to MNI template with affine matrix from bbregister and warp file from FNIRT step.
-9. The final images were smoothed with Gaussion kernel FWHM = 6 mm on volume and surface space, respectively.
+
