@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ABIDE Preprocessed</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
+
+          <h1 id="project_title">ABIDE Preprocessed</h1><br>
+          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
+               -->    
+          <nav class="nav-global">
+              <ul>
+                  <li class="Overview"><a href="index.html">Overview</a></li>
+                  <li class="Download"><a href="download.html">Download</a></li>
+                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
+                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
+                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
+              </ul>
+          </nav>
+          
+          <!--
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
+            </section> -->
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+
+       <h1 id="analysis">Analysis</h1>
+
+<p>All the structural and functional scans were preprocessed with four different pipelines with the goal of comparing the outputs and determining best practices. Each pipeline used the best tools available to each of them and employed methods commonly used in the literature. We used the functional preprocessed data output from each pipeline to then calculate derivatives using CPAC. For a comparison of the derivative outputs between the pipelines, please <a href="http://preprocessed-connectomes-project.github.io/abide/derivatives.html">see this page</a>.</p>
+
+<h2 id="pipelines">Pipelines</h2>
+
+<p>Below are the list of different pipelines with links to more detailed descriptions.</p>
+
+<ul>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/ccs.html">Connectome Computation System (CCS)</a>: bash</li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/cpac.html">Configurable Pipeline for the Analysis of Connectomes (CPAC)</a>: python</li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/dparsf.html">Data Processing Assistant for Resting-State fMRI (DPARSF)</a>: matlab</li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/niak.html">Neuroimaging Analysis Kit (NIAK)</a>: matlab</li>
+</ul>
+
+<p>Here we provide an overview of each pipeline with comparisons of critical steps.</p>
+
+<h2 id="functional-data">Functional Data</h2>
+
+<h3 id="outputs">Outputs</h3>
+
+<p>The final outputs for each pipeline were preprocessed functional time-series data in native and standard (MNI152) space. Due to controversies in the literature, these outputs could be with/without band-pass filtered (0.01-0.1 Hz) and with/without global signal regression. Thus, for each pipeline, four different types of preprocessed outputs or strategies were produced. These include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Band-Pass Filtering</th>
+      <th>Global Signal Regression</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Yes</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>No</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="functional-preprocessing">Functional Preprocessing</h3>
+
+<p>Below we show select steps during functional preprocessing and compare them between the pipelines.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Step</th>
+      <th style="text-align: center">CCS</th>
+      <th style="text-align: center">CPAC</th>
+      <th style="text-align: center">DPARSF</th>
+      <th style="text-align: center">NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">drop first volumes</td>
+      <td style="text-align: center">4 volumes</td>
+      <td style="text-align: center">none</td>
+      <td style="text-align: center">4 volumes</td>
+      <td style="text-align: center">none</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">slice time correction</td>
+      <td style="text-align: center">yes</td>
+      <td style="text-align: center">yes</td>
+      <td style="text-align: center">yes</td>
+      <td style="text-align: center">no</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">motion correction</td>
+      <td style="text-align: center">yes</td>
+      <td style="text-align: center">yes</td>
+      <td style="text-align: center">yes</td>
+      <td style="text-align: center">yes</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">intesity normalization</td>
+      <td style="text-align: center">4D global mean-based</td>
+      <td style="text-align: center">4D global mean-based</td>
+      <td style="text-align: center">no</td>
+      <td style="text-align: center">Non-uniformity correction based on median volume</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Band-pass filtering was also applied or not applied at the end of these steps. Smoothing to the functional data was also applied using 6mm FWHM kernal.</p>
+
+<h3 id="nuisance-signal-removal">Nuisance Signal Removal</h3>
+
+<p>Attempts to remove noise in the functional data were taken using linear regression for each pipeline.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Type of Regressor</th>
+      <th>CCS</th>
+      <th>CPAC</th>
+      <th>DPARSF</th>
+      <th>NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">Motion</td>
+      <td>24-parameters</td>
+      <td>24-parameters</td>
+      <td>24-parameters</td>
+      <td>scrubbing and 1st principal component of 6-parameters &amp; their squares</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Cardiac/Respiratory</td>
+      <td>mean signal from WM and CSF</td>
+      <td>top 5 principal components from WM and CSF</td>
+      <td>mean signal from WM and CSF</td>
+      <td>mean signal from WM and CSF</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Low-frequency drifts</td>
+      <td>linear and quadratic trends</td>
+      <td>linear and quadratic trends</td>
+      <td>linear and quadratic trends</td>
+      <td>basis of discrete cosines with a 0.01 Hz high-pass cut-off</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The 24-parameters are from Friston’s model<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> using 6 head motion parameters, 6 head motion parameters one time point before, and the 12 corresponding squared items.</p>
+
+<h3 id="registration">Registration</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Step</th>
+      <th style="text-align: center">CCS</th>
+      <th style="text-align: center">CPAC</th>
+      <th style="text-align: center">DPARSF</th>
+      <th style="text-align: center">NIAK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">functional to anatomical</td>
+      <td style="text-align: center">boundary-based rigid-body</td>
+      <td style="text-align: center">boundary-based  rigid body</td>
+      <td style="text-align: center">rigid-body</td>
+      <td style="text-align: center">rigid-body</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">anatomical to standard</td>
+      <td style="text-align: center">FLIRT + FNIRT</td>
+      <td style="text-align: center">FLIRT + ANTS</td>
+      <td style="text-align: center">SPM + DARTEL</td>
+      <td style="text-align: center">CIVET<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Functional data for each pipeline was transformed using the combination of the functional to anatomical and anatomical to standard steps. This transformation was applied only when functional preprocessing was complete. For the VMHC derivative, we also calculated a transformation to the symmetric standard brain for each pipeline.</p>
+
+<h3 id="surface">Surface</h3>
+
+<p>We note that the CCS pipeline also produced outputs of anatomical and functional data in surface space using Freesurfer. This was in addition to the volume-based analysis described for CCS above.</p>
+
+<h2 id="derivatives">Derivatives</h2>
+
+<p>Several derivatives (e.g., regional homogeneity) were generated using the functional preprocessed output. Since there were four different functional outputs related to bandpass filtering and/or global signal regression, each derivative has four different outputs. As mentioned earlier, these derivatives were all generated using CPAC. Although the calculation of the derivatives were the same for every pipeline, there were differences in each pipeline as to when each derivative was registered to standard space and when smoothing was applied.</p>
+
+<h3 id="approach-1">Approach 1</h3>
+
+<p>For CCS, CPAC, and DPARSF, we calculated the derivatives listed below in native space using unsmoothed functional data and then apply prior transformation to standard space followed by smoothing with a 6mm FWHM kernal. The registration and smoothing were done using steps specific to each pipeline.</p>
+
+<ul>
+  <li>Amplitude of low frequnecy fluctuations (ALFF)</li>
+  <li>Fractional ALFF (fALFF)</li>
+  <li>Regional homogeniety (REHO)</li>
+  <li>10 intrinsic connectivity networks extracted using dual regression</li>
+</ul>
+
+<p>In contrast, the derivatives listed below were calculated on the unsmoothed functional data already in standard space and then 6mm of smoothing was applied to the results.</p>
+
+<ul>
+  <li>Weighted and binarized degeree centrality</li>
+  <li>Weighted and binarized eigenvector centrality</li>
+  <li>Local functional connectivity density (lFCD)</li>
+  <li>Voxel-mirrored homotopic connectivity (VMHC)</li>
+</ul>
+
+<p>Note as mentioned earlier the VMHC was calculated on the functional data registered to the symmetric standard MNI152 brain. </p>
+
+<h3 id="approach-2">Approach 2</h3>
+
+<p>In the NIAK pipeline, derivatives were always calculated on data that was already registered to standard space and smoothed with 6mm FWHM.</p>
+
+<h3 id="regions-of-interest">Regions of Interest</h3>
+
+<p>We also extracted mean time-series for several sets of regions-of-interests. In each case, the mean time-series was taken from functional data already registered in standard space for every pipeline. More specifically, time series were extracted for seven ROI atlases:</p>
+
+<ul>
+  <li>Automated Anatomical Labelling</li>
+  <li>Eickhoff-Zilles</li>
+  <li>Harvard-Oxford</li>
+  <li>Talaraich and Tournoux</li>
+  <li>Dosenbach 160</li>
+  <li>Craddock 200</li>
+  <li>Craddock 400</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p>(Behzadi et al., 2007; Chai et al., 2012)</p>
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Friston, K.J., Williams, S., Howard, R., Frackowiak, R.S., Turner, R., 1996. Movement-related effects in fMRI time-series. Magn Reson Med 35, 346-355. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Zijdenbos, A. P., Forghani, R., &amp; Evans, A. C. (2002). Automatic” pipeline” analysis of 3-D MRI data for clinical trials: application to multiple sclerosis. Medical Imaging, IEEE Transactions on, 21(10), 1280-1291. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
