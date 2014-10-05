@@ -1,56 +1,48 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="Preprocessed Connectomes Project" />
+        <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="javascripts/menu_script.js"></script>
+        <title>ABIDE Preprocessed</title>
+    </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <body>
+      
+        <div id="container">
 
-    <title>ABIDE Preprocessed</title>
-  </head>
+        <!-- HEADER -->
+            <header>
+                <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
 
-  <body>
+                <h1 id="project_title">ABIDE Preprocessed</h1><br>
+  		        <div id='cssmenu'>
+  		            <ul>
+  		                <li class='active'><a href='index.html'>Overview</a></li>
+                        <li class='active'><a href='download.html'>Download</a></li>
+  		                <li class='active'><a href='Pipelines.html'>Pipelines</a></li>
+                        <li class='active'><a href="quality_assessment.html">QA</a></li>
+                        <li class='active'><a href='https://groups.google.com/d/forum/pcp_forum' target="_blank">Forum</a></li>
+                        <li class='active'><a href='publications.html'>Publications</a></li>
+                        <li class='active'><a href='https://preprocessed-connectomes-project.github.io' target="_blank">PCP</a></li>
+  		                <li class='active'><a href='https://github.com/preprocessed-connectomes-project' target="_blank">Github</a></li>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
+  		            </ul>
+  		        </div>
+            </header>
+            
+                <div id="main_content_wrap" class="outer">
+                    <section id="main_content" class="inner">
+                        
+<img src="images/abide_logo.jpg" align="left"  width=30%>
 
-          <h1 id="project_title">ABIDE Preprocessed</h1><br>
-          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
-               -->    
-          <nav class="nav-global">
-              <ul>
-                  <li class="Overview"><a href="index.html">Overview</a></li>
-                  <li class="Download"><a href="download.html">Download</a></li>
-                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
-                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
-                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
-              </ul>
-          </nav>
-          
-          <!--
+<p>The <a href="http://preprocessed-connectomes-project.github.io/" target="_blank">Preprocessed Connectomes Project (PCP)</a> is pleased to announce the public release and open sharing of preprocessed neuroimaging data from the <a href="http://fcon_1000.projects.nitrc.org/indi/abide">Autism Brain Imaging Data Exchange (ABIDE)</a>. A consortium of the <a href="http://fcon_1000.projects.nitrc.org/indi">International Neuroimaging Datasharing Iniative (INDI)</a>, ABIDE is a collaboration of 16 international imaging sites that have aggregated and are openly sharing neuroimaging data from <strong>539 individuals suffering from  ASD</strong> and <strong>573 typical controls</strong>. These 1112 datsets are composed of structural and resting state functional MRI data along with an extensive array of phenotypic information.</a> 
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
-            </section> -->
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-<!--
-<h2><a name="intro" class="anchor" href="#intro"><span class="octicon octicon-link"></span></a>Overview</h2>
--->
-          
-<img src="images/abide_logo.jpg" align="left" width=30%>
-
-<p>The Preprocessed Connectomes Project (PCP) is pleased to announce the public release and open sharing of preprocessed neuroimaging data from the <a href="http://fcon_1000.projects.nitrc.org/indi/abide">Autism Brain Imaging Data Exchange (ABIDE)</a>. A consortium of the <a href="http://fcon_1000.projects.nitrc.org/indi">International Neuroimaging Datasharing Iniative (INDI)</a>, ABIDE is a collaboration of 16 international imaging sites that have aggregated and are openly sharing neuroimaging data from <strong>539 individuals suffering from  ASD</strong> and <strong>573 typical controls</strong>. These 1112 datsets are composed of structural and resting state functional MRI data along with an extensive array of phenotypic information.</a> 
-    
 <p>Data from ABIDE was preprocessed by five different teams using their preferred tools. Functional preprocessing was performed using: 
 the <a href="http://lfcd.psych.ac.cn/ccs.html">Connectome Computation System (CCS)</a>, 
 the <a href="http://http://fcp-indi.github.io/">Configurable Pipeline for the Analysis of Connectomes (CPAC)</a>,
@@ -108,18 +100,15 @@ opérationnelle</a>, Université de Montréal, Montréal, Québec, Canada,
     <sup>8</sup><a href="http://www.bic.mni.mcgill.ca/">The McConnell Brain Imaging Centre</a>, Montreal Neurological Insitute, McGill University, Montréal, Québec, Canada, 
     <sup>9</sup><a href="http://www.aboutourkids.org/research/institutes_programs/phyllis_green_randolph_cowen_institute_pediatric_neuroscience">Phyllis Green and Randolph Co̅wen Institute for Pediatric Neuroscience</a> at the NYU Child Study Center, New York University Langone Medical Center, New York, New York, United States of America<br>
 </small></p>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+                    </section>
+                </div>
+                    
+            <!-- FOOTER  -->
+            <footer class="inner">
+                <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+            </footer>
     
-
-  </body>
+        </div>  
+    </body>
 </html>

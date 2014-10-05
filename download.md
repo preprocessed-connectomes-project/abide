@@ -5,7 +5,7 @@ title: Downloads
 
 The results of the ABIDE Preprocessed initiative are available on a public Amazon S3 bucket and on NITRC. The data is available on the S3 bucket as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. The data on NITRC will be stored as a tarfile for each derivative, pipeline and strategy. 
 
-### Assessing data from the Amazon S3 bucket
+### Accessing data from the Amazon S3 bucket
 
 #### Meta-Data
 A spreadsheet that contains phenotypic data and quality assessment information is available at: [https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv). Information from this file can be used to select a subset of the data that you would like to download. This file contains all of the information from the [original phenotypic file](http://www.nitrc.org/frs/downloadlink.php/4912) provided with the ABIDE release, which is described in the ABIDE [phenotypic data legend](http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf), except that information about the preprocessed data has been added. 

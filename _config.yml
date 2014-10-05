@@ -18,7 +18,7 @@ relative_permalinks: true
 
 permalink:     date
 paginate_path: 'page:num'
-paginate:      nil
+paginate:      1
 
 markdown:      kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
