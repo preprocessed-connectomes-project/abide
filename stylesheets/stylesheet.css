@@ -104,7 +104,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #d75920;
+  color: #007fb2;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -628,7 +628,7 @@ Small Device Styles
   display: none;
 }
 #cssmenu {
-  background: #d75920
+  background: #007fb2
 }
 #cssmenu > ul > li {
   float: left;
