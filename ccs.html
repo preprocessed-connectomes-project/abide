@@ -1,51 +1,44 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="Preprocessed Connectomes Project" />
+        <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="javascripts/menu_script.js"></script>
+        <title>ABIDE Preprocessed</title>
+    </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <body>
+      
+        <div id="container">
 
-    <title>ABIDE Preprocessed</title>
-  </head>
+        <!-- HEADER -->
+            <header>
+                <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
 
-  <body>
+                <h1 id="project_title">ABIDE Preprocessed</h1><br>
+  		        <div id='cssmenu'>
+  		            <ul>
+  		                <li class='active'><a href='index.html'>Overview</a></li>
+                        <li class='active'><a href='download.html'>Download</a></li>
+  		                <li class='active'><a href='Pipelines.html'>Pipelines</a></li>
+                        <li class='active'><a href="quality_assessment.html">QA</a></li>
+                        <li class='active'><a href='https://groups.google.com/d/forum/pcp_forum' target="_blank">Forum</a></li>
+                        <li class='active'><a href='publications.html'>Publications</a></li>
+                        <li class='active'><a href='https://preprocessed-connectomes-project.github.io' target="_blank">PCP</a></li>
+  		                <li class='active'><a href='https://github.com/preprocessed-connectomes-project' target="_blank">Github</a></li>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
-
-          <h1 id="project_title">ABIDE Preprocessed</h1><br>
-          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
-               -->    
-          <nav class="nav-global">
-              <ul>
-                  <li class="Overview"><a href="index.html">Overview</a></li>
-                  <li class="Download"><a href="download.html">Download</a></li>
-                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
-                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
-                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
-              </ul>
-          </nav>
-          
-          <!--
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
-            </section> -->
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-
-       <h1 id="brief-introduction-of-ccs-processing-procedure">Brief introduction of CCS processing procedure</h1>
+  		            </ul>
+  		        </div>
+            </header>
+            
+                <div id="main_content_wrap" class="outer">
+                    <section id="main_content" class="inner">
+                        <h1 id="brief-introduction-of-ccs-processing-procedure">Brief introduction of CCS processing procedure</h1>
 
 <p>Three main analysis software packages, AFNI, FSL and Freesurfer, were integrated into CCS pipeline computation as follow.</p>
 
@@ -67,21 +60,17 @@
   <li>Nuisance correction was conducted by regression out the Friston’s 24-parameter motion signal, the mean time series or the principal component based on singular value decomposition from WM and CSF, then the linear and quadratic trends. The regression included and excluded global signal are both saved for the post process.</li>
   <li>Band-pass temporal filtering (0.01-0.1Hz) was performed for extracting the low frequency fluctuations with 3dFourier command in AFNI.</li>
   <li>Registered the individual functional images to MNI template with affine matrix from bbregister and warp file from FNIRT step.</li>
-  <li>The final images were smoothed with Gaussion kernel FWHM = 6 mm on volume and surface space, respectively.</li>
 </ol>
 
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+                    </section>
+                </div>
+                    
+            <!-- FOOTER  -->
+            <footer class="inner">
+                <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+            </footer>
     
-
-  </body>
+        </div>  
+    </body>
 </html>

@@ -1,69 +1,54 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="ABIDE Preprocessed : An initiative of the Preprocessed Connectomes Project" />
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="Preprocessed Connectomes Project" />
+        <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="javascripts/menu_script.js"></script>
+        <title>ABIDE Preprocessed</title>
+    </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <body>
+      
+        <div id="container">
 
-    <title>ABIDE Preprocessed</title>
-  </head>
+        <!-- HEADER -->
+            <header>
+                <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
 
-  <body>
+                <h1 id="project_title">ABIDE Preprocessed</h1><br>
+  		        <div id='cssmenu'>
+  		            <ul>
+  		                <li class='active'><a href='index.html'>Overview</a></li>
+                        <li class='active'><a href='download.html'>Download</a></li>
+  		                <li class='active'><a href='Pipelines.html'>Pipelines</a></li>
+                        <li class='active'><a href="quality_assessment.html">QA</a></li>
+                        <li class='active'><a href='https://groups.google.com/d/forum/pcp_forum' target="_blank">Forum</a></li>
+                        <li class='active'><a href='publications.html'>Publications</a></li>
+                        <li class='active'><a href='https://preprocessed-connectomes-project.github.io' target="_blank">PCP</a></li>
+  		                <li class='active'><a href='https://github.com/preprocessed-connectomes-project' target="_blank">Github</a></li>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
-
-          <h1 id="project_title">ABIDE Preprocessed</h1><br>
-          <!-- <h2 id="project_tagline">An initiative of the Preprocessed Connectomes Project</h2>
-               -->    
-          <nav class="nav-global">
-              <ul>
-                  <li class="Overview"><a href="index.html">Overview</a></li>
-                  <li class="Download"><a href="download.html">Download</a></li>
-                  <li class="Installation"><a href="Pipelines.html">Pipelines</a></li>
-                  <li class="Usage"><a href="quality_assessment.html">Quality Assessment</a></li>
-                  <li class="View on Github"><a href="http://github.com/preprocessed-connectomes-project/abide">View on Github</a></li>
-              </ul>
-          </nav>
-          
-          <!--
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/ccraddock/abide_preproc/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/ccraddock/abide_preproc/tarball/master">Download this project as a tar.gz file</a>
-            </section> -->
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-
-       <h1 id="the-neuroimaging-analysis-kit-niak">The NeuroImaging Analysis Kit (NIAK)</h1>
+  		            </ul>
+  		        </div>
+            </header>
+            
+                <div id="main_content_wrap" class="outer">
+                    <section id="main_content" class="inner">
+                        <h1 id="the-neuroimaging-analysis-kit-niak">The NeuroImaging Analysis Kit (NIAK)</h1>
 
 <p><strong>The NIAK is a free and open-source software developed since 2008 for the preprocessing and data mining of large functional neuroimaging samples. It is compatible with both the GNU Octave<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> and Matlab<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> languages. It has a single dependency on the MINC tools<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>. The implementation of tools in NIAK is modular, and the integration of several tools into complex multistep processing “pipelines” is achieved using a framework called the Pipeline System for Octave and Matlab (PSOM) (Bellec et al. 2012)<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>. In particular, thanks to PSOM, NIAK pipelines can be executed using parallel resources in high-performance computing environments.</strong></p>
 
 <p>The ABIDE sample was preprocessed using the NIAK release 0.7.1 (Bellec et al. HBM 2011, NIAK website)<sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup>. </p>
 
-<<<<<<< HEAD
-<p>No volumes were suppressed at the beginning of each functional run and no correction was applied for inter-slice difference in acquisition time. A single non-uniformity field was estimated based on the median volume of each functional run using the N3 method<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>, and applied to all volumes in the run. </p>
-
-<p>The parameters of a rigid-body motion was estimated for each time frame using the median volume of the run as a target. The median fMRI volume was was also coregistered with a T1 individual scan using Minctracc (Collins et al. 1997)<sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup>, which was itself non-linearly transformed to the Montreal Neurological Institute (MNI) template (Fonov et al 2011)<sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup> using the CIVET pipeline (Zijdenbos et al. 2002)<sup id="fnref:9"><a href="#fn:9" class="footnote">9</a></sup>. The MNI asymmetric template was generated from the ICBM152 sample of 152 young adults, after 40 iterations of non-linear coregistration. The rigid-body transform, fMRI-to-T1 transform and T1-to-stereotaxic transform were all combined, and the functional volumes were resampled in the MNI space at a 3 mm isotropic resolution. </p>
-
-<p>The “scrubbing” method of Power et al. 2012<sup id="fnref:10"><a href="#fn:10" class="footnote">10</a></sup>, was used to remove the volumes with excessive motion (frame displacement greater than 0.5). The following nuisance parameters were regressed out from the time series at each voxel: slow time drifts (basis of discrete cosines with a 0.01 Hz high-pass cut-off), average signals in conservative masks of the white matter and the lateral ventricles as well as the first principal components (95\% energy) of the six rigid-body motion parameters and their squares (Lund et al. 2001, Giove et al. 2009)<sup id="fnref:11"><a href="#fn:11" class="footnote">11</a></sup>’<sup id="fnref:12"><a href="#fn:12" class="footnote">12</a></sup>. </p>
-=======
 <p>No volumes were suppressed at the beginning of each functional run and no correction was applied for inter-slice difference in acquisition time. A single non-uniformity field was estimated based on the median volume of each functional run using the N3 method[`^], and applied to all volumes in the run. </p>
 
 <p>The parameters of a rigid-body motion was estimated for each time frame using the median volume of the run as a target. The median fMRI volume was was also coregistered with a T1 individual scan using Minctracc (Collins et al. 1997)<sup id="fnref:7"><a href="#fn:7" class="footnote">6</a></sup>, which was itself non-linearly transformed to the Montreal Neurological Institute (MNI) template (Fonov et al 2011)<sup id="fnref:8"><a href="#fn:8" class="footnote">7</a></sup> using the CIVET pipeline (Zijdenbos et al. 2002)<sup id="fnref:9"><a href="#fn:9" class="footnote">8</a></sup>. The MNI asymmetric template was generated from the ICBM152 sample of 152 young adults, after 40 iterations of non-linear coregistration. The rigid-body transform, fMRI-to-T1 transform and T1-to-stereotaxic transform were all combined, and the functional volumes were resampled in the MNI space at a 3 mm isotropic resolution. </p>
 
 <p>The “scrubbing” method of Power et al. 2012<sup id="fnref:10"><a href="#fn:10" class="footnote">9</a></sup>, was used to remove the volumes with excessive motion (frame displacement greater than 0.5). The following nuisance parameters were regressed out from the time series at each voxel: slow time drifts (basis of discrete cosines with a 0.01 Hz high-pass cut-off), average signals in conservative masks of the white matter and the lateral ventricles as well as the first principal components (95\% energy) of the six rigid-body motion parameters and their squares (Lund et al. 2001, Giove et al. 2009)<sup id="fnref:11"><a href="#fn:11" class="footnote">10</a></sup>’<sup id="fnref:12"><a href="#fn:12" class="footnote">11</a></sup>. </p>
->>>>>>> 24e3528957458989480491db55a8d28acdd7968d
 
 <p>The fMRI volumes were finally spatially smoothed with a 6 mm isotropic Gaussian blurring kernel. A more detailed description of the pipeline can be found on the NIAK website<sup id="fnref:5:1"><a href="#fn:5" class="footnote">5</a></sup>.</p>
 
@@ -85,12 +70,6 @@
     <li id="fn:5">
       <p>https://code.google.com/p/niak/ <a href="#fnref:5" class="reversefootnote">&#8617;</a> <a href="#fnref:5:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
     </li>
-<<<<<<< HEAD
-    <li id="fn:6">
-      <p>Sled, J. G., Zijdenbos, A. P., &amp; Evans, A. C. (1998). A nonparametric method for automatic correction of intensity nonuniformity in MRI data. Medical Imaging, IEEE Transactions on, 17(1), 87-97. <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
-    </li>
-=======
->>>>>>> 24e3528957458989480491db55a8d28acdd7968d
     <li id="fn:7">
       <p>Collins, D. L., &amp; Evans, A. C. (1997). Animal: validation and applications of nonlinear registration-based segmentation. International Journal of Pattern Recognition and Artificial Intelligence, 11(08), 1271-1294. <a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
     </li>
@@ -104,11 +83,7 @@
       <p>Power, J. D., Barnes, K. A., Snyder, A. Z., Schlaggar, B. L., &amp; Petersen, S. E. (2012). Spurious but systematic correlations in functional connectivity MRI networks arise from subject motion. Neuroimage, 59(3), 2142-2154. <a href="#fnref:10" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:11">
-<<<<<<< HEAD
-      <p>? <a href="#fnref:11" class="reversefootnote">&#8617;</a></p>
-=======
       <p>Lund, T. E. (2001). fcMRI—Mapping functional connectivity or correlating cardiac‐induced noise?. Magnetic Resonance in Medicine, 46(3), 628-628. <a href="#fnref:11" class="reversefootnote">&#8617;</a></p>
->>>>>>> 24e3528957458989480491db55a8d28acdd7968d
     </li>
     <li id="fn:12">
       <p>Giove, F., Gili, T., Iacovella, V., Macaluso, E., &amp; Maraviglia, B. (2009). Images-based suppression of unwanted global signals in resting-state functional connectivity studies. Magnetic resonance imaging, 27(8), 1058-1064. <a href="#fnref:12" class="reversefootnote">&#8617;</a></p>
@@ -116,20 +91,14 @@
   </ol>
 </div>
 
-
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Abide preproc maintained by <a href="https://github.com/ccraddock">ccraddock</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+                    </section>
+                </div>
+                    
+            <!-- FOOTER  -->
+            <footer class="inner">
+                <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+            </footer>
     
-
-  </body>
+        </div>  
+    </body>
 </html>

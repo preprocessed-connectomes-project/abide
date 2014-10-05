@@ -38,40 +38,25 @@
             
                 <div id="main_content_wrap" class="outer">
                     <section id="main_content" class="inner">
-                        <h1 id="preprocessing-with-cpac">Preprocessing with CPAC</h1>
+                        <noscript>
+   <!-- bibtex source hidden by default, show it if JS disabled -->
+   <style>
+      #bibtex { display: block;}
+   </style>
+</noscript>
 
-<p>Preprocessing of the ABIDE data was done with version X of the Conﬁgurable Pipeline for the Analysis of Connectomes
-(C-PAC, http://fcp-indi.github.com). This python-based pipeline tool makes use of AFNI, ANTs, FSL, and custom python code.</p>
+<!--
+<table id="pubTable" class="display"></table>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/bib-list.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        bibtexify("abide_pubs.bib", "pubTable",{'tweet': 'RCCraddock'});
+    });
+</script>
+-->
 
-<h2 id="structual-preprocessing">Structual Preprocessing</h2>
-
-<ol>
-  <li>Skull-stripping using AFNI’s <em>3dSkullStrip</em></li>
-  <li>Segment the brain into three tissue types using FSL’s <em>FAST</em></li>
-  <li>Constrain the individual subject tissue segmentations by tissue priors from standard space provided with FSL</li>
-  <li>Individual skull stripped brains were normalized to Montreal Neurological Institute (MNI)152 stereotactic space (1 mm^3 isotropic) with linear and non-linear registrations using ANTs.</li>
-</ol>
-
-<h2 id="functional-preprocessing">Functional Preprocessing</h2>
-
-<ol>
-  <li>Slice time correction using AFNI’s <em>3dTshift</em></li>
-  <li>Motion correct to the average image using AFNI’s <em>3dvolreg</em> (two iterations)</li>
-  <li>Skull-strip using AFNI’s <em>3dAutomask</em></li>
-  <li>Global mean intensity normalization to 10,000</li>
-  <li>Nuisance signal regression was applied including
-    <ul>
-      <li>motion parameters: 6 head motion parameters, 6 head motion parameters one time point before, and the 12 corresponding squared items</li>
-      <li>top 5 principal components from the signal in the white-matter and cerebro-spinal fluid derived from the prior tissue segmentations transformed from anatomical to functional space</li>
-      <li>linear and quadratic trends</li>
-      <li>global signal only for one set of strategies</li>
-    </ul>
-  </li>
-  <li>Band-pass filtering (0.01-0.1Hz) was applied for only for one set of strategies</li>
-  <li>Functional images were registered to anatomical space with a linear transformation and then a white-matter boundary based transformation using FSL’s <em>FLIRT</em> and the prior white-matter tissue segmentation from <em>FAST</em></li>
-  <li>The previous anatomical to standard space registration was applied to the functional data in order to transform them to standard space</li>
-</ol>
-
+<h2 id="coming-soon">Coming Soon</h2>
 
                     </section>
                 </div>
