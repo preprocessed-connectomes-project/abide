@@ -90,11 +90,33 @@
   <li><strong>Contrast to Noise Ratio [anat_cnr]:</strong> Calculated as the mean of the gray matter values minus the mean of the white matter values, divided by the standard deviation of the air values <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</li>
   <li><strong>Entopy Focus Criterion [anat_efc]:</strong> Shannon’s entropy is used to summarize the principal directions distribution, higher energy indicating the distribution is more uniform (i.e., less noisy) <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>.</li>
   <li><strong>Foreground to Background Energy Ratio [anat_fber]:</strong> Mean energy of image values (i.e., mean of squares) within the head relative to outside the head.</li>
+<<<<<<< HEAD
   <li><strong>Smoothness of Voxels [anat_fwhm]:</strong> The full-width half maximum (FWHM) of the spatial distribution of the image intensity values <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>.</li>
   <li><strong>Artifact Detection [anat_qi1]:</strong> The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>.</li>
   <li><strong>Signal-to-Noise Ratio [anat_snr]:</strong> The mean of image values within gray matter divided by the standard deviation of the image values within air (i.e., outside the head) <sup id="fnref:1:1"><a href="#fn:1" class="footnote">1</a></sup>.</li>
 </ul>
 
+=======
+  <li><strong>Smoothness of Voxels [anat_fwhm]:</strong> The full-width half maximum (FWHM) of the spatial distribution of the image intensity values in terms of voxels (e.g., a value of 3 implies smoothness of 3 voxels) <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>.</li>
+  <li><strong>Percent of Artifact Voxels [anat_qi1]:</strong> The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>.</li>
+  <li><strong>Signal to Noise Ratio [anat_snr]:</strong> The mean of image values within gray matter divided by the standard deviation of the image values within air (i.e., outside the head) <sup id="fnref:1:1"><a href="#fn:1" class="footnote">1</a></sup>.</li>
+</ul>
+
+<p>Below we show the results of the anatomical QA measures for all the ABIDE subjects.</p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot1.png" alt="Contrast to Noise Ratio" title="Contrast to Noise Ratio" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot2.png" alt="Entropy Focus Criterion" title="Entropy Focus Criterion" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot3.png" alt="Foreground to Background Energy Ratio" title="Foreground to Background Energy Ratio" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot4.png" alt="Smoothness of Voxels" title="Smoothness of Voxels" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot5.png" alt="Percent of Artifact Voxels" title="Percent of Artifact Voxels" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot6.png" alt="Signal to Noise Ratio" title="Signal to Noise Ratio" /></p>
+
+>>>>>>> 24e3528957458989480491db55a8d28acdd7968d
 <h3 id="functional">Functional</h3>
 
 <p>Note that some metrics quantify the quality of the data in the spatial domain (columns: func_efc, func_fber, func_fwhm, and func_gsr) and use the mean functional image for this purpose. Other metrics quantify the quality of the data in the temporal domain (columns: func_dvars, func_outlier, func_quality, func_mean_fd, func_num_fd, and func_perc_fd) and use the voxelwise time-series functional data.</p>
@@ -104,6 +126,7 @@
   <li><strong>Foreground to Background Energy Ratio [func_fber]:</strong> Mean energy of image values (i.e., mean of squares) within the head relative to outside the head. <em>Uses mean functional.</em></li>
   <li><strong>Smoothness of Voxels [func_fwhm]:</strong> The full-width half maximum (FWHM) of the spatial distribution of the image intensity values. <em>Uses mean functional.</em></li>
   <li><strong>Standardized DVARS [func_dvars]:</strong> The spatial standard deviation of the temporal derivative of the data, normalized by the temporal standard deviation and temporal autocorrelation <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup><sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>. <em>Uses functional time-series.</em></li>
+<<<<<<< HEAD
   <li><strong>Outlier Detection [func_outlier]:</strong> The mean fraction of outliers found in each volume using 3dTout command in AFNI (http://afni.nimh.nih.gov/afni) <sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup>. <em>Uses functional time-series.</em></li>
   <li><strong>Median Distance Index [func_quality]:</strong> The mean distance (1 – spearman’s rho) between each time-point’s volume and the median volume using AFNI’s 3dTqual command (http://afni.nimh.nih.gov/afni) <sup id="fnref:7:1"><a href="#fn:7" class="footnote">7</a></sup>. <em>Uses functional time-series.</em></li>
   <li><strong>Mean Fractional Displacement - Jenkinson [func_mean_fd]:</strong> A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere <sup id="fnref:5:1"><a href="#fn:5" class="footnote">5</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup>. <em>Uses functional time-series.</em></li>
@@ -112,6 +135,36 @@
   <li><strong>Ghost to Signal Ratio [func_gsr]:</strong> A measure of the mean signal in the ‘ghost’ image (signal present outside the brain due to acquisition in the phase encoding direction) relative to mean signal within the brain. <em>Uses mean functional.</em></li>
 </ul>
 
+=======
+  <li><strong>Fraction of Outlier Voxels [func_outlier]:</strong> The mean fraction of outliers found in each volume using 3dTout command in AFNI (http://afni.nimh.nih.gov/afni) <sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Mean Distance to Median Volume [func_quality]:</strong> The mean distance (1 – spearman’s rho) between each time-point’s volume and the median volume using AFNI’s 3dTqual command (http://afni.nimh.nih.gov/afni) <sup id="fnref:7:1"><a href="#fn:7" class="footnote">7</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Mean Framewise Displacement (FD) [func_mean_fd]:</strong> A measure of subject head motion, which compares the motion between the current and previous volumes. This is calculated by summing the absolute value of displacement changes in the x, y and z directions and rotational changes about those three axes. The rotational changes are given distance values based on the changes across the surface of a 50mm radius sphere <sup id="fnref:5:1"><a href="#fn:5" class="footnote">5</a></sup><sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup>. <em>Uses functional time-series.</em></li>
+  <li><strong>Number FD greater than 0.2mm [func_num_fd]:</strong> The number of frames or volumes with displacement greater than 0.2mm. This is not shown below. <em>Uses functional time-series.</em></li>
+  <li><strong>Percent FD greater than 0.2mm [func_perc_fd]:</strong> The percent of frames or volumes with displacement greater than 0.2mm. <em>Uses functional time-series.</em></li>
+  <li><strong>Ghost to Signal Ratio [func_gsr]:</strong> A measure of the mean signal in the ‘ghost’ image (signal present outside the brain due to acquisition in the phase encoding direction) relative to mean signal within the brain. <em>Uses mean functional.</em></li>
+</ul>
+
+<p>Below we show the results of the functional QA measures for all the ABIDE subjects. We exclude the number of voxels with FD &gt; 0.2mm and only show the percent of voxels with FD &gt; 0.2mm.</p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot1.png" alt="Entropy Focus Criterion" title="Entropy Focus Criterion" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot2.png" alt="Foreground to Background Energy Ratio" title="Foreground to Background Energy Ratio" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot3.png" alt="Smoothness of Voxels" title="Smoothness of Voxels" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot1.png" alt="Standardized DVARS" title="Standardized DVARS" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot2.png" alt="Outlier Detection" title="Outlier Detection" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot3.png" alt="Median Distance Index" title="Median Distance Index" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot4.png" alt="Mean Framewise Displacement" title="Mean Framewise Displacement" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot5.png" alt="Percent FD greater than 0.2mm" title="Percent FD greater than 0.2mm" /></p>
+
+<p><img src="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot4.png" alt="Ghost to Signal Ratio" title="Ghost to Signal Ratio" /></p>
+
+>>>>>>> 24e3528957458989480491db55a8d28acdd7968d
 <h2 id="manual-qa">Manual QA</h2>
 
 <p>Manual inspection of the data was carried out by three independent raters. Rater 1 examined the general quality of the data focusing on the preprocessed functional data and derivatives. Raters 2-3 examined the quality of the raw anatomical and functional data. Ratings are given as OK and fail for raters 1 and 3, and OK, maybe, and fail for rater 2. Each rater also may have taken notes related to their ratings, thus there is a notes column associated with each rating column.</p>
