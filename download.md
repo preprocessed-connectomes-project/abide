@@ -50,12 +50,14 @@ Where:<br>
                    rois_cc400 | rois_dosenbach160 | rois_ez | rois_ho | rois_tt | vmhc
     [ezt] = 1D | nii.gz
 
-The file extension is determined by the derivative type. Use `nii.gz` for all derivatives except for the ROI time series files which end in `1D`. These derivative names begin with `roi_`.
+The file extension is determined by the derivative type. Use `nii.gz` for all derivatives except for the ROI time series files which end in `1D`. These derivative names begin with `rois_`.
 
 Here are a few examples that illustrate the construction of paths for a few different files:
 
 ALFF for 'OHSU\_0050147' preprocessed using 'filt\_global' from CPAC: [link](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz)<br>
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz
 Harvard-Oxford ROI time series for 'KKI\_0050822' preprocessed using 'filt\_global' from CPAC: [link](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D)<br>
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D
 
 The 3D binary derivatives (i.e. those ending in nii.gz except for 'func\_preproc' and 'dual\_reg') are roughly 256 KB to 512KB in size. The 'dual\_reg' files are 10 times the size of the others (i.e. 2.5MB - 5MB) and the 'func\_preproc' files are very large (30 MB - 200 MB). Extracted time series files are .5 - 1 MB in size.
 
