@@ -51,17 +51,17 @@ For each point below, we will describe a given measure via the following format:
 
 Below we show the results of the anatomical QA measures for all the ABIDE subjects.
 
-![Contrast to Noise Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot1.png "Contrast to Noise Ratio")
+![Contrast to Noise Ratio](abide/images/anat-plot1.png "Contrast to Noise Ratio")
 
-![Entropy Focus Criterion](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot2.png "Entropy Focus Criterion")
+![Entropy Focus Criterion](abide/images/anat-plot2.png "Entropy Focus Criterion")
 
-![Foreground to Background Energy Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot3.png "Foreground to Background Energy Ratio")
+![Foreground to Background Energy Ratio](abide/images/anat-plot3.png "Foreground to Background Energy Ratio")
 
-![Smoothness of Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot4.png "Smoothness of Voxels")
+![Smoothness of Voxels](abide/images/anat-plot4.png "Smoothness of Voxels")
 
-![Percent of Artifact Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot5.png "Percent of Artifact Voxels")
+![Percent of Artifact Voxels](abide/images/anat-plot5.png "Percent of Artifact Voxels")
 
-![Signal to Noise Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/anat-plot6.png "Signal to Noise Ratio")
+![Signal to Noise Ratio](abide/images/anat-plot6.png "Signal to Noise Ratio")
 
 ### Functional
 
@@ -80,23 +80,23 @@ Note that some metrics quantify the quality of the data in the spatial domain (c
 
 Below we show the results of the functional QA measures for all the ABIDE subjects. We exclude the number of voxels with FD > 0.2mm and only show the percent of voxels with FD > 0.2mm.
 
-![Entropy Focus Criterion](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot1.png "Entropy Focus Criterion")
+![Entropy Focus Criterion](abide/images/func-spat-plot1.png "Entropy Focus Criterion")
 
-![Foreground to Background Energy Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot2.png "Foreground to Background Energy Ratio")
+![Foreground to Background Energy Ratio](abide/images/func-spat-plot2.png "Foreground to Background Energy Ratio")
 
-![Smoothness of Voxels](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot3.png "Smoothness of Voxels")
+![Smoothness of Voxels](abide/images/func-spat-plot3.png "Smoothness of Voxels")
 
-![Standardized DVARS](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot1.png "Standardized DVARS")
+![Standardized DVARS](abide/images/func-temp-plot1.png "Standardized DVARS")
 
-![Outlier Detection](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot2.png "Outlier Detection")
+![Outlier Detection](abide/images/func-temp-plot2.png "Outlier Detection")
 
-![Median Distance Index](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot3.png "Median Distance Index")
+![Median Distance Index](abide/images/func-temp-plot3.png "Median Distance Index")
 
-![Mean Framewise Displacement](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot4.png "Mean Framewise Displacement")
+![Mean Framewise Displacement](abide/images/func-temp-plot4.png "Mean Framewise Displacement")
 
-![Percent FD greater than 0.2mm](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-temp-plot5.png "Percent FD greater than 0.2mm")
+![Percent FD greater than 0.2mm](abide/images/func-temp-plot5.png "Percent FD greater than 0.2mm")
 
-![Ghost to Signal Ratio](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/qa/plot/figure/func-spat-plot4.png "Ghost to Signal Ratio")
+![Ghost to Signal Ratio](abide/images/func-spat-plot4.png "Ghost to Signal Ratio")
 
 
 ## Manual QA
