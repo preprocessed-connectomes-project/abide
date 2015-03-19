@@ -102,6 +102,11 @@ footer p {
   color: #f2f2f2;
 }
 
+h3 a { text-decoration: none;
+    color:#222222;
+	pointer-events: none;
+     }
+
 a {
   text-decoration: none;
   color: #007fb2;
