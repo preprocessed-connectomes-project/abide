@@ -99,7 +99,7 @@ Note as mentioned earlier the VMHC was calculated on the functional data registe
 
 In the NIAK pipeline, derivatives were always calculated on data that was already registered to standard space and smoothed with 6mm FWHM.
 
-### Regions of Interest
+### <a name="regions_of_interest">Regions of Interest</a>
 
 We also extracted mean time-series for several sets of regions-of-interests. In each case, the mean time-series was taken from functional data already registered in standard space for every pipeline. More specifically, time series were extracted for seven ROI atlases:
 
@@ -111,6 +111,13 @@ We also extracted mean time-series for several sets of regions-of-interests. In 
 * Craddock 200
 * Craddock 400
 
+### <a name="min_preproc">Minimally Preprocessed Data</a>
+
+Minimally preprocessed data is only available for the C-PAC pipeline and was processed using only the following steps:
+
+1. Slice timing correction
+2. Realignment to correct for motion
+3. Written into template space at 3 mm<sup>3</sup> isotropic resolution
 
 ## References
 
