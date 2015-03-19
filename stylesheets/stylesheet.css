@@ -52,8 +52,8 @@ body {
     padding: 50px 0;
   box-sizing: border-box;
   color:#373737;
-  /*background: #212121 url("../images/big_mont.jpg") no-repeat 0 0;*/
-  background:#d6c9b8;
+  background: #212121 url("../images/block.png") repeat 0 0;
+  /*background:#d6c9b8;*/
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
