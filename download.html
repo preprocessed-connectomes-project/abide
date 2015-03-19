@@ -41,6 +41,9 @@
                         <p>The results of the ABIDE Preprocessed initiative are available on a public Amazon S3 bucket and on NITRC. The data is available on the S3 bucket as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. The data on NITRC will be stored as a tarfile for each derivative, pipeline and strategy. </p>
 
 <h3 id="accessing-data-from-the-amazon-s3-bucket">Accessing data from the Amazon S3 bucket</h3>
+<p>Each file in the S3 bucket is accessed using HTTP and is addressed by a corresponding URL. Because of this, data <em>cannot</em> be accessed using a ftp or scp client. Instead, a URL is constructed for each desired file, and then this file can be downloaded using an HTTP client such as a web browser, <code>wget</code>, <code>curl</code> or a custom script. An example python script for downloading a subset of the data based on participant demographics is available <a href="path_to_dl_script">here</a>.</p>
+
+<p>The structure of the data on the S3 bucket can be browsed by opening the bucket root  (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative">https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative</a>) in a web browser.</p>
 
 <h4 id="meta-data">Meta-Data</h4>
 <p>A spreadsheet that contains phenotypic data and quality assessment information is available at: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv</a>. Information from this file can be used to select a subset of the data that you would like to download. This file contains all of the information from the <a href="http://www.nitrc.org/frs/downloadlink.php/4912">original phenotypic file</a> provided with the ABIDE release, which is described in the ABIDE <a href="http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf">phenotypic data legend</a>, except that information about the preprocessed data has been added. </p>
@@ -52,16 +55,15 @@
 
 <p>Several columns contain quality measures from the <a href="http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/">PCP Quality Assessment Protocol</a> and are illustrated in detail on the <a href="quality_assessment.html">ABIDE Preprocessed quality assessment page</a>:</p>
 
-<pre><code>anat_cnr, anat_efc, anat_fber, anat_fwhm, anat_qi1, anat_snr,
-func_efc, func_fber, func_fwhm, func_dvars, func_outlier, func_quality, 
-func_mean_fd, func_num_fd, func_perc_fd, func_gsr
+<pre><code>anat_cnr, anat_efc, anat_fber, anat_fwhm, anat_qi1, anat_snr, func_efc, func_fber, func_fwhm, 
+func_dvars, func_outlier, func_quality, func_mean_fd, func_num_fd, func_perc_fd, func_gsr
 </code></pre>
 
 <p>Also on this page are a description of the manual quality assessment annotations included in the columns: </p>
 
-<pre><code>qc_rater_1, qc_notes_rater_1, 
-qc_anat_rater_2, qc_anat_notes_rater_2, qc_func_rater_2, qc_func_notes_rater_2, 
-qc_anat_rater_3, qc_anat_notes_rater_3, qc_func_rater_3, qc_func_notes_rater_3 
+<pre><code>qc_rater_1, qc_notes_rater_1, qc_anat_rater_2, qc_anat_notes_rater_2, qc_func_rater_2, 
+qc_func_notes_rater_2, qc_anat_rater_3, qc_anat_notes_rater_3, qc_func_rater_3, 
+qc_func_notes_rater_3 
 </code></pre>
 
 <p>The remaining additional column indicates whether the data was included in (<a href="http://www.ncbi.nlm.nih.gov/pubmed/23774715">DiMartino et al. 2014</a>):</p>
@@ -92,23 +94,88 @@ qc_anat_rater_3, qc_anat_notes_rater_3, qc_func_rater_3, qc_func_notes_rater_3
 [ezt] = 1D | nii.gz
 </code></pre>
 
-<p>The file extension is determined by the derivative type. Use <code>nii.gz</code> for all derivatives except for the ROI time series files which end in <code>1D</code>. These derivative names begin with <code>roi_</code>.</p>
+<p>The file extension is determined by the derivative type. Use <code>nii.gz</code> for all derivatives except for the ROI time series files which end in <code>1D</code> (these derivative names begin with <code>rois_</code>).</p>
 
 <p>Here are a few examples that illustrate the construction of paths for a few different files:</p>
 
-<p>ALFF for ‘OHSU_0050147’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a><br />
-Harvard-Oxford ROI time series for ‘KKI_0050822’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a><br /></p>
+<p>ALFF for ‘OHSU_0050147’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a><br /></p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz
+</code></pre>
+
+<p>Harvard-Oxford ROI time series for ‘KKI_0050822’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a><br /></p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D
+</code></pre>
 
 <p>The 3D binary derivatives (i.e. those ending in nii.gz except for ‘func_preproc’ and ‘dual_reg’) are roughly 256 KB to 512KB in size. The ‘dual_reg’ files are 10 times the size of the others (i.e. 2.5MB - 5MB) and the ‘func_preproc’ files are very large (30 MB - 200 MB). Extracted time series files are .5 - 1 MB in size.</p>
 
 <h4 id="structural-data">Structural Data</h4>
-<p>Due to the diversity of the structural pipelines, the </p>
+<p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="link_to_python_script">python script</a> also provides examples for downloading this data. Again, file identifiers correspond to values from the <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">ABIDE Preprocessed phenotype file</a>.</p>
 
 <h5 id="ants-cortical-thickness">ANTS Cortical Thickness</h5>
+<p>Cortical thickness measures calculated using the ANTs pipeline can be downloaded using the root url:         </p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/ants/
+</code></pre>
+
+<p>appended with a string corresponding to one of the two available cortical thickness derivatives:</p>
+
+<ol>
+  <li>
+    <p>A 3D volume containing voxel-wise measures of cortical thickness:</p>
+
+    <pre><code> anat_thickness/[file identifier]_anat_thickness.nii.gz   
+</code></pre>
+  </li>
+  <li>
+    <p>A text file containing average cortical thickness values for cortical regions of interests (ROIs):</p>
+
+    <pre><code> roi_thickness/[file identifier]_roi_thickness.txt
+</code></pre>
+  </li>
+</ol>
 
 <h5 id="civet">CIVET</h5>
 
 <h5 id="freesurfer">FreeSurfer</h5>
+<p>Outputs from the FreeSurfer can be accessed using the root URL:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/
+</code></pre>
+
+<p>appended with a string corresponding to the derived measure for a particular participant.</p>
+
+<p>Files containing ROI based statistics can be accessed by appending the root URL with a string of the form:</p>
+
+<pre><code>[derivative]/[file identifier]_[derivatve].stats
+</code></pre>
+
+<p>Where:</p>
+
+<pre><code>derivative = stats_aseg | stats_lh_BA | stats_lh_aparc | stats_lh_aparc_a2009a | ... 
+             stats_lh_entorhinal_exvivo | stats_rh_BA | stats_rh_aparc | ... 
+             stats_rh_aparc_a2009a | stats_rh_entorhinal_exvivo | stats_wmparc 
+</code></pre>
+
+<p>Files containing vertex-wise statistics can be accessed appending the root URL with a string of the form:</p>
+
+<pre><code>surf_[hemisphere]_[measure]/[file identifier]_surf_[hemisphere].[measure]
+</code></pre>
+
+<p>Where:</p>
+
+<pre><code>hemisphere = lh | rh
+measure = area | curv | sulc | thickness | volume
+</code></pre>
+
+<h6 id="for-example">For example:</h6>
+
+<p>Statistics for left hemisphere ROIs defined by the Destrieux Atlas for <code>file identifier = CMU_a_0050642</code> can be downloaded using this <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/stats_lh_aparc_a2009s/CMU_a_0050642_stats_lh.aparc.a2009s.stats">link</a>:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/stats_lh_aparc_a2009s/CMU_a_0050642_stats_lh.aparc.a2009s.stats
+</code></pre>
+
 
                     </section>
                 </div>
