@@ -6,7 +6,7 @@ title: Downloads
 The results of the ABIDE Preprocessed initiative are available on a public Amazon S3 bucket and on NITRC. The data is available on the S3 bucket as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. The data on NITRC will be stored as a tarfile for each derivative, pipeline and strategy. 
 
 ### Accessing data from the Amazon S3 bucket
-Each file in the S3 bucket is accessed using HTTP and is addressed by a corresponding URL. Because of this, data *cannot* be accessed using a ftp or scp client. Instead, a URL is constructed for each desired file, and then this file can be downloaded using an HTTP client such as a web browser, `wget`, `curl` or a custom script. An example python script for downloading a subset of the data based on participant demographics is available [here](path_to_dl_script).
+Each file in the S3 bucket is accessed using HTTP and is addressed by a corresponding URL. Because of this, data **cannot be accessed using a ftp or scp client**. Instead, a URL is constructed for each desired file, and then this file can be downloaded using an HTTP client such as a web browser, `wget`, `curl`, or a custom script. Each file must be referred to by name, wildcards will not work. An example python script for downloading a subset of the data based on participant demographics is available [here](path_to_dl_script).
 
 The structure of the data on the S3 bucket can be browsed by opening the bucket root  ([https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative)) in a web browser.
 
