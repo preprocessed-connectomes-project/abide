@@ -107,7 +107,7 @@ where:
 	[sub directory] is one of the standard Freesurfer subdirectories: label | mri | scripts | stats | surf 
     [output file] is the name of the desired output file
 
-There are 284 files distributed across the subdirectories of each subject's output files. An example listing of the files for one subject is available [here](url_to_file). The `-qcache` flag was used during reconstruction, so there are versions of the different surface metrics that have been smoothed at 0, 5, 10, 15, 20 and 25 mm FWHM. Information about the different subdirectories and files can be found in the [Freesurfer documentation](http://surfer.nmr.mgh.harvard.edu/fswiki/):
+There are 284 files distributed across the subdirectories of each subject's output files. An example listing of the files for one subject is available [here](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/freesurfer_files.json) (right click and select `Save Link As ...`). The `-qcache` flag was used during reconstruction, so there are versions of the different surface metrics that have been smoothed at 0, 5, 10, 15, 20 and 25 mm FWHM. Information about the different subdirectories and files can be found in the [Freesurfer documentation](http://surfer.nmr.mgh.harvard.edu/fswiki/):
 
 - [ReconAllOutputFiles](http://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles)
 - [ReconAllTableStableV5.1](http://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllDevTable)
