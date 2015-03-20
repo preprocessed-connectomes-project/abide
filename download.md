@@ -32,11 +32,12 @@ A spreadsheet that contains phenotypic data and quality assessment information i
     
     
 #### Functional Data
+
 Preprocessed functional data can be downloaded from the bucket using the url:
 
     https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/
 
-appedend with the string: 
+appended with the string: 
 
     [pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
 
@@ -65,11 +66,12 @@ Harvard-Oxford ROI time series for 'KKI\_0050822' preprocessed using 'filt\_glob
 
 The 3D binary derivatives (i.e. those ending in nii.gz except for 'func\_preproc' and 'dual\_reg') are roughly 256 KB to 512KB in size. The 'dual\_reg' files are 10 times the size of the others (i.e. 2.5MB - 5MB) and the 'func\_preproc' files are very large (30 MB - 200 MB). Extracted time series files are .5 - 1 MB in size.
 
-Resting state fMRI derivatives for each subject and pipeline can be [viewed online](OnlineViewer.html).
+<!--- Resting state fMRI derivatives for each subject and pipeline can be [viewed online](OnlineViewer.html).
+-->
 
 ##### Minimally preprocessed data
 
-[Minimally preprocessed](Pipelines.html#min_preproc) data is available for the C-PAC pipeline. This data can be downloaded from the bucket using the url:
+[Minimally preprocessed](Pipelines.html#min_preproc) data is available for the C-PAC pipeline. This data can be downloaded from the bucket using:
 
     https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/minimal/[file identifier]_minimal.nii.gz
 	
@@ -82,7 +84,7 @@ For example, minimally preprocessed data for 'OHSU\_0050147' can be downloaded u
 Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned [python script](link_to_python_script) also provides examples for downloading this data. Again, file identifiers correspond to values from the [ABIDE Preprocessed phenotype file](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv).
 
 ##### ANTS Cortical Thickness
-Cortical thickness measures calculated using the ANTs pipeline can be downloaded using the root url:         
+Cortical thickness measures calculated using the [ANTs](http://stnava.github.io/ANTs/) pipeline can be downloaded using the root url:         
         
     https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/ants/
 
@@ -98,14 +100,62 @@ appended with a string corresponding to one of the two available cortical thickn
 
 ROIs were defined using sulcus landmarks according to the Desikan-Killiany-Tourville (DKT) protocol[^1] using the [OASIS-TRT-20 joint fusion atlas](http://media.mindboggle.info/data/atlases/jointfusion/OASIS-TRT-20_jointfusion_DKT31_CMA_label_probabilities_in_OASIS-30_v2.nii.gz) in OASIS-30 space. Labels corresponding to these ROIs can be found [here](http://www.mindboggle.info/faq/labels.html).
 
-ANTS cortical thickness volumes for each subject can be [viewed online](OnlineViewer.html).
+<!---ANTS cortical thickness volumes for each subject can be [viewed online](OnlineViewer.html).
+-->
 
 ##### CIVET
 
-CIVET surfaces for each subject can be [viewed online](OnlineViewer.html).
+More information about CIVET can be found at its [documentation page](http://www.bic.mni.mcgill.ca/ServicesSoftware/CIVET), which includes a [description of output files](http://www.bic.mni.mcgill.ca/ServicesSoftware/OutputsOfCIVET).
 
-##### FreeSurfer
-The entirity of the Freesurfer output folders for each subject are available for download using the following URL structure:
+CIVET generated **surfaces** in stereotaxic space can be downloaded from the bucket using the url:
+
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[surface]/[file identifier]_[surface].obj
+
+Where:<br> 
+
+    [file identifier] comes from FILE_ID column of the summary spreadsheet
+    [surface] =  gray_surface_rsl_left_81920 | gray_surface_rsl_right_81920 | mid_surface_rsl_left_81920 | ...
+	     mid_surface_rsl_right_81920 | white_surface_rsl_left_81920 | white_surface_rsl_right_81920
+
+**Vertex-based measures** in stereotaxic space can be downloaded from the bucket using the url:
+
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].txt
+
+Where:<br> 
+
+    [file identifier] comes from FILE_ID column of the summary spreadsheet
+    [derivative] = mid_surface_rsl_left_native_area_40mm | mid_surface_rsl_right_native_area_40mm | ... 
+	    native_pos_rsl_asym_hemi | surface_rsl_left_native_volume_40mm | surface_rsl_right_native_volume_40mm 
+	
+
+**Region-based measures** can be downloaded from the bucket using the url:
+
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].dat
+
+Where:<br> 
+
+    [file identifier] comes from FILE_ID column of the summary spreadsheet
+    [derivative] = gi_left | gi_right | lobe_areas_40mm_left | lobe_areas_40mm_right | lobe_native_cortex_area_left | ...
+	    lobe_native_cortex_area_right | lobe_thickness_tlink_30mm_left | lobe_thickness_tlink_30mm_right | lobe_volumes_40mm_left | ...
+		lobe_volumes_40mm_right
+
+**Cortical thickness maps** in stereotaxic space can be downloaded from the bucket using the url:
+
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/thickness_[derivative]/[file identifier]_[derivative].txt
+
+Where:<br> 
+
+    [file identifier] comes from FILE_ID column of the summary spreadsheet
+    [derivative] = cerebral_volume | native_rms_rsl_tlink_30mm_asym_hemi | native_rms_rsl_tlink_30mm_left | native_rms_rsl_tlink_30mm_right
+
+
+
+<!---CIVET surfaces for each subject can be [viewed online](OnlineViewer.html).
+-->
+
+##### Freesurfer
+
+The entirety of the Freesurfer output folders for each subject are available for download using the following URL structure:
 
     https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/5.1/[file identifier]/[sub directory]/[output file]
 
@@ -124,7 +174,8 @@ There are 284 files distributed across the subdirectories of each subject's outp
 - [Inspection of Freesurfer Output](http://surfer.nmr.mgh.harvard.edu/fswiki/FsTutorial/OutputData_freeview)
 - [FreeSurfer File Formats](http://surfer.nmr.mgh.harvard.edu/fswiki/FileFormats)
 
-Freesurfer surfaces for each subject can be [viewed online](OnlineViewer.html).
+<!---Freesurfer surfaces for each subject can be [viewed online](OnlineViewer.html).
+-->
 
 ## References
 [^1]: Klein, A. and Tourville, J., 2012. [101 labeled brain images and a consistent human cortical labeling protocol.](http://www.frontiersin.org/Brain_Imaging_Methods/10.3389/fnins.2012.00171/full) Frontiers in Brain Imaging Methods. 6:171. DOI: 10.3389/fnins.2012.00171.
