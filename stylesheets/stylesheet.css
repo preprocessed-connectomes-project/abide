@@ -293,7 +293,7 @@ Full-Width Styles
 }
 
 .inner {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -304,7 +304,7 @@ Full-Width Styles
       background: #333;
       /*min-height: 595px;*/
 
-      width: 860px;
+      width: 1060px;
       margin: 0 auto;
       -webkit-border-radius: 8px;
       -moz-border-radius: 8px;
