@@ -18,11 +18,7 @@ title: ABIDE Preprocessed Viewer
 
 <div class='container'>
 
-	<div class='row'>
-		<div class="col-md-12 text-center inner marginbot-50"><h1> <strong>ABIDE Preprocessed Data Viewer </strong></h1></div>
-	</div>
-
-	<div class="row">
+	<div id="brainviewer" class="row">
 		<div class="col-lg-12">
 
 			<div id='view_coronal' class='col-md-4 viewer' >
@@ -43,42 +39,51 @@ title: ABIDE Preprocessed Viewer
 		</div>
 	</div>
 
-	<div class="col-lg-12 marginbot-50">
+	<div id="coordinatesviewer" class="col-lg-8 marginbot-50">
 
-		<div class="data_display_row col-md-6">
+		<div class="data_display_row col-md-4">
 			<div class="data_label">Coordinates:</div>
 			<div id="data_current_coords"></div>
 		</div>
-		<div class="data_display_row col-md-6">
+		<div class="data_display_row col-md-4">
 			<div id="image_intent" class="data_label">Initial value:</div>
 			<div id="data_current_value"></div>
 		</div>
 	</div>
 
-	<div class="row">
+	<div id="settings_panel" class="row">
 		<div class="col-lg-12 marginbot-50"> 
 
-			<div class="col-md-2">
+			<div class="col-md-4">
 				<h2 class="marginbot-20">Data</h2>
-				<div>Pipeline:<select id="select_Pipeline" class="layer_settings options"></select> </div>
-				<div>Strategy:<select id="select_strategy" class="layer_settings options"></select> </div>
-				<div>Patient ID:<input type="text" id="select_patient" class="layer_settings options" value="OHSU_0050147"></div>
-				<button type="button" onClick="load_nifti()" class="load_btn">Load Image</button>
+				<div>Pipeline: </div>
+				<div><select id="select_Pipeline" class="layer_settings options"></select> </div>
+
+				<div>Strategy:</div>
+				<div><select id="select_strategy" class="layer_settings options"></select> </div>
+
+				<div>Patient ID:</div>
+				<div> <input type="text" id="select_patient" class="layer_settings options" value="OHSU_0050147"></div>
+				
+				<div><button type="button" onClick="load_nifti()" class="load_btn">Load Image</button></div>
 			</div>
 
-			<div class="col-md-2">
+			<div id="layer_settings" class="col-md-4">
 				<h2 class="marginbot-20">Settings</h2>
 				<div id="layer_settings_panel">
-					<div>Color palette:<select id="select_color" class="layer_settings options"></select></div>
-					<div>Positive/Negative:<select id="select_sign" class="layer_settings options"></select></div>
+					<div>Color palette:</div>
+					<div><select id="select_color" class="layer_settings options"></select></div>
+
+					<div>Positive/Negative:</div>
+					<select id="select_sign" class="layer_settings options"></select></div>
 					<div>Opacity:<div id='opacity' class='slider layer_settings options'></div></div>
+
 					<div>Pos. threshold:<div class='slider layer_settings' id='pos-threshold'></div></div>
-					<div></div> Neg. threshold: <div class='slider layer_settings' id='neg-threshold'></div>
+					<div> Neg. threshold: <div class='slider layer_settings' id='neg-threshold'></div>
 				</div>
 			</div>
-			
 
-			<div id="layer_panel" class="col-md-2">
+			<div id="layer_panel" class="col-md-4">
 				<div id="layer_list_panel">
 					<h2 class="marginbot-20">Layers</h2>
 					<div id="layer_visible_list"></div>
@@ -93,6 +98,7 @@ title: ABIDE Preprocessed Viewer
 	</div>
 
 </div>
+
 <script>
 function load_nifti() {
 	viewer.clearImages();

@@ -1,37 +1,18 @@
-body {
-	margin: 20px auto 0px auto;
-	color: #373737;
-	font-size: 20px;
-}
-
-h1{
-	color: #007fb2;
-	font-size: 40px;
-	letter-spacing: 5px;
-}
-
-h2{
-	color: #007fb2;
-	font-size: 30px;
-	letter-spacing: 5px;
-}
-
 .load_btn{
 	background: white;
 	border-color: #007fb2;
 	color: #007fb2;
 	border-radius: 5px;
-	letter-spacing: 2px;
-	font-size: 25px;
 	text-align: center;
-	width: 100%;
+	width: 250px;
 	margin-top: 20px;
 }
 
 
 .options {
 	margin-bottom: 10px;
-	width: 100%
+	width: 250px;
+	
 }
 
 .viewer{
@@ -54,7 +35,6 @@ h2{
   height: 300px; 
 }
 
-.nav-slider-vertical {
   height: 260px;
   margin-left: 5px;
   float: left; 
@@ -138,10 +118,25 @@ ul#layer_list {
 	list-style: none;
 }
 
-/*.selected {
-	background: #cff;
-} */
+#brainviewer{
+	margin-left: -75px;
+}
 
+#coordinatesviewer{
+	margin-left: -130px;
+}
+
+#settings_panel{
+	margin-left: -70px;
+}
+
+#layer_panel{
+	margin-left: -40px;
+}
+
+#layer_settings{
+	margin-left: -80px;
+}
 
 
 /* margins */
@@ -154,3 +149,6 @@ ul#layer_list {
 .margintop-10{margin-top:10px !important;}
 .margintop-20{margin-top:20px !important;}
 .margintop-50{margin-top:50px !important;}
+
+
+
