@@ -5,7 +5,7 @@
         <meta charset='utf-8' />
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
         <meta name="description" content="Preprocessed Connectomes Project" />
-        <link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
+
         <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 	    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <script src="javascripts/menu_script.js"></script>
@@ -72,12 +72,13 @@
 </ul>
 
 <h4 id="functional-data">Functional Data</h4>
+
 <p>Preprocessed functional data can be downloaded from the bucket using the url:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/
 </code></pre>
 
-<p>appedend with the string: </p>
+<p>appended with the string: </p>
 
 <pre><code>[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
 </code></pre>
@@ -110,11 +111,12 @@
 
 <p>The 3D binary derivatives (i.e. those ending in nii.gz except for ‘func_preproc’ and ‘dual_reg’) are roughly 256 KB to 512KB in size. The ‘dual_reg’ files are 10 times the size of the others (i.e. 2.5MB - 5MB) and the ‘func_preproc’ files are very large (30 MB - 200 MB). Extracted time series files are .5 - 1 MB in size.</p>
 
-<p>Resting state fMRI derivatives for each subject and pipeline can be <a href="OnlineViewer.html">viewed online</a>.</p>
+<!--- Resting state fMRI derivatives for each subject and pipeline can be [viewed online](OnlineViewer.html).
+-->
 
 <h5 id="minimally-preprocessed-data">Minimally preprocessed data</h5>
 
-<p><a href="Pipelines.html#min_preproc">Minimally preprocessed</a> data is available for the C-PAC pipeline. This data can be downloaded from the bucket using the url:</p>
+<p><a href="Pipelines.html#min_preproc">Minimally preprocessed</a> data is available for the C-PAC pipeline. This data can be downloaded from the bucket using:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/minimal/[file identifier]_minimal.nii.gz
 </code></pre>
@@ -128,7 +130,7 @@
 <p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="link_to_python_script">python script</a> also provides examples for downloading this data. Again, file identifiers correspond to values from the <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">ABIDE Preprocessed phenotype file</a>.</p>
 
 <h5 id="ants-cortical-thickness">ANTS Cortical Thickness</h5>
-<p>Cortical thickness measures calculated using the ANTs pipeline can be downloaded using the root url:         </p>
+<p>Cortical thickness measures calculated using the <a href="http://stnava.github.io/ANTs/">ANTs</a> pipeline can be downloaded using the root url:         </p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/ants/
 </code></pre>
@@ -152,14 +154,68 @@
 
 <p>ROIs were defined using sulcus landmarks according to the Desikan-Killiany-Tourville (DKT) protocol<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> using the <a href="http://media.mindboggle.info/data/atlases/jointfusion/OASIS-TRT-20_jointfusion_DKT31_CMA_label_probabilities_in_OASIS-30_v2.nii.gz">OASIS-TRT-20 joint fusion atlas</a> in OASIS-30 space. Labels corresponding to these ROIs can be found <a href="http://www.mindboggle.info/faq/labels.html">here</a>.</p>
 
-<p>ANTS cortical thickness volumes for each subject can be <a href="OnlineViewer.html">viewed online</a>.</p>
+<!---ANTS cortical thickness volumes for each subject can be [viewed online](OnlineViewer.html).
+-->
 
 <h5 id="civet">CIVET</h5>
 
-<p>CIVET surfaces for each subject can be <a href="OnlineViewer.html">viewed online</a>.</p>
+<p>More information about CIVET can be found at its <a href="http://www.bic.mni.mcgill.ca/ServicesSoftware/CIVET">documentation page</a>, which includes a <a href="http://www.bic.mni.mcgill.ca/ServicesSoftware/OutputsOfCIVET">description of output files</a>.</p>
 
-<h5 id="freesurfer">FreeSurfer</h5>
-<p>The entirity of the Freesurfer output folders for each subject are available for download using the following URL structure:</p>
+<p>CIVET generated <strong>surfaces</strong> in stereotaxic space can be downloaded from the bucket using the url:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[surface]/[file identifier]_[surface].obj
+</code></pre>
+
+<p>Where:<br /> </p>
+
+<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+[surface] =  gray_surface_rsl_left_81920 | gray_surface_rsl_right_81920 | mid_surface_rsl_left_81920 | ...
+     mid_surface_rsl_right_81920 | white_surface_rsl_left_81920 | white_surface_rsl_right_81920
+</code></pre>
+
+<p><strong>Vertex-based measures</strong> in stereotaxic space can be downloaded from the bucket using the url:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].txt
+</code></pre>
+
+<p>Where:<br /> </p>
+
+<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+[derivative] = mid_surface_rsl_left_native_area_40mm | mid_surface_rsl_right_native_area_40mm | ... 
+    native_pos_rsl_asym_hemi | surface_rsl_left_native_volume_40mm | surface_rsl_right_native_volume_40mm 
+</code></pre>
+
+<p><strong>Region-based measures</strong> can be downloaded from the bucket using the url:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].dat
+</code></pre>
+
+<p>Where:<br /> </p>
+
+<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+[derivative] = gi_left | gi_right | lobe_areas_40mm_left | lobe_areas_40mm_right | lobe_native_cortex_area_left | ...
+    lobe_native_cortex_area_right | lobe_thickness_tlink_30mm_left | lobe_thickness_tlink_30mm_right | ... 
+	lobe_volumes_40mm_left | lobe_volumes_40mm_right
+</code></pre>
+
+<p><strong>Cortical thickness maps</strong> in stereotaxic space can be downloaded from the bucket using the url:</p>
+
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/thickness_[derivative]/[file identifier]_[derivative].txt
+</code></pre>
+
+<p>Where:<br /> </p>
+
+<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+[derivative] = cerebral_volume | native_rms_rsl_tlink_30mm_asym_hemi | native_rms_rsl_tlink_30mm_left | ...
+    native_rms_rsl_tlink_30mm_right
+</code></pre>
+
+<!---CIVET surfaces for each subject can be [viewed online](OnlineViewer.html).
+-->
+
+<h5 id="freesurfer">Freesurfer</h5>
+
+<p>The entirety of the Freesurfer output folders for each subject are available for download using the following URL structure:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/5.1/[file identifier]/[sub directory]/[output file]
 </code></pre>
@@ -182,7 +238,8 @@
   <li><a href="http://surfer.nmr.mgh.harvard.edu/fswiki/FileFormats">FreeSurfer File Formats</a></li>
 </ul>
 
-<p>Freesurfer surfaces for each subject can be <a href="OnlineViewer.html">viewed online</a>.</p>
+<!---Freesurfer surfaces for each subject can be [viewed online](OnlineViewer.html).
+-->
 
 <h2 id="references">References</h2>
 <div class="footnotes">

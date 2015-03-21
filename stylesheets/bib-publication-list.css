@@ -31,7 +31,7 @@ table.display td.center { text-align: center; }
 .sorting { background: url('../images/sort_both.png') no-repeat center right; }
 .sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
 .sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
-tr {font-size: 14px; text-align: left;}
+tr {font-size: 20px; text-align: left;}
 tr.odd { background-color: white;}
 tr.even { background-color: #eee; }
 div.hidden { display: none;}
