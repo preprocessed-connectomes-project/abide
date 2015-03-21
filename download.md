@@ -136,8 +136,8 @@ Where:<br>
 
     [file identifier] comes from FILE_ID column of the summary spreadsheet
     [derivative] = gi_left | gi_right | lobe_areas_40mm_left | lobe_areas_40mm_right | lobe_native_cortex_area_left | ...
-	    lobe_native_cortex_area_right | lobe_thickness_tlink_30mm_left | lobe_thickness_tlink_30mm_right | lobe_volumes_40mm_left | ...
-		lobe_volumes_40mm_right
+	    lobe_native_cortex_area_right | lobe_thickness_tlink_30mm_left | lobe_thickness_tlink_30mm_right | ... 
+		lobe_volumes_40mm_left | lobe_volumes_40mm_right
 
 **Cortical thickness maps** in stereotaxic space can be downloaded from the bucket using the url:
 
@@ -146,7 +146,8 @@ Where:<br>
 Where:<br> 
 
     [file identifier] comes from FILE_ID column of the summary spreadsheet
-    [derivative] = cerebral_volume | native_rms_rsl_tlink_30mm_asym_hemi | native_rms_rsl_tlink_30mm_left | native_rms_rsl_tlink_30mm_right
+    [derivative] = cerebral_volume | native_rms_rsl_tlink_30mm_asym_hemi | native_rms_rsl_tlink_30mm_left | ...
+	    native_rms_rsl_tlink_30mm_right
 
 
 
