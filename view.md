@@ -2,7 +2,7 @@
 layout: page
 title: ABIDE Preprocessed Viewer
 ---
-
+          
 <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="stylesheets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" />
 <script src="javascripts/panzoom.js" type="text/javascript"></script>
