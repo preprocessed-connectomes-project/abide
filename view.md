@@ -107,15 +107,14 @@ function load_nifti() {
 	patient = $('#select_patient').val();
 
 	images = [
-		// {
-		// 	'url': 'data/MNI152_3mm.nii.gz',
-		// 	'name': 'MNI152 3mm',
-		// 	'colorPalette': 'grayscale',
-		// 	'cache': false,
-		// 	'intent': 'Intensity:'
-		// },
+		 {
+		 	'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/func_mean/' + patient + '_func_mean.nii.gz',
+		 	'name': 'mean functional',
+		 	'colorPalette': 'grayscale',
+		 	'intent': 'Intensity:'
+		},
 		{
-			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/alff/OHSU_0050147_alff.nii.gz',
+			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/alff/' + patient + '_alff.nii.gz',
 			'name': 'ALFF',
 			'colorPalette': 'red-yellow-blue',
 			'intent': 'z-score:'
