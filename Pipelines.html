@@ -38,66 +38,21 @@
             
                 <div id="main_content_wrap" class="outer">
                     <section id="main_content" class="inner">
-                        <h1 id="analysis">Analysis</h1>
+                        <h1 id="functional-preprocessing">Functional Preprocessing</h1>
 
-<p>All the structural and functional scans were preprocessed with four different pipelines with the goal of comparing the outputs and determining best practices. Each pipeline used the best tools available to each of them and employed methods commonly used in the literature. We used the functional preprocessed data output from each pipeline to then calculate derivatives using CPAC. For a comparison of the derivative outputs between the pipelines, please <a href="http://preprocessed-connectomes-project.github.io/abide/derivatives.html">see this page</a>.</p>
-
-<h2 id="pipelines">Pipelines</h2>
-
-<p>Below are the list of different pipelines with links to more detailed descriptions.</p>
+<p>There is no concensus on the best methods for preprocessing resting state fMRI data. Rather than being perscriptive and favoring a single processing strategy, we have preprocessed the data using four different preprocessing pipelines, each of which was implemented using the chosen parameters and settings of the pipeline developers.</p>
 
 <ul>
-  <li><a href="http://preprocessed-connectomes-project.github.io/abide/ccs.html">Connectome Computation System (CCS)</a>: bash</li>
-  <li><a href="http://preprocessed-connectomes-project.github.io/abide/cpac.html">Configurable Pipeline for the Analysis of Connectomes (CPAC)</a>: python</li>
-  <li><a href="http://preprocessed-connectomes-project.github.io/abide/dparsf.html">Data Processing Assistant for Resting-State fMRI (DPARSF)</a>: matlab</li>
-  <li><a href="http://preprocessed-connectomes-project.github.io/abide/niak.html">Neuroimaging Analysis Kit (NIAK)</a>: matlab</li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/ccs.html">Connectome Computation System (CCS)</a></li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/cpac.html">Configurable Pipeline for the Analysis of Connectomes (CPAC)</a></li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/dparsf.html">Data Processing Assistant for Resting-State fMRI (DPARSF)</a></li>
+  <li><a href="http://preprocessed-connectomes-project.github.io/abide/niak.html">Neuroimaging Analysis Kit (NIAK)</a></li>
 </ul>
 
-<p>Here we provide an overview of each pipeline with comparisons of critical steps.</p>
+<p>The preprocessing steps implemented by the different pipelines are fairly similar. What varies most are the specific algorithms used for each of the steps, their software implementations, and the parameters used. The following sections provide an overview of the different preprocessing steps and how they vary across pipelines.</p>
 
-<h2 id="functional-data">Functional Data</h2>
+<h3 id="basic-processing">Basic Processing</h3>
 
-<h3 id="outputs">Outputs</h3>
-
-<p>The final outputs for each pipeline were preprocessed functional time-series data in native and standard (MNI152) space. Due to controversies in the literature, these outputs could be with/without band-pass filtered (0.01-0.1 Hz) and with/without global signal regression. Thus, for each pipeline, four different types of preprocessed outputs or strategies were produced. These include:</p>
-
-<center>
-<table id="pubTable" class="display2">
-<thead>
-	<tr>
-		<th>Strategy</th>
-		<th>Band-Pass Filtering</th>
-		<th>Global Signal Regression</th>
-	</tr>
-</thead>
-<tbody>
-	<tr class="odd">
-		<td>filt_global</td>
-		<td>Yes</td>
-		<td>Yes</td>
-	</tr>
-	<tr class="even">
-		<td>filt_noglobal</td>
-		<td>Yes</td>
-		<td>No</td>
-	</tr>
-	<tr class="odd">
-		<td>nofilt_global</td>
-		<td>No</td>
-		<td>Yes</td>
-	</tr>
-	<tr class="even">
-		<td>nofilt_noglobal</td>
-		<td>No</td>
-		<td>No</td>
-	</tr>
-</tbody>
-</table>
-</center>
-
-<h3 id="functional-preprocessing">Functional Preprocessing</h3>
-
-<p>Below we show select steps during functional preprocessing and compare them between the pipelines.</p>
 <center>
 <table id="pubTable" class="display2">
 <thead>
@@ -190,6 +145,46 @@
 </table>
 </center>
 
+<h3 id="processing-strategies">Processing strategies</h3>
+
+<p>Each pipeline was used to calculate four different preprocessing strategies:</p>
+
+<center>
+<table id="pubTable" class="display2">
+<thead>
+	<tr>
+		<th>Strategy</th>
+		<th>Band-Pass Filtering</th>
+		<th>Global Signal Regression</th>
+	</tr>
+</thead>
+<tbody>
+	<tr class="odd">
+		<td>filt_global</td>
+		<td>Yes</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="even">
+		<td>filt_noglobal</td>
+		<td>Yes</td>
+		<td>No</td>
+	</tr>
+	<tr class="odd">
+		<td>nofilt_global</td>
+		<td>No</td>
+		<td>Yes</td>
+	</tr>
+	<tr class="even">
+		<td>nofilt_noglobal</td>
+		<td>No</td>
+		<td>No</td>
+	</tr>
+</tbody>
+</table>
+</center>
+
+<p>For strategies that include global signal correction, the global mean signal was included with nuisance variable regression. Band-pass filtering (0.01 - 0.1 Hz) was applied after nuisance variable regression.</p>
+
 <h3 id="registration">Registration</h3>
 
 <p>A transform from original to template (MNI152) space was calculated for each dataset from a combination of functional-to-anatomical and anatomical-to-template transforms. The anatomical-to-template transforms were calculated using a two step procedure that involves (one or more) linear transform that is later refined with a very high dimensional non-linear transform. When data are written into template space (typically after the calculation of derivatives, except for NIAK) all transforms are used simultaneously to avoid multiple interpolations.</p>
@@ -226,46 +221,59 @@
 
 <h2 id="derivatives">Derivatives</h2>
 
-<p>Statistical derivatives (e.g., regional homogeniety) were generated from preprocessed functional data for each of the four processing strategies generated from each of the four processing pipelines. As mentioned earlier, these derivatives were all generated using CPAC. Although the calculation of the derivatives were the same for every pipeline, there were differences in each pipeline as to when each derivative was registered to standard space and when smoothing was applied. In every case the final resolution of the calculated derivatives is 3x3x3 mm<sup>3</sup>.</p>
+<p>Statistical derivatives (e.g., regional homogeneity) were generated from preprocessed functional data for each of the four processing strategies generated from each of the four processing pipelines. As mentioned earlier, these derivatives were all generated using CPAC. Although the calculation of the derivatives were the same for every pipeline, there were differences in each pipeline as to when each derivative was registered to standard space and when smoothing was applied. In every case the final resolution of the calculated derivatives is 3x3x3 mm<sup>3</sup>.</p>
 
 <h3 id="approach-1">Approach 1</h3>
 
 <p>For CCS, CPAC, and DPARSF, the derivatives listed below were calculated in native space using unsmooted functional data. The results were then written into template space (MNI152) and spatially smoothed with a 6-mm FWHM Gaussian kernel. The registration and smoothing were performed using steps specific to each pipeline.</p>
 
 <ul>
-  <li>Amplitude of low frequnecy fluctuations (ALFF)</li>
-  <li>Fractional ALFF (fALFF)</li>
-  <li>Regional homogeniety (REHO)</li>
-  <li>10 intrinsic connectivity networks extracted using dual regression</li>
+  <li><a href="http://fcp-indi.github.io/docs/user/alff.html">Amplitude of low frequency fluctuations (ALFF) and Fractional ALFF (fALFF)</a></li>
+  <li><a href="http://fcp-indi.github.io/docs/user/reho.html">Regional homogeneity (REHO)</a></li>
+  <li><a href="http://www.fmrib.ox.ac.uk/analysis/brainmap+rsns/">10 Intrinsic Connectivity Networks</a><sup id="fnref:6"><a href="#fn:6" class="footnote">3</a></sup> extracted using <a href="http://fcp-indi.github.io/docs/user/dual_reg.html">Dual Regression</a></li>
 </ul>
 
 <p>In contrast, the derivatives listed below were calculated on the unsmoothed functional data in template (MNI152) space and then smoothed with a 6-mm FWHM Gaussian kernel.</p>
 
 <ul>
-  <li>Weighted and binarized degeree centrality</li>
-  <li>Weighted and binarized eigenvector centrality</li>
-  <li>Local functional connectivity density (lFCD)</li>
-  <li>Voxel-mirrored homotopic connectivity (VMHC)</li>
+  <li><a href="http://fcp-indi.github.io/docs/user/centrality.html">Weighted and binarized degree centrality</a></li>
+  <li><a href="http://fcp-indi.github.io/docs/user/centrality.html">Weighted and binarized eigenvector centrality</a></li>
+  <li><a href="http://fcp-indi.github.io/docs/user/centrality.html">Local functional connectivity density (lFCD)</a></li>
+  <li><a href="http://fcp-indi.github.io/docs/user/vmhc.html">Voxel-mirrored homotopic connectivity (VMHC)</a></li>
 </ul>
 
 <p>Note as mentioned earlier VMHC was calculated on the functional data registered to the symmetric standard MNI152 brain. </p>
 
 <h3 id="approach-2">Approach 2</h3>
 
-<p>In the NIAK pipeline, the functional data was written into template space and spatially smoothed with a 6-mm FWHM Guassian kernel prior to calculating the statistical derivatives.</p>
+<p>In the NIAK pipeline, the functional data was written into template space and spatially smoothed with a 6-mm FWHM Gaussian kernel prior to calculating the statistical derivatives.</p>
 
 <h3 id="a-nameregionsofinterestregions-of-interesta"><a name="regions_of_interest">Regions of Interest</a></h3>
 
 <p>We also extracted mean time-series for several sets of regions-of-interests. In each case, the mean time-series was taken from functional data already registered in standard space for every pipeline. More specifically, time series were extracted for seven ROI atlases:</p>
 
 <ul>
-  <li>Automated Anatomical Labelling</li>
-  <li>Eickhoff-Zilles</li>
-  <li>Harvard-Oxford</li>
-  <li>Talaraich and Tournoux</li>
-  <li>Dosenbach 160</li>
-  <li>Craddock 200</li>
-  <li>Craddock 400</li>
+  <li>
+    <p><strong>Automated Anatomical Labeling (AAL):</strong> The AAL atlas distributed with the <a href="http://www.cyceron.fr/web/aal__anatomical_automatic_labeling.html">AAL Toolbox</a> was fractionated to functional resolution (3x3x3 mm<sup>3</sup>) using nearest-neighbor interpolation. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/aal_roi_atlas.nii.gz">Atlas</a>] [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/aal_roi_atlas.nii.gz">Labels</a>]</p>
+  </li>
+  <li>
+    <p><strong>Eickhoff-Zilles (EZ):</strong> The EZ atlas was derived from the max-propagation atlas distributed with the <a href="http://www.fz-juelich.de/inm/inm-1/spm_anatomy_toolbox">SPM Anatomy Toolbox</a>. The atlas was transformed into template space using the Colin 27 template (also distributed with the toolbox) as an intermediary and fractionated into functional resolution using nearest-neighbor interpolation. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/ez_roi_atlas.nii.gz">Atlas</a>][<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/ez_roi_atlas.nii.gz">Labels</a>]</p>
+  </li>
+  <li>
+    <p><strong>Harvard-Oxford (HO):</strong> The HO atlas distributed with <a href="http://www.fmrib.ox.ac.uk/fsl/">FSL</a> is split into cortical and subcortical probabilistic atlases. A 25% threshold was applied to each of these atlases and they were subsequently bisected into left and right hemispheres at the midline (x=0). ROIs representing left/right WM, left/right GM, left/right CSF and brainstem were removed from the subcortical atlas. The subcortical and cortical ROIs were combined and then fractionated into functional resolution using nearest-neighbor interpolation. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/ho_roi_atlas.nii.gz">Atlas</a>][<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/ho_roi_atlas.nii.gz">Labels</a>]</p>
+  </li>
+  <li>
+    <p><strong>Talaraich and Tournoux (TT):</strong> The TT atlas distributed with <a href="http://afni.nimh.nih.gov/afni/">AFNI</a> was coregistered and warped into template space and subsequently fractionated into functional resolution using nearest neighbor interpolation. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/tt_roi_atlas.nii.gz">Atlas</a>][<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/tt_roi_atlas.nii.gz">Labels</a>]</p>
+  </li>
+  <li>
+    <p><strong>Dosenbach 160:</strong> The Dosenbach 160 atlas distributed with <a href="http://rfmri.org/dparsf">DPARSF/DPABI</a> includes 160 4.5-mm radius spheres placed at coordinates from Table S6 in Dosenbach et al., 2010<sup id="fnref:8"><a href="#fn:8" class="footnote">4</a></sup>. These regions were identified from meta-analyses of task-related fMRI studies. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/dos160_roi_atlas.nii.gz">Atlas</a>][<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/dos160_roi_atlas.nii.gz">Labels</a>]</p>
+  </li>
+  <li>
+    <p><strong>Craddock 200 (CC200):</strong> Functional parcellation was accomplished using a two-stage spatially-constrained functional procedure applied to preprocessed and unfiltered resting state data corresponding to 41 individuals from an independent dataset (age: 18–55; mean 31.2; std. dev. 7.8; 19 females)<sup id="fnref:7"><a href="#fn:7" class="footnote">5</a></sup>. A grey matter mask was constructed by averaging individual-level grey matter masks derived by automated segmentation. Individual-level connectivity graphs were constructed by treating each within-gm-mask voxel as a node and edges corresponding to super-threshold temporal correlations to the voxels’ 3D (27 voxel) neighborhood. Each graph was partitioned into 200 regions using normalized cut spectral clustering. Association matrices were constructed from the clustering results by setting the connectivity between voxels to 1 if they are in the same ROI and 0 otherwise. A group-level correspondence matrix was constructed by averaging the individual level association matrices and subsequently partitioned into 200 regions using normalized cut clustering. The resulting group-level analysis was fractionated into functional resolution using nearest-neighbor interpolation. Labels were generated for each of the resulting ROIs from their overlap with AAL, EZ, HO, and TT atlases using the cluster naming script distributed with the <a href="http://ccraddock.github.io/cluster_roi/atlases.html">pyClusterROI toolbox</a>. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/cc200_roi_atlas.nii.gz">Atlas</a>][<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/CC200_ROI_labels.csv">Labels</a>]</p>
+  </li>
+  <li>
+    <p><strong>Craddock 400 (CC200):</strong> The procedure described for the CC200 atlas was repeated for 400 regions to create the CC400 atlas. [<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/cc400_roi_atlas.nii.gz">Atlas</a>][<a href="https://fcp-indi.s3.amazonaws.com/data/Projects/ABIDE_Initiative/Resources/CC400_ROI_labels.csv">Labels</a>]</p>
+  </li>
 </ul>
 
 <h3 id="a-nameminpreprocminimally-preprocessed-dataa"><a name="min_preproc">Minimally Preprocessed Data</a></h3>
@@ -278,7 +286,7 @@
   <li>Written into template space at 3x3x3 mm<sup>3</sup> isotropic resolution</li>
 </ol>
 
-<h2 id="references">References</h2>
+<h1 id="references">References</h1>
 
 <div class="footnotes">
   <ol>
@@ -287,6 +295,15 @@
     </li>
     <li id="fn:4">
       <p>Fox 2005 <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Chai et al., 2012 <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p>Dosenbach, Nico U. F. et al. “Prediction of Individual Brain Maturity Using fMRI.” Science (New York, N.Y.) 329.5997 (2010): 1358–1361. PMC. Web. 21 Mar. 2015. doi: 10.1126/science <a href="#fnref:8" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>Craddock, R. C., James, G. A., Holtzheimer, P. E., Hu, X. P., &amp; Mayberg, H. S. A whole brain fMRI atlas generated via spatially constrained spectral clustering, Human Brain Mapping, 2012, 33, 1914-1928 doi: 10.1002/hbm.21333. <a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
