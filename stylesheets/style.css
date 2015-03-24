@@ -1,0 +1,154 @@
+.load_btn{
+	background: white;
+	border-color: #007fb2;
+	color: #007fb2;
+	border-radius: 5px;
+	text-align: center;
+	width: 250px;
+	margin-top: 20px;
+}
+
+
+.options {
+	margin-bottom: 10px;
+	width: 250px;
+	
+}
+
+.viewer{
+	margin-right: 50px;
+}
+
+
+#view_axial {
+  width: 320px;
+  height: 300px; 
+}
+
+#view_coronal {
+  width: 320px;
+  height: 300px; 
+}
+
+#view_sagittal {
+  width: 320px;
+  height: 300px; 
+}
+
+  height: 260px;
+  margin-left: 5px;
+  float: left; 
+}
+
+.nav-slider-horizontal {
+  width: 260px;
+  float: left; 
+}
+
+
+.visibility_icon {
+	font-size: 15px;
+	padding-top: 10px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	background: white;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+
+.download_icon {
+	font-size: 15px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	background: white;
+	border-left: 1px solid #999;
+}
+
+.deletion_icon {
+	font-size: 15px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	padding: 3px;
+	background: white;
+	border-left: 1px solid #999;
+}
+
+.data_display_row {
+	width: 180px;
+	text-align: center;
+}
+
+#data_current_coords {
+	text-align: center;
+}
+
+#data_current_value {
+
+	text-align: center;
+}
+
+
+
+ul#layer_list li {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #ddb #999 #999 #ddb;
+	background: white;
+	/*padding: 3px;*/
+	margin: 0px;
+	float: left;
+}
+
+.layer_label {
+	float: left;
+	width: 300px;
+	padding: 3px;
+}
+
+ul#layer_list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#brainviewer{
+	margin-left: -75px;
+}
+
+#coordinatesviewer{
+	margin-left: -130px;
+}
+
+#settings_panel{
+	margin-left: -70px;
+}
+
+#layer_panel{
+	margin-left: -40px;
+}
+
+#layer_settings{
+	margin-left: -80px;
+}
+
+
+/* margins */
+.marginbot-20{margin-bottom:20px !important;}
+.marginbot-50{margin-bottom:50px !important;}
+.marginbot-70{margin-bottom:70px !important;}
+.marginbot-100{margin-bottom:100px !important;}
+
+
+.margintop-10{margin-top:10px !important;}
+.margintop-20{margin-top:20px !important;}
+.margintop-50{margin-top:50px !important;}
+
+
+
