@@ -160,16 +160,16 @@
       return this.userInterface.addColorSelect(element);
     };
 
+    Viewer.prototype.addSignSelect = function(element) {
+      return this.userInterface.addSignSelect(element);
+    };
+
     Viewer.prototype.addPipelineSelect = function(element) {
       return this.userInterface.addPipelineSelect(element);
     };
 
     Viewer.prototype.addStrategySelect = function(element) {
       return this.userInterface.addStrategySelect(element);
-    };
-
-    Viewer.prototype.addSignSelect = function(element) {
-      return this.userInterface.addSignSelect(element);
     };
 
     Viewer.prototype.addSettingsCheckboxes = function(element, options) {
@@ -250,6 +250,17 @@
       return dfd.promise();
     };
 
+    Viewer.prototype.moveToAtlasCoords = function(coords, paint) {
+      if (paint == null) {
+        paint = true;
+      }
+      this.coords_ijk = Transform.atlasToImage(coords);
+      this.coords_abc = Transform.atlasToViewer(coords);
+      if (paint) {
+        return this.paint();
+      }
+    };
+
     Viewer.prototype.loadImages = function(images, activate, paint, assignColors) {
       var ajaxReqs, data, existingLayers, img, _i, _len;
       if (activate == null) {
@@ -295,6 +306,7 @@
         } else {
           ajaxReqs.push(this._loadImageFromVolume(img));
         }
+        this.moveToAtlasCoords([+51, -69, -39]);
       }
       return $.when.apply($, ajaxReqs).then((function(_this) {
         return function() {
@@ -419,17 +431,6 @@
       this.coords_ijk = Transform.atlasToImage(Transform.viewerToAtlas(this.coords_abc));
       this.paint();
       return $(this).trigger('afterLocationChange');
-    };
-
-    Viewer.prototype.moveToAtlasCoords = function(coords, paint) {
-      if (paint == null) {
-        paint = true;
-      }
-      this.coords_ijk = Transform.atlasToImage(coords);
-      this.coords_abc = Transform.atlasToViewer(coords);
-      if (paint) {
-        return this.paint();
-      }
     };
 
     Viewer.prototype.deleteView = function(index) {
@@ -941,22 +942,22 @@
     },
     viewerToAtlas: function(coords) {
       var matrix;
-      matrix = [[180, 0, 0, -90], [0, -218, 0, 90], [0, 0, -180, 108]];
+      matrix = [[90 * 3, 0, 0, -90], [0, -109 * 3, 0, 90], [0, 0, -90 * 3, 108]];
       return this.transformCoordinates(coords, matrix);
     },
     atlasToViewer: function(coords) {
       var matrix;
-      matrix = [[1.0 / 180, 0, 0, 0.5], [0, -1.0 / 218, 0, 90.0 / 218], [0, 0, -1.0 / 180, 108.0 / 180]];
+      matrix = [[1.0 / (90 * 3), 0, 0, 0.3], [0, -1.0 / (109 * 3), 0, 90.0 / (109 * 3)], [0, 0, -1.0 / (90 * 3), 108.0 / (90 * 3)]];
       return this.transformCoordinates(coords, matrix, false);
     },
     atlasToImage: function(coords) {
       var matrix;
-      matrix = [[-0.5, 0, 0, 45], [0, 0.5, 0, 63], [0, 0, 0.5, 36]];
+      matrix = [[-0.3, 0, 0, 45], [0, 0.3, 0, 63], [0, 0, 0.3, 36]];
       return this.transformCoordinates(coords, matrix);
     },
     imageToAtlas: function(coords) {
       var matrix;
-      matrix = [[-2, 0, 0, 90], [0, 2, 0, -126], [0, 0, 2, -72]];
+      matrix = [[-3, 0, 0, 90], [0, 3, 0, -126], [0, 0, 3, -72]];
       return this.transformCoordinates(coords, matrix);
     }
   };
@@ -1012,16 +1013,16 @@
       return this.components['colorPalette'] = new SelectComponent(this, 'colorPalette', element, Object.keys(ColorMap.PALETTES));
     };
 
+    UserInterface.prototype.addSignSelect = function(element) {
+      return this.components['sign'] = new SelectComponent(this, 'signSelect', element, ['both', 'positive', 'negative']);
+    };
+
     UserInterface.prototype.addPipelineSelect = function(element) {
-      return this.components['Pipeline'] = new SelectComponent(this, 'Pipeline', element, ['cpac', 'ccs', 'dparsf', 'niak']);
+      return this.components['pipeline'] = new SelectComponent(this, 'pipelineSelect', element, ['cpac', 'ccs', 'dparsf', 'niak']);
     };
 
     UserInterface.prototype.addStrategySelect = function(element) {
-      return this.components['strategy'] = new SelectComponent(this, 'Strategy', element, ['filt_global', 'filt_noglobal', 'nofilt_global', 'nofilt_noglobal']);
-    };
-
-    UserInterface.prototype.addSignSelect = function(element) {
-      return this.components['sign'] = new SelectComponent(this, 'signSelect', element, ['both', 'positive', 'negative']);
+      return this.components['strategy'] = new SelectComponent(this, 'strategySelect', element, ['filt_global', 'filt_noglobal', 'nofilt_global', 'nofilt_noglobal']);
     };
 
     UserInterface.prototype.addSettingsCheckboxes = function(element, settings) {
@@ -1098,9 +1099,9 @@
       $(this.layerListId).empty();
       for (i = _i = 0, _ref = layers.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
         l = layers[i];
-        visibility_icon = this.viewSettings.visibilityIconEnabled ? "<div class='visibility_icon' title='Hide/show image'><span class='glyphicon glyphicon-eye-open'></i></div>" : '';
-        deletion_icon = this.viewSettings.deletionIconEnabled ? "<div class='deletion_icon' title='Remove this layer'><span class='glyphicon glyphicon-trash'></i></div>" : '';
-        download_icon = true ? "<div class='download_icon' title='Download this image'><span class='glyphicon glyphicon-save'></i></div>" : '';
+        visibility_icon = this.viewSettings.visibilityIconEnabled ? "<div class='visibility_icon' title='Hide/show image'><i class='icon-eye-open'></i></div>" : '';
+        deletion_icon = this.viewSettings.deletionIconEnabled ? "<div class='deletion_icon' title='Remove this layer'><i class='icon-trash'></i></div>" : '';
+        download_icon = true ? "<div class='download_icon' title='Download this image'><i class='icon-save'></i></div>" : '';
         $(this.layerListId).append($(("<li class='layer_list_item'>" + visibility_icon + "<div class='layer_label'>") + l + ("</div>" + download_icon + deletion_icon + "</li>")));
       }
       $('.layer_label').click((function(_this) {
@@ -1136,9 +1137,9 @@
       _results = [];
       for (i = _i = 0, _ref = visible.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
         if (visible[i]) {
-          _results.push($('.visibility_icon>span').eq(i).removeClass('glyphicon glyphicon-eye-close').addClass('glyphicon glyphicon-eye-open'));
+          _results.push($('.visibility_icon>i').eq(i).removeClass('icon-eye-close').addClass('icon-eye-open'));
         } else {
-          _results.push($('.visibility_icon>span').eq(i).removeClass('glyphicon glyphicon-eye-open').addClass('glyphicon glyphicon-eye-close'));
+          _results.push($('.visibility_icon>i').eq(i).removeClass('icon-eye-open').addClass('icon-eye-close'));
         }
       }
       return _results;
@@ -1387,7 +1388,7 @@
 
     View.prototype._snapToGrid = function(x, y) {
       var dims, xVoxSize, yVoxSize;
-      dims = [91, 109, 91];
+      dims = [61, 73, 61];
       dims.splice(this.dim, 1);
       xVoxSize = 1 / dims[0];
       yVoxSize = 1 / dims[1];
