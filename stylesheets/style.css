@@ -1,30 +1,36 @@
 .inline {
   display: inline-block;
+  vertical-align: top;
 }
 
+.column{
+	width: 300px;
+	margin-right: 20px;
+}
+
+.field{
+	width: 100%;
+}
 
 #view_axial {
-  width: 280px;
-  height: 260px; }
+  height: 280px; }
 
 #view_coronal {
-  width: 280px;
-  height: 220px;
-  margin-bottom: 20px; }
+  height: 280px;
+}
 
 #view_sagittal {
-  width: 264px;
-  height: 260px; }
+  height: 280px; }
 
 
 .nav-slider-vertical {
   height: 100%;
-  margin-left: 5px;
+  margin-left: 3px;
   float: left; }
 
 .nav-slider-horizontal {
   width: 100%;
-  margin-top: 5px;
+  margin-top: 3px;
   float: left; }
 
 canvas {
@@ -33,17 +39,6 @@ canvas {
 
 .data_display_row{
 	width: 150px;
-	text-align: center;
-}
-
-
-#layer_panel {
-	width: 290px;
-}
-
-#layer_settings_panel{
-	width: 240px;
-
 }
 
 .visibility_icon {
@@ -94,8 +89,4 @@ ul#layer_list {
 
 .selected {
 	background: #cff;
-}
-
-#data_panel{
-	width: 200px;
 }

@@ -49,31 +49,31 @@ function loadSelectedImage() {
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/falff/' + patient + '_falff.nii.gz',
 			'name': 'fALFF',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'navy',
 			'intent': 'z-score:'
 		},
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/vmhc/' + patient + '_vmhc.nii.gz',
 			'name': 'VMHC',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'aqua',
 			'intent': 'z-score:'
 		},
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/lfcd/' + patient + '_lfcd.nii.gz',
 			'name': 'LFCD',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'lime',
 			'intent': 'z-score:'
 		},
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/reho/' + patient + '_reho.nii.gz',
 			'name': 'REHO',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'purple',
 			'intent': 'z-score:'
 		},
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/degree_weighted/' + patient + '_degree_weighted.nii.gz',
 			'name': 'Degree Weighted',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'yellow',
 			'intent': 'z-score:'
 		},
 		{
@@ -85,13 +85,13 @@ function loadSelectedImage() {
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/eigenvector_weighted/' + patient + '_eigenvector_weighted.nii.gz',
 			'name': 'Eigenvector Weighted',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'green',
 			'intent': 'Intensity'
 		},
 		{
 			'url': 'https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/'+ pipeline +'/' + strategy + '/eigenvector_binarize/' + patient + '_eigenvector_binarize.nii.gz',
 			'name': 'Eigenvector Binarized',
-			'colorPalette': 'red-yellow-blue',
+			'colorPalette': 'red',
 			'intent': 'Intensity:'
 		}
 	];
