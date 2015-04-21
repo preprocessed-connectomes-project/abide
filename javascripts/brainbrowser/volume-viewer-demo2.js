@@ -38,6 +38,27 @@ $(function() {
       viewer.synced = synced;
     });
 
+  viewer.updateVoxelCoords = function() {
+    var voxel_coords = viewer.volumes[2].position;
+    viewer.volumes[0].setVoxelCoords(voxel_coords.xspace, voxel_coords.yspace, voxel_coords.zspace );
+
+    $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10));
+    $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10));
+    $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10));
+  }
+
+  viewer.updateWorldCoords = function(){
+    var world_coords = viewer.volumes[0].getWorldCoords();
+
+    $("#world-x-").val(world_coords.x.toPrecision(3));
+    $("#world-y-").val(world_coords.y.toPrecision(3));
+    $("#world-z-").val(world_coords.z.toPrecision(3));
+  }
+
+  viewer.updateIntensity = function(){
+    var intensity = viewer.volumes[0].getIntensityValue();
+    $('#intensity-value-').html(parseFloat(intensity).toFixed(2));
+  }
 
   viewer.loadData = function() {
     //////////////////////////////////
@@ -188,23 +209,11 @@ $(function() {
       
       if (BrainBrowser.utils.isFunction(volume.getWorldCoords)) {
 
-        var world_coords = volume.getWorldCoords();
+        // var world_coords = volume.getWorldCoords();
 
-        $("#world-x-").val(world_coords.x.toPrecision(6));
-        $("#world-y-").val(world_coords.y.toPrecision(6));
-        $("#world-z-").val(world_coords.z.toPrecision(6));
-      }
-
-      if (BrainBrowser.utils.isFunction(volume.getVoxelCoords)) {
-        if(viewer.volumes.length == 3){
-          var voxel_coords = viewer.volumes[2].position;
-          viewer.volumes[0].setVoxelCoords(voxel_coords.xspace, voxel_coords.yspace, voxel_coords.zspace );
-        }
-        else{ voxel_coords = volume.getVoxelCoords(); }
-        
-        $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10));
-        $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10));
-        $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10));
+        // $("#world-x-").val(world_coords.x.toPrecision(6));
+        // $("#world-y-").val(world_coords.y.toPrecision(6));
+        // $("#world-z-").val(world_coords.z.toPrecision(6));
       }
 
       if(vol_id == 0){
@@ -295,7 +304,9 @@ $(function() {
             viewer.redrawVolumes();
           });
 
-          
+          viewer.updateVoxelCoords();
+          viewer.updateWorldCoords();
+          viewer.updateIntensity();
 
           viewer.volumes.forEach(function(volume){
             volume.display.forEach(function(panel) {
@@ -321,19 +332,17 @@ $(function() {
                 }
               }
             }
-              
+            
+
 
             var mousedown = false;
 
             panel.canvas.addEventListener("mousedown", function () {
               mousedown = true;
-
-              var voxel_coords = viewer.volumes[2].position;
-              viewer.volumes[0].setVoxelCoords(voxel_coords.xspace, voxel_coords.yspace, voxel_coords.zspace );
-
-              $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10));
-              $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10));
-              $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10));
+              viewer.updateVoxelCoords();
+              viewer.updateWorldCoords();
+              viewer.updateIntensity();
+              
             });
 
             panel.canvas.addEventListener("mouseup", function () {
@@ -342,12 +351,9 @@ $(function() {
 
             panel.canvas.addEventListener("mousemove", function (event) {
               if(mousedown){
-                var voxel_coords = viewer.volumes[2].position;
-                viewer.volumes[0].setVoxelCoords(voxel_coords.xspace, voxel_coords.yspace, voxel_coords.zspace );
-
-                $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10));
-                $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10));
-                $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10));
+                viewer.updateVoxelCoords();
+                viewer.updateWorldCoords();
+                viewer.updateIntensity();
               }
 
 
@@ -358,22 +364,23 @@ $(function() {
     }
 
   viewer.loadData();
+  
   });
 });
-
-
-
 
 
 function loadFile(){
     viewer.clearVolumes();
     viewer.loadData();
     alert('hello');
+    viewer.updateVoxelCoords();
+    viewer.updateWorldCoords();
+    viewer.updateIntensity();
   }
 
 
 function getFuncMean(){
-    var pipeline = $("#pipeline").val();
+  var pipeline = $("#pipeline").val();
   var strategy = $("#strategy").val();
   var derivative = 'func_mean'
   var patient = $("#subject").val();
