@@ -51,10 +51,11 @@ Theme Styles
 body {
     padding: 50px 0;
   box-sizing: border-box;
-  color:#373737;
-  background: #212121 url("../images/block.png") repeat 0 0;
+  
+    color:#373737;
+  background: #d6c9b8 url("../images/block.png") repeat 0 0;
   /*background:#d6c9b8;*/
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -178,8 +179,8 @@ img {
 }
     
 p img {
-  display: inline;
-  margin: 0;
+  display: block;
+  margin: 0 auto 0 auto;
   padding: 0;
   vertical-align: middle;
   text-align: center;
@@ -278,11 +279,13 @@ td {
   padding: 10px;
   border: 1px solid #373737;
  }
-*/
+ 
+ */
+/* 
 form {
   background: #f2f2f2;
   padding: 20px;
-}
+}*/
 
 /*******************************************************************************
 Full-Width Styles
@@ -952,3 +955,64 @@ Small Device Styles
     display: none;
   }
 }
+
+
+span.undefined { color:red; }
+.bibtable {width:100%; margin: 0 auto; clear: both;}
+.bibchart { width: 100%; height: 100px; margin-bottom: 20px;}
+.clear {clear:both;}
+.year { z-index:10; position: relative; height: 100%; border-bottom: 1px solid black; display: inline-block;}
+.yearlabel { position: absolute; bottom: -20px; text-align: center; width: 100%; font-size: smaller;}
+.pub { border: 1px solid white; background-color: #eee; }
+.conference { background-color: rgb(245,128,37); }
+.inproceedings { background-color: #ccf; }
+.article { background-color: #beb; }
+.inbook { background-color: #eaa; }
+.phdthesis { background-color: #999; }
+.unpublished { background-color: #eae; }
+.mastersthesis { background-color: #eea; }
+.techreport { background-color: #b77; }
+.legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
+.legend { margin-bottom: 20px; text-align: center; width: 100%;}
+table.display thead th { 
+    padding: 3px 18px 3px 10px; 
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black; 
+    font-weight: bold; c
+    cursor: pointer; 
+    cursor: hand;
+    background: #eee; }
+table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
+table.display td { padding: 3px 10px; }
+table.display td.center { text-align: center; }
+.sorting_asc { background: url('../images/sort_asc.png') no-repeat center right; }
+.sorting_desc { background: url('../images/sort_desc.png') no-repeat center right; }
+.sorting { background: url('../images/sort_both.png') no-repeat center right; }
+.sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
+.sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
+tr {font-size: 20px; text-align: left;}
+tr.odd { background-color: white;}
+tr.even { background-color: #eee; }
+div.hidden { display: none;}
+div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-color: #bbb; border: 3px solid #fff; padding: 10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; border-radius:10px; z-index: 50;}
+#shutter { background-color: #555; opacity: 0.7; width:100%; height: 100%; position: fixed; top: 0; left:0; z-index: 20;}
+a.bibclose { background-color: #BBBBBB; border: 3px solid #FFFFFF; color: black; float: left; font-size: 20px; height: 20px; left: -25px; line-height: 20px; padding: 3px; position: relative; text-align: center; text-decoration: none; top: -25px; width: 20px; -moz-border-radius:15px; -webkit-border-radius:15px; -o-border-radius:15px; border-radius:15px; }
+div.bibinfo pre { clear:both; }
+
+table.display2 thead th { 
+    padding: 3px 18px 3px 10px; 
+    /*border-bottom: 1px solid black; 
+    border-top: 1px solid black;*/
+    font-weight: bold; c
+    cursor: pointer; 
+    cursor: hand;
+    background: #007fb2;
+    color: #fff; }
+table.display2 tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold;}
+table.display2 th.center { text-align: center; }
+table.display2 td { padding: 3px 10px; }
+table.display2 td.center { text-align: center; }
+table.display2 td.nowrap { white-space: nowrap; }
+table.display2 tr {font-size: 20px; text-align: left;}
+table.display2 tr.odd { background-color: white;}
+table.display2 tr.even { background-color: #eee; }
