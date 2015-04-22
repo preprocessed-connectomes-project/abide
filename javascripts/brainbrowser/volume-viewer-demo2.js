@@ -29,6 +29,9 @@ $(function() {
     $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10)).change();
     $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10)).change();
     $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10)).change();
+    console.log($("#voxel-i-").val());
+    console.log($("#voxel-j-").val());
+    console.log($("#voxel-k-").val());
   }
 
   viewer.updateWorldCoords = function(){
@@ -119,7 +122,7 @@ $(function() {
         var div = $(this);
         
         if ($('#derivative').val() == "dual_regression"){
-            div.show();
+          div.show();
           
           var slider = div.find(".slider");
           var time_input = div.find("#time-val-");
@@ -329,10 +332,6 @@ $(function() {
 function loadFile(){
     viewer.clearVolumes();
     viewer.loadData();
-    alert('hello');
-    //viewer.updateVoxelCoords();
-    //viewer.updateWorldCoords();
-    //viewer.updateIntensity();
 }
 
 

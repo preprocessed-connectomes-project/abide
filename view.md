@@ -104,6 +104,7 @@ title: ABIDE Preprocessed Viewer
     <div class="m-top-15">
       <span class="control-heading" >Derivative:</span>
       <select id="derivative" class="option">
+        <option value="dual_regression">dual regression</option>
         <option value="alff">alff</option>
         <option value="degree_binarize">degree binarize</option>
         <option value="degree_weighted">degree weighted</option>
@@ -113,7 +114,6 @@ title: ABIDE Preprocessed Viewer
         <option value="reho">reho</option>
         <option value="vmhc">vmhc</option>
         <option value="lfcd">lfcd</option>
-        <option value="dual_regression">dual regression</option>
       </select> 
     </div>
 
