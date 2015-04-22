@@ -41,19 +41,12 @@
   padding-bottom: 0;
 }
 
-#global-controls .instructions {
-  padding: 10px 0 5px 0;
-}
-
 .control-heading {
   font-size: 14px;
   font-weight: bold;
-  margin-bottom: 20px;
+  width: 100%;
 }
 
-.control-heading:not(:first-child) {
-  margin-top: 12px;
-}
 
 .control-inputs {
   border: none;
@@ -75,7 +68,7 @@
 }
 
 .volume-viewer-threshold{
-  width: 30%;
+  width: 100%;
   margin: auto;
 }
 
@@ -115,24 +108,38 @@
 
 .top{
   position: absolute;
-  top: 0px;
+  top: -10px;
 }
 
 .bot{
   position: absolute;
-  top: 350px;
+  top: 340px;
+  left: 20px;
 }
 
 .right{
-  left: 500px;
+  left: 350px;
 }
 
 .relative-pos{
   position: relative;
-  height: 750px;
+  height: 870px;
 }
 
 canvas{
   margin-right: 15px;
   margin-left: 15px;
+}
+
+.m-top-5{  margin-top: 5px;}
+.m-top-15{  margin-top: 15px;}
+.m-top-20{  margin-top: 20px;}
+.m-top-25{  margin-top: 25px;}
+
+.config-panel{
+  width: 280px;
+}
+
+.option{
+  width: 100%;
 }

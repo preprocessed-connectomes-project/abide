@@ -21,30 +21,14 @@ $(function() {
     // Set up global UI hooks.
     ///////////////////////////
 
-    $("#volume-type").change(function() {
-      $("#sync-volumes-wrapper").hide();
-
-    });
-
-
-    // Should cursors in all panels be synchronized?
-    $("#sync-volumes").change(function() {
-      var synced = $(this).is(":checked");
-      if (synced) {
-        viewer.resetDisplays();
-        viewer.redrawVolumes();
-      }
-      
-      viewer.synced = synced;
-    });
 
   viewer.updateVoxelCoords = function() {
     var voxel_coords = viewer.volumes[2].position;
     viewer.volumes[0].setVoxelCoords(voxel_coords.xspace, voxel_coords.yspace, voxel_coords.zspace );
 
-    $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10));
-    $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10));
-    $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10));
+    $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10)).change();
+    $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10)).change();
+    $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10)).change();
   }
 
   viewer.updateWorldCoords = function(){
@@ -77,7 +61,7 @@ $(function() {
       // Color map URLs are read from the config file and added to the
       // color map select box.
       if(vol_id == 0 && $('#color-map-select').length == 0 ){
-        var color_map_select = $('<select id="color-map-select"></select>').change(function() {
+        var color_map_select = $('<select id="color-map-select" class="option"></select>').change(function() {
           var selection = $(this).find(":selected");
 
           viewer.loadVolumeColorMapFromURL(vol_id, selection.val(), selection.data("cursor-color"), function() {
@@ -138,8 +122,8 @@ $(function() {
             div.show();
           
           var slider = div.find(".slider");
-          var time_input = div.find("#time-val-" + vol_id);
-          var play_button = div.find("#play-" + vol_id);
+          var time_input = div.find("#time-val-");
+          var play_button = div.find("#play-");
 
           var min = 0;
           var max = volume.header.time.space_length - 1;
@@ -204,32 +188,8 @@ $(function() {
       var panel = event.target;
       var volume = event.volume;
       var vol_id = panel.volume_id;
-      var world_coords, voxel_coords;
-      var value;
       
-      if (BrainBrowser.utils.isFunction(volume.getWorldCoords)) {
 
-        // var world_coords = volume.getWorldCoords();
-
-        // $("#world-x-").val(world_coords.x.toPrecision(6));
-        // $("#world-y-").val(world_coords.y.toPrecision(6));
-        // $("#world-z-").val(world_coords.z.toPrecision(6));
-      }
-
-      if(vol_id == 0){
-        var value = volume.getIntensityValue();
-        $("#intensity-value-")
-        .css("background-color", "#" + volume.color_map.colorFromValue(value, {
-          hex: true,
-          min: volume.min,
-          max: volume.max,
-          contrast: panel.contrast,
-          brightness: panel.brightness
-        }))
-        .html(Math.floor(value));
-
-        $("#intensity-value-").css("color", "black");
-      }
       if (volume.header && volume.header.time) {
         $("#time-slider-" + vol_id).slider("option", "value", volume.current_time);
         $("#time-val-" + vol_id).val(volume.current_time);
@@ -269,7 +229,6 @@ $(function() {
               element_id: "volume-ui-template",
               viewer_insert_class: "volume-viewer-display"
             },
-
           },
           {
             type: "nifti1",
@@ -277,8 +236,7 @@ $(function() {
             template: {
               element_id: "volume-ui-template",
               viewer_insert_class: "volume-viewer-display"
-            }
-             ,
+            },
              style : "display : none"
           }
         ],
@@ -334,7 +292,6 @@ $(function() {
             }
             
 
-
             var mousedown = false;
 
             panel.canvas.addEventListener("mousedown", function () {
@@ -373,10 +330,10 @@ function loadFile(){
     viewer.clearVolumes();
     viewer.loadData();
     alert('hello');
-    viewer.updateVoxelCoords();
-    viewer.updateWorldCoords();
-    viewer.updateIntensity();
-  }
+    //viewer.updateVoxelCoords();
+    //viewer.updateWorldCoords();
+    //viewer.updateIntensity();
+}
 
 
 function getFuncMean(){

@@ -20,40 +20,40 @@ title: ABIDE Preprocessed Viewer
   <script id="volume-ui-template" type="x-volume-ui-template">
     <div class="hide volume-viewer-display"></div>
       
-    <div class="bot right">
+    <div class="bot right config-panel">
       <div class="coords">
-        <div class="control-heading" id="voxel-coordinates-heading-">
+        <div class="control-heading m-top-5" id="voxel-coordinates-heading-">
           Voxel Coordinates: 
         </div>
-        <div class="voxel-coords" data-volume-id="{{VOLID}}">
+        <div class="voxel-coords m-top-5" data-volume-id="{{VOLID}}">
           I:<input id="voxel-i-" class="control-inputs" readonly="readonly">
           J:<input id="voxel-j-" class="control-inputs" readonly="readonly">
           K:<input id="voxel-k-" class="control-inputs" readonly="readonly">
         </div>
-        <div class="control-heading" id="world-coordinates-heading-">
+        <div id="world-coordinates-heading-" class="control-heading m-top-20">
           World Coordinates: 
         </div>
-        <div class="world-coords" data-volume-id="{{VOLID}}">
+        <div class="world-coords m-top-5" data-volume-id="{{VOLID}}">
           X:<input id="world-x-" class="control-inputs" readonly="readonly">
           Y:<input id="world-y-" class="control-inputs" readonly="readonly">
           Z:<input id="world-z-" class="control-inputs" readonly="readonly">
         </div>
       </div>
 
-      <div id="intensity-value-div-{{VOLID}}">
-        <span class="control-heading" data-volume-id="{{VOLID}}">
+      <div id="intensity-value-div-{{VOLID}}" class="m-top-20">
+        <span data-volume-id="{{VOLID}}" class="control-heading">
           Value: 
         </span>
-        <span id="intensity-value-{{VOLID}}" class="intensity-value"></span>
+        <span id="intensity-value-" class="intensity-value"></span>
       </div>
       
-      <div id="color-map-{{VOLID}}">
+      <div id="color-map-{{VOLID}}" class="m-top-20">
         <span class="control-heading" id="color-map-heading">
           Color Map: 
         </span>
       </div>
 
-      <div class="threshold-div" data-volume-id="{{VOLID}}">
+      <div class="threshold-div m-top-20" data-volume-id="{{VOLID}}">
         <div id="threshold-heading" class="control-heading">Threshold: </div>
         <div class="thresh-inputs">
           <input id="min-threshold-" class="control-inputs thresh-input-left" readonly="readonly"/>
@@ -62,11 +62,11 @@ title: ABIDE Preprocessed Viewer
         <div class="slider volume-viewer-threshold" id="threshold-slider-{{VOLID}}"></div>
       </div>
 
-      <div id="time-{{VOLID}}" class="time-div" data-volume-id="{{VOLID}}">
+      <div id="time-" class="time-div m-top-20" data-volume-id="{{VOLID}}">
         <span class="control-heading">Time:</span>
         <input class="control-inputs" value="0" id="time-val-{{VOLID}}"/>
-        <div class="slider volume-viewer-threshold" id="time-slider-{{VOLID}}"></div>
-        <input type="checkbox" class="button" id="play-{{VOLID}}"><label for="play-{{VOLID}}">Play</label>
+        <div class="slider volume-viewer-threshold" id="time-slider-"></div>
+        <input type="checkbox" class="button" id="play-"><label for="play-">Play</label>
       </div>
     </div>
   </script>
@@ -80,10 +80,10 @@ title: ABIDE Preprocessed Viewer
   </div>
 
 
-  <div class="bot">
+  <div class="bot config-panel">
     <div>
       <span class="control-heading">Pipeline:</span>
-      <select id="pipeline">
+      <select id="pipeline" class="option">
         <option value="cpac">CPAC</option>
         <option value="ccs">ccs</option>
         <option value="dparsf">dparsf</option>
@@ -91,9 +91,9 @@ title: ABIDE Preprocessed Viewer
       </select> 
     </div>
 
-    <div>
-      <span class="control-heading">Strategy:</span>
-      <select id="strategy">
+    <div class="m-top-15">
+      <span class="control-heading" >Strategy:</span>
+      <select id="strategy" class="option">
         <option value="filt_global">filt_globa</option>
         <option value="filt_noglobal">filt_noglobal</option>
         <option value="nofilt_global">nofilt_global</option>
@@ -101,10 +101,10 @@ title: ABIDE Preprocessed Viewer
       </select> 
     </div>
 
-    <div>
-      <span class="control-heading">Derivative:</span>
-      <select id="derivative">
-        <option value="alff">falff</option>
+    <div class="m-top-15">
+      <span class="control-heading" >Derivative:</span>
+      <select id="derivative" class="option">
+        <option value="alff">alff</option>
         <option value="degree_binarize">degree binarize</option>
         <option value="degree_weighted">degree weighted</option>
         <option value="eigenvector_binarize">eigenvector binarize</option>
@@ -117,11 +117,12 @@ title: ABIDE Preprocessed Viewer
       </select> 
     </div>
 
-    <div>
-    <span class="control-heading">Subject:</span>
-    <input type="text" id="subject" value="OHSU_0050147">
+    <div class="m-top-15">
+      <span class="control-heading">Subject:</span>
+      <input type="text" id="subject" value="OHSU_0050147" class="option">
     </div>
-    <input type="submit" onclick="loadFile()" value="Load data" class="button">
+
+    <input type="submit" onclick="loadFile()" value="Load data" class="button m-top-25">
 
   </div>
 
