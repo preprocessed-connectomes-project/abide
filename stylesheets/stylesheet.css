@@ -49,9 +49,9 @@ Theme Styles
 *******************************************************************************/
 
 body {
-    padding: 50px 0;
+  padding: 50px 0;
   box-sizing: border-box;
-  color:#373737;
+  color: #373737;
   background: #d6c9b8 url("../images/block.png") repeat 0 0;
   /*background:#d6c9b8;*/
   font-size: 20px;
