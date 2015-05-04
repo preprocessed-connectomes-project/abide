@@ -29,9 +29,9 @@ $(function() {
     $("#voxel-i-").val(parseInt(voxel_coords.xspace, 10)).change();
     $("#voxel-j-").val(parseInt(voxel_coords.yspace, 10)).change();
     $("#voxel-k-").val(parseInt(voxel_coords.zspace, 10)).change();
-    console.log($("#voxel-i-").val());
-    console.log($("#voxel-j-").val());
-    console.log($("#voxel-k-").val());
+    // console.log($("#voxel-i-").val());
+    // console.log($("#voxel-j-").val());
+    // console.log($("#voxel-k-").val());
   }
 
   viewer.updateWorldCoords = function(){
@@ -117,6 +117,32 @@ $(function() {
         max_input[0].value = volume.intensity_max;
 
       });
+
+
+            // Contrast controls
+      container.find(".contrast-div").each(function() {
+        var div = $(this);
+        var slider = div.find(".slider");
+        var contrast_input = div.find("#contrast-val");
+        // Slider to select contrast value.
+        slider.slider({
+          min: 0,
+          max: 2,
+          step: 0.05,
+          value: 1,
+          slide: function(event, ui) {
+            var value = parseFloat(ui.value);
+            viewer.volumes[2].display.setContrast(value);
+            viewer.volumes[2].display.refreshPanels();
+            
+            contrast_input.val(value);
+          },
+          stop: function() {
+            $(this).find("a").blur();
+          }
+        });
+      });
+
 
       container.find(".time-div").each(function() {
         var div = $(this);

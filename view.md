@@ -60,13 +60,18 @@ title: ABIDE Preprocessed Viewer
           <input id="max-threshold-" class="control-inputs thresh-input-right" readonly="readonly"/>
         </div> 
         <div class="slider volume-viewer-threshold" id="threshold-slider-{{VOLID}}"></div>
+
+        <div class="contrast-div" data-volume-id="{{VOLID}}">
+          <span class="control-heading" id="contrast-heading{{VOLID}}">Contrast (0.0 to 2.0):</span>
+          <input class="control-inputs" value="1.0" id="contrast-val"/>
+          <div id="contrast-slider" class="slider volume-viewer-contrast"></div>
+        </div>
       </div>
 
       <div id="time-" class="time-div m-top-20" data-volume-id="{{VOLID}}">
         <span class="control-heading">Time:</span>
         <input class="control-inputs" value="0" id="time-val-{{VOLID}}"/>
         <div class="slider volume-viewer-threshold" id="time-slider-"></div>
-        <input type="checkbox" class="button" id="play-"><label for="play-">Play</label>
       </div>
     </div>
   </script>
@@ -104,7 +109,6 @@ title: ABIDE Preprocessed Viewer
     <div class="m-top-15">
       <span class="control-heading" >Derivative:</span>
       <select id="derivative" class="option">
-        <option value="dual_regression">dual regression</option>
         <option value="alff">alff</option>
         <option value="degree_binarize">degree binarize</option>
         <option value="degree_weighted">degree weighted</option>
@@ -114,6 +118,7 @@ title: ABIDE Preprocessed Viewer
         <option value="reho">reho</option>
         <option value="vmhc">vmhc</option>
         <option value="lfcd">lfcd</option>
+        <option value="dual_regression">dual regression</option>
       </select> 
     </div>
 
