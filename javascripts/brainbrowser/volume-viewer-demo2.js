@@ -120,28 +120,55 @@ $(function() {
 
 
             // Contrast controls
-      container.find(".contrast-div").each(function() {
+      container.find(".brightness-div").each(function() {
         var div = $(this);
         var slider = div.find(".slider");
-        var contrast_input = div.find("#contrast-val");
-        // Slider to select contrast value.
+        var brightness_input = div.find("#brightness-val");
+
+        // Slider to select brightness value.
         slider.slider({
-          min: 0,
-          max: 2,
+          min: -1,
+          max: 1,
           step: 0.05,
-          value: 1,
+          value: 0,
           slide: function(event, ui) {
             var value = parseFloat(ui.value);
-            viewer.volumes[2].display.setContrast(value);
+            viewer.volumes[2].display.setBrightness(value);
             viewer.volumes[2].display.refreshPanels();
             
-            contrast_input.val(value);
+            brightness_input.val(value);
           },
           stop: function() {
             $(this).find("a").blur();
           }
         });
       });
+    //});
+
+
+      // // Contrast controls
+      // container.find(".contrast-div").each(function() {
+      //   var div = $(this);
+      //   var slider = div.find(".slider");
+      //   var contrast_input = div.find("#contrast-val");
+      //   // Slider to select contrast value.
+      //   slider.slider({
+      //     min: 0,
+      //     max: 2,
+      //     step: 0.05,
+      //     value: 1,
+      //     slide: function(event, ui) {
+      //       var value = parseFloat(ui.value);
+      //       viewer.volumes[2].display.setContrast(value);
+      //       viewer.volumes[2].display.refreshPanels();
+            
+      //       contrast_input.val(value);
+      //     },
+      //     stop: function() {
+      //       $(this).find("a").blur();
+      //     }
+      //   });
+      // });
 
 
       container.find(".time-div").each(function() {

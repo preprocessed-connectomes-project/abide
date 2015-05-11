@@ -61,11 +61,18 @@ title: ABIDE Preprocessed Viewer
         </div> 
         <div class="slider volume-viewer-threshold" id="threshold-slider-{{VOLID}}"></div>
 
-        <div class="contrast-div" data-volume-id="{{VOLID}}">
+        <!-- <div class="contrast-div" data-volume-id="{{VOLID}}">
           <span class="control-heading" id="contrast-heading{{VOLID}}">Contrast (0.0 to 2.0):</span>
           <input class="control-inputs" value="1.0" id="contrast-val"/>
           <div id="contrast-slider" class="slider volume-viewer-contrast"></div>
-        </div>
+        </div> //-->
+
+        <div class="brightness-div" data-volume-id="{{VOLID}}">
+          <span class="control-heading" id="brightness-heading{{VOLID}}">Brightness (-1 to 1):</span>
+          <input class="control-inputs" value="0" id="brightness-val"/>
+          <div id="brightness-slider" class="slider volume-viewer-brightness"></div>
+      </div>
+
       </div>
 
       <div id="time-" class="time-div m-top-20" data-volume-id="{{VOLID}}">
