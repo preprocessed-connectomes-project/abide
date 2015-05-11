@@ -1,0 +1,145 @@
+/*
+* BrainBrowser: Web-based Neurological Visualization Tools
+* (https://brainbrowser.cbrain.mcgill.ca)
+*
+* Copyright (C) 2011 
+* The Royal Institution for the Advancement of Learning
+* McGill University
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Affero General Public License as
+* published by the Free Software Foundation, either version 3 of the
+* License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU Affero General Public License for more details.
+*
+* You should have received a copy of the GNU Affero General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*
+*
+* Author: Tarek Sherif <tsherif@gmail.com> (http://tareksherif.ca/)
+* Author: Nicolas Kassis
+*/
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.hide{
+  display: none;
+}
+
+
+#global-controls {
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 0;
+}
+
+.control-heading {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.control-inputs {
+  border: none;
+  padding: 2px;
+  margin-left: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 1px 1px 0px 0px #787878;
+  -webkit-box-shadow: 1px 1px 0px 0px #787878;
+  box-shadow: 1px 1px 0px 0px #787878;
+  width: 2em;
+}
+
+.coords .control-inputs {
+  margin-right: 0.6em;
+  width: 40px;
+  font-size: 10px;
+}
+
+.volume-viewer-threshold{
+  width: 100%;
+  margin: auto;
+}
+
+.ui-slider .ui-slider-handle .ui-state-default .ui-corner-all {
+  color: #777777 !important;
+  font-size: 10px;
+  padding: 3px;
+  text-shadow: 0 1px 0 #FFFFFF;
+  text-decoration:none;
+}
+
+.slider {
+  margin-top: 1.5em!important;
+  margin-bottom: 1em!important;
+}
+
+.thresh-inputs {
+  position: relative;
+  height: 1em;
+}
+
+.thresh-input-left {
+  position: absolute;
+  left: 3px;
+}
+
+.thresh-input-right {
+  position: absolute;
+  right: 10px;
+}
+
+
+.intensity-value {
+  padding: 1px;
+}
+
+
+.top{
+  position: absolute;
+  top: -10px;
+}
+
+.bot{
+  position: absolute;
+  top: 340px;
+  left: 20px;
+}
+
+.right{
+  left: 350px;
+}
+
+.relative-pos{
+  position: relative;
+  height: 920px;
+}
+
+canvas{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.m-top-5{  margin-top: 5px;}
+.m-top-15{  margin-top: 15px;}
+.m-top-20{  margin-top: 20px;}
+.m-top-25{  margin-top: 25px;}
+
+.config-panel{
+  width: 280px;
+}
+
+.option{
+  width: 100%;
+}
