@@ -119,7 +119,7 @@ $(function() {
       });
 
 
-            // Contrast controls
+      // Contrast controls
       container.find(".brightness-div").each(function() {
         var div = $(this);
         var slider = div.find(".slider");
@@ -127,14 +127,14 @@ $(function() {
 
         // Slider to select brightness value.
         slider.slider({
-          min: -1,
+          min: 0,
           max: 1,
           step: 0.05,
-          value: 0,
+          value: 0.5,
           slide: function(event, ui) {
             var value = parseFloat(ui.value);
-            viewer.volumes[2].display.setBrightness(value);
-            viewer.volumes[2].display.refreshPanels();
+            viewer.volumes[2].blend_ratios = [value, 0.5]
+            viewer.redrawVolumes();
             
             brightness_input.val(value);
           },
