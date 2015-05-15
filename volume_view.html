@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="Preprocessed Connectomes Project" />
+
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="javascripts/menu_script.js"></script>
+        <title>ABIDE Preprocessed</title>
+    </head>
+
+    <body>
+      
+        <div id="container">
+
+        <!-- HEADER -->
+            <header>
+                <!--<a id="forkme_banner" href="https://github.com/ccraddock/abide_preproc">View on GitHub</a>-->
+
+                <h1 id="project_title">ABIDE Preprocessed</h1><br>
+  		        <div id='cssmenu'>
+  		            <ul>
+  		                <li class='active'><a href='index.html'>Overview</a></li>
+                        <li class='active'><a href='download.html'>Download</a></li>
+  		                <li class='active'><a href='Pipelines.html'>Pipelines</a></li>
+                        <li class='active'><a href="quality_assessment.html">QA</a></li>
+                        <li class='active'><a href='https://groups.google.com/d/forum/pcp_forum' target="_blank">Forum</a></li>
+                        <li class='active'><a href='publications.html'>Publications</a></li>
+                        <li class='active'><a href='https://preprocessed-connectomes-project.github.io' target="_blank">PCP</a></li>
+  		                <li class='active'><a href='https://github.com/preprocessed-connectomes-project' target="_blank">Github</a></li>
+
+  		            </ul>
+  		        </div>
+            </header>
+            
+                <div id="main_content_wrap" class="outer">
+                    <section id="main_content" class="inner">
+                        <link type="text/css" href="stylesheets/volume-viewer-demo.css" rel="Stylesheet" />
+
+<link type="text/css" href="stylesheets/ui-darkness/jquery-ui-1.8.10.custom.css" rel="Stylesheet" />
+
+<div class="container relative-pos">
+
+    <script id="overlay-ui-template" type="x-volume-ui-template">
+      <div id="overlay_viewer" class="overlay-viewer-display inline top"></div>
+    </script>
+
+
+  <script id="hidden-ui-template" type="x-hidden-ui-template">
+    <div class="hide volume-viewer-hidden"></div>
+  </script>
+
+  <script id="volume-ui-template" type="x-volume-ui-template">
+    <div class="hide volume-viewer-display"></div>
+      
+    <div class="bot right config-panel">
+      <div class="coords">
+        <div class="control-heading m-top-5" id="voxel-coordinates-heading-">
+          Voxel Coordinates: 
+        </div>
+        <div class="voxel-coords m-top-5" data-volume-id="">
+          I:<input id="voxel-i-" class="control-inputs" readonly="readonly">
+          J:<input id="voxel-j-" class="control-inputs" readonly="readonly">
+          K:<input id="voxel-k-" class="control-inputs" readonly="readonly">
+        </div>
+        <div id="world-coordinates-heading-" class="control-heading m-top-20">
+          World Coordinates: 
+        </div>
+        <div class="world-coords m-top-5" data-volume-id="">
+          X:<input id="world-x-" class="control-inputs" readonly="readonly">
+          Y:<input id="world-y-" class="control-inputs" readonly="readonly">
+          Z:<input id="world-z-" class="control-inputs" readonly="readonly">
+        </div>
+      </div>
+
+      <div id="intensity-value-div-" class="m-top-20">
+        <span data-volume-id="" class="control-heading">
+          Value: 
+        </span>
+        <span id="intensity-value-" class="intensity-value"></span>
+      </div>
+      
+      <div id="color-map-" class="m-top-20">
+        <span class="control-heading" id="color-map-heading">
+          Color Map: 
+        </span>
+      </div>
+
+      <div class="threshold-div m-top-20" data-volume-id="">
+        <div id="threshold-heading" class="control-heading">Threshold: </div>
+        <div class="thresh-inputs">
+          <input id="min-threshold-" class="control-inputs thresh-input-left" readonly="readonly"/>
+          <input id="max-threshold-" class="control-inputs thresh-input-right" readonly="readonly"/>
+        </div> 
+        <div class="slider volume-viewer-threshold" id="threshold-slider-"></div>
+
+        <!-- <div class="contrast-div" data-volume-id="">
+          <span class="control-heading" id="contrast-heading">Contrast (0.0 to 2.0):</span>
+          <input class="control-inputs" value="1.0" id="contrast-val"/>
+          <div id="contrast-slider" class="slider volume-viewer-contrast"></div>
+        </div> //-->
+
+        <div class="brightness-div" data-volume-id="">
+          <span class="control-heading" id="brightness-heading">Alpha (0 to 1):</span>
+          <input class="control-inputs" value="0.5" id="brightness-val" readonly="readonly"/>
+          <div id="brightness-slider" class="slider volume-viewer-brightness"></div>
+      </div>
+
+      </div>
+
+      <div id="time-" class="time-div m-top-20" data-volume-id="">
+        <span class="control-heading">Time:</span>
+        <input class="control-inputs" value="0" id="time-val-"/>
+        <div class="slider volume-viewer-threshold" id="time-slider-"></div>
+      </div>
+    </div>
+  </script>
+
+  <div id="loading" style="display: none"><img src="images/ajax-loader.gif" /></div>
+  <div id="brainbrowser-wrapper" style="display:none">
+    <div id="volume-viewer">
+      <div id="global-controls" class=""></div>
+      <div id="brainbrowser"></div>
+    </div>
+  </div>
+
+
+  <div class="bot config-panel">
+    <div>
+      <span class="control-heading">Pipeline:</span>
+      <select id="pipeline" class="option">
+        <option value="cpac">CPAC</option>
+        <option value="ccs">ccs</option>
+        <option value="dparsf">dparsf</option>
+        <option value="dparsf">niak</option>
+      </select> 
+    </div>
+
+    <div class="m-top-15">
+      <span class="control-heading">Strategy:</span>
+      <select id="strategy" class="option">
+        <option value="filt_global">filt_globa</option>
+        <option value="filt_noglobal">filt_noglobal</option>
+        <option value="nofilt_global">nofilt_global</option>
+        <option value="nofilt_noglobal">nofilt_noglobal</option>
+      </select> 
+    </div>
+
+    <div class="m-top-15">
+      <span class="control-heading">Derivative:</span>
+      <select id="derivative" class="option">
+        <option value="alff">alff</option>
+        <option value="degree_binarize">degree binarize</option>
+        <option value="degree_weighted">degree weighted</option>
+        <option value="eigenvector_binarize">eigenvector binarize</option>
+        <option value="eigenvector_weighted">eigenvector weighted</option>
+        <option value="falff">falff</option>
+        <option value="reho">reho</option>
+        <option value="vmhc">vmhc</option>
+        <option value="lfcd">lfcd</option>
+        <option value="dual_regression">dual regression</option>
+      </select> 
+    </div>
+
+    <div class="m-top-15">
+      <span class="control-heading">Subject:</span>
+      <input type="text" id="subject" value="OHSU_0050147" class="option" />
+    </div>
+
+    <input type="submit" onclick="loadFile()" value="Load data" class="button m-top-25" />
+
+  </div>
+
+<script src="javascripts/brainbrowser/jquery-1.6.4.min.js"></script>
+<script src="javascripts/brainbrowser/jquery-ui-1.8.10.custom.min.js"></script>
+<script src="javascripts/brainbrowser/ui.js"></script>
+<script src="javascripts/brainbrowser/gunzip.min.js"></script>
+<script src="javascripts/brainbrowser/brainbrowser.js"></script>
+<script src="javascripts/brainbrowser/core/tree-store.js"></script>
+<script src="javascripts/brainbrowser/lib/config.js"></script>
+<script src="javascripts/brainbrowser/lib/utils.js"></script>
+<script src="javascripts/brainbrowser/lib/events.js"></script> 
+<script src="javascripts/brainbrowser/lib/loader.js"></script> 
+<script src="javascripts/brainbrowser/lib/color-map.js"></script> 
+<script src="javascripts/brainbrowser/volume-viewer.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/lib/display.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/lib/panel.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/lib/utils.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/modules/loading.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/modules/rendering.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/volume-loaders/overlay.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/volume-loaders/minc.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer/volume-loaders/nifti1.js"></script>
+<script src="javascripts/brainbrowser/volume-viewer-demo.config.js"></script> 
+<script src="javascripts/brainbrowser/volume-viewer-demo2.js"></script> 
+
+</div>
+
+
+                    </section>
+                </div>
+                    
+            <!-- FOOTER  -->
+            <footer class="inner">
+                <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+            </footer>
+    
+        </div>  
+    </body>
+</html>
