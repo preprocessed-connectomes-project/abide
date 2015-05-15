@@ -68,8 +68,8 @@ title: ABIDE Preprocessed Viewer
         </div> //-->
 
         <div class="brightness-div" data-volume-id="{{VOLID}}">
-          <span class="control-heading" id="brightness-heading{{VOLID}}">Brightness (-1 to 1):</span>
-          <input class="control-inputs" value="0" id="brightness-val"/>
+          <span class="control-heading" id="brightness-heading{{VOLID}}">Alpha (0 to 1):</span>
+          <input class="control-inputs" value="0.5" id="brightness-val" readonly="readonly"/>
           <div id="brightness-slider" class="slider volume-viewer-brightness"></div>
       </div>
 
