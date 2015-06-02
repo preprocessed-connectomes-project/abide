@@ -1,0 +1,13 @@
+#! /bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -V
+#$ -t 1-18
+#$ -q all.q
+#$ -pe mpi_smp 32
+#$ -e /home/ubuntu/fs_run.err
+#$ -o /home/ubuntu/fs_run.out
+source /etc/profile.d/cpac_env.sh
+echo "Start - TASKID " $SGE_TASK_ID " : " $(date)
+python /home/ubuntu/work-dir/eigen_run.py $SGE_TASK_ID
+echo "End - TASKID " $SGE_TASK_ID " : " $(date)

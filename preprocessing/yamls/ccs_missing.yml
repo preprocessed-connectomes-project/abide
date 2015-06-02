@@ -1,0 +1,1981 @@
+Caltech_0051475:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Caltech_0051475_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Caltech_0051475_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Caltech_0051475_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Caltech_0051475_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Caltech_0051475_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Caltech_0051475_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Caltech_0051475_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Caltech_0051475_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Caltech_0051475_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Caltech_0051475_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Caltech_0051475_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Caltech_0051475_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Caltech_0051475_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Caltech_0051475_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Caltech_0051475_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Caltech_0051475_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Caltech_0051475_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Caltech_0051475_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Caltech_0051475_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Caltech_0051475_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Caltech_0051475_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Caltech_0051475_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Caltech_0051475_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Caltech_0051475_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Caltech_0051475_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Caltech_0051475_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Caltech_0051475_rois_tt.1D]
+KKI_0050805:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050805_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050805_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050805_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050805_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050805_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050805_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050805_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050805_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050805_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050805_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050805_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050805_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050805_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050805_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050805_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050805_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050805_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050805_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050805_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050805_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050805_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050805_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050805_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050805_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050805_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050805_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050805_rois_tt.1D]
+KKI_0050806:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050806_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050806_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050806_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050806_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050806_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050806_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050806_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050806_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050806_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050806_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050806_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050806_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050806_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050806_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050806_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050806_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050806_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050806_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050806_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050806_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050806_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050806_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050806_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050806_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050806_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050806_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050806_rois_tt.1D]
+KKI_0050808:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050808_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050808_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050808_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050808_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050808_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050808_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050808_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050808_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050808_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050808_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050808_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050808_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050808_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050808_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050808_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050808_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050808_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050808_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050808_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050808_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050808_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050808_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050808_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050808_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050808_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050808_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050808_rois_tt.1D]
+KKI_0050809:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050809_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050809_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050809_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050809_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050809_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050809_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050809_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050809_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050809_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050809_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050809_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050809_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050809_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050809_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050809_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050809_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050809_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050809_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050809_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050809_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050809_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050809_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050809_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050809_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050809_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050809_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050809_rois_tt.1D]
+KKI_0050810:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050810_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050810_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050810_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050810_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050810_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050810_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050810_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050810_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050810_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050810_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050810_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050810_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050810_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050810_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050810_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050810_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050810_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050810_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050810_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050810_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050810_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050810_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050810_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050810_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050810_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050810_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050810_rois_tt.1D]
+KKI_0050811:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050811_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050811_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050811_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050811_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050811_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050811_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050811_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050811_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050811_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050811_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050811_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050811_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050811_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050811_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050811_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050811_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050811_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050811_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050811_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050811_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050811_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050811_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050811_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050811_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050811_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050811_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050811_rois_tt.1D]
+KKI_0050813:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/KKI_0050813_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/KKI_0050813_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/KKI_0050813_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/KKI_0050813_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/KKI_0050813_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/KKI_0050813_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/KKI_0050813_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/KKI_0050813_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/KKI_0050813_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/KKI_0050813_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/KKI_0050813_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/KKI_0050813_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/KKI_0050813_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/KKI_0050813_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/KKI_0050813_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/KKI_0050813_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/KKI_0050813_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/KKI_0050813_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/KKI_0050813_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/KKI_0050813_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/KKI_0050813_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/KKI_0050813_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/KKI_0050813_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/KKI_0050813_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/KKI_0050813_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/KKI_0050813_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/KKI_0050813_rois_tt.1D]
+Leuven_2_0050734:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Leuven_2_0050734_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Leuven_2_0050734_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Leuven_2_0050734_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Leuven_2_0050734_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Leuven_2_0050734_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Leuven_2_0050734_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Leuven_2_0050734_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Leuven_2_0050734_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Leuven_2_0050734_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Leuven_2_0050734_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Leuven_2_0050734_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Leuven_2_0050734_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Leuven_2_0050734_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Leuven_2_0050734_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Leuven_2_0050734_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Leuven_2_0050734_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Leuven_2_0050734_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Leuven_2_0050734_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Leuven_2_0050734_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Leuven_2_0050734_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Leuven_2_0050734_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Leuven_2_0050734_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Leuven_2_0050734_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Leuven_2_0050734_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Leuven_2_0050734_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Leuven_2_0050734_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Leuven_2_0050734_rois_tt.1D]
+MaxMun_a_0051366:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/MaxMun_a_0051366_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/MaxMun_a_0051366_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/MaxMun_a_0051366_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/MaxMun_a_0051366_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/MaxMun_a_0051366_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/MaxMun_a_0051366_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/MaxMun_a_0051366_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/MaxMun_a_0051366_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/MaxMun_a_0051366_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/MaxMun_a_0051366_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/MaxMun_a_0051366_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/MaxMun_a_0051366_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/MaxMun_a_0051366_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/MaxMun_a_0051366_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/MaxMun_a_0051366_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/MaxMun_a_0051366_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/MaxMun_a_0051366_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/MaxMun_a_0051366_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/MaxMun_a_0051366_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/MaxMun_a_0051366_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/MaxMun_a_0051366_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/MaxMun_a_0051366_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/MaxMun_a_0051366_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/MaxMun_a_0051366_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/MaxMun_a_0051366_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/MaxMun_a_0051366_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/MaxMun_a_0051366_rois_tt.1D]
+MaxMun_a_0051367:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/MaxMun_a_0051367_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/MaxMun_a_0051367_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/MaxMun_a_0051367_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/MaxMun_a_0051367_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/MaxMun_a_0051367_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/MaxMun_a_0051367_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/MaxMun_a_0051367_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/MaxMun_a_0051367_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/MaxMun_a_0051367_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/MaxMun_a_0051367_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/MaxMun_a_0051367_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/MaxMun_a_0051367_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/MaxMun_a_0051367_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/MaxMun_a_0051367_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/MaxMun_a_0051367_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/MaxMun_a_0051367_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/MaxMun_a_0051367_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/MaxMun_a_0051367_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/MaxMun_a_0051367_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/MaxMun_a_0051367_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/MaxMun_a_0051367_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/MaxMun_a_0051367_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/MaxMun_a_0051367_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/MaxMun_a_0051367_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/MaxMun_a_0051367_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/MaxMun_a_0051367_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/MaxMun_a_0051367_rois_tt.1D]
+MaxMun_a_0051368:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/MaxMun_a_0051368_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/MaxMun_a_0051368_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/MaxMun_a_0051368_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/MaxMun_a_0051368_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/MaxMun_a_0051368_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/MaxMun_a_0051368_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/MaxMun_a_0051368_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/MaxMun_a_0051368_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/MaxMun_a_0051368_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/MaxMun_a_0051368_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/MaxMun_a_0051368_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/MaxMun_a_0051368_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/MaxMun_a_0051368_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/MaxMun_a_0051368_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/MaxMun_a_0051368_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/MaxMun_a_0051368_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/MaxMun_a_0051368_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/MaxMun_a_0051368_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/MaxMun_a_0051368_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/MaxMun_a_0051368_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/MaxMun_a_0051368_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/MaxMun_a_0051368_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/MaxMun_a_0051368_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/MaxMun_a_0051368_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/MaxMun_a_0051368_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/MaxMun_a_0051368_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/MaxMun_a_0051368_rois_tt.1D]
+MaxMun_a_0051371:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/MaxMun_a_0051371_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/MaxMun_a_0051371_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/MaxMun_a_0051371_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/MaxMun_a_0051371_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/MaxMun_a_0051371_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/MaxMun_a_0051371_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/MaxMun_a_0051371_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/MaxMun_a_0051371_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/MaxMun_a_0051371_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/MaxMun_a_0051371_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/MaxMun_a_0051371_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/MaxMun_a_0051371_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/MaxMun_a_0051371_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/MaxMun_a_0051371_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/MaxMun_a_0051371_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/MaxMun_a_0051371_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/MaxMun_a_0051371_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/MaxMun_a_0051371_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/MaxMun_a_0051371_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/MaxMun_a_0051371_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/MaxMun_a_0051371_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/MaxMun_a_0051371_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/MaxMun_a_0051371_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/MaxMun_a_0051371_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/MaxMun_a_0051371_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/MaxMun_a_0051371_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/MaxMun_a_0051371_rois_tt.1D]
+MaxMun_a_0051372:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/MaxMun_a_0051372_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/MaxMun_a_0051372_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/MaxMun_a_0051372_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/MaxMun_a_0051372_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/MaxMun_a_0051372_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/MaxMun_a_0051372_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/MaxMun_a_0051372_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/MaxMun_a_0051372_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/MaxMun_a_0051372_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/MaxMun_a_0051372_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/MaxMun_a_0051372_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/MaxMun_a_0051372_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/MaxMun_a_0051372_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/MaxMun_a_0051372_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/MaxMun_a_0051372_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/MaxMun_a_0051372_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/MaxMun_a_0051372_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/MaxMun_a_0051372_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/MaxMun_a_0051372_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/MaxMun_a_0051372_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/MaxMun_a_0051372_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/MaxMun_a_0051372_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/MaxMun_a_0051372_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/MaxMun_a_0051372_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/MaxMun_a_0051372_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/MaxMun_a_0051372_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/MaxMun_a_0051372_rois_tt.1D]
+NYU_0050953:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0050953_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0050953_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0050953_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0050953_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0050953_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0050953_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0050953_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0050953_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0050953_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0050953_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0050953_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0050953_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0050953_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0050953_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0050953_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0050953_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0050953_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0050953_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0050953_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0050953_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0050953_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0050953_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0050953_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0050953_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0050953_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0050953_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0050953_rois_tt.1D]
+NYU_0050971:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0050971_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0050971_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0050971_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0050971_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0050971_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0050971_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0050971_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0050971_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0050971_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0050971_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0050971_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0050971_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0050971_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0050971_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0050971_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0050971_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0050971_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0050971_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0050971_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0050971_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0050971_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0050971_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0050971_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0050971_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0050971_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0050971_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0050971_rois_tt.1D]
+NYU_0050975:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0050975_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0050975_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0050975_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0050975_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0050975_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0050975_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0050975_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0050975_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0050975_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0050975_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0050975_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0050975_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0050975_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0050975_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0050975_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0050975_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0050975_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0050975_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0050975_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0050975_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0050975_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0050975_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0050975_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0050975_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0050975_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0050975_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0050975_rois_tt.1D]
+NYU_0050980:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0050980_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0050980_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0050980_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0050980_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0050980_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0050980_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0050980_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0050980_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0050980_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0050980_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0050980_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0050980_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0050980_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0050980_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0050980_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0050980_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0050980_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0050980_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0050980_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0050980_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0050980_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0050980_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0050980_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0050980_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0050980_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0050980_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0050980_rois_tt.1D]
+NYU_0051108:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0051108_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0051108_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0051108_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0051108_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0051108_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0051108_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0051108_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0051108_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0051108_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0051108_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0051108_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0051108_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0051108_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0051108_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0051108_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0051108_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0051108_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0051108_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0051108_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0051108_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0051108_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0051108_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0051108_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0051108_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0051108_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0051108_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0051108_rois_tt.1D]
+NYU_0051115:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0051115_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0051115_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0051115_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0051115_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0051115_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0051115_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0051115_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0051115_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0051115_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0051115_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0051115_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0051115_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0051115_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0051115_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0051115_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0051115_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0051115_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0051115_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0051115_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0051115_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0051115_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0051115_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0051115_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0051115_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0051115_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0051115_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0051115_rois_tt.1D]
+NYU_0051119:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0051119_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0051119_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0051119_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0051119_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0051119_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0051119_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0051119_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0051119_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0051119_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0051119_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0051119_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0051119_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0051119_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0051119_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0051119_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0051119_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0051119_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0051119_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0051119_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0051119_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0051119_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0051119_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0051119_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0051119_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0051119_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0051119_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0051119_rois_tt.1D]
+NYU_0051120:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0051120_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0051120_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0051120_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0051120_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0051120_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0051120_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0051120_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0051120_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0051120_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0051120_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0051120_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0051120_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0051120_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0051120_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0051120_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0051120_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0051120_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0051120_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0051120_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0051120_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0051120_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0051120_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0051120_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0051120_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0051120_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0051120_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0051120_rois_tt.1D]
+NYU_0051125:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/NYU_0051125_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/NYU_0051125_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/NYU_0051125_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/NYU_0051125_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/NYU_0051125_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/NYU_0051125_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/NYU_0051125_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/NYU_0051125_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/NYU_0051125_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/NYU_0051125_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/NYU_0051125_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/NYU_0051125_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/NYU_0051125_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/NYU_0051125_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/NYU_0051125_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/NYU_0051125_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/NYU_0051125_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/NYU_0051125_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/NYU_0051125_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/NYU_0051125_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/NYU_0051125_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/NYU_0051125_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/NYU_0051125_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/NYU_0051125_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/NYU_0051125_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/NYU_0051125_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/NYU_0051125_rois_tt.1D]
+OHSU_0050155:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/OHSU_0050155_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/OHSU_0050155_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/OHSU_0050155_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/OHSU_0050155_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/OHSU_0050155_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/OHSU_0050155_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/OHSU_0050155_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/OHSU_0050155_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/OHSU_0050155_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/OHSU_0050155_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/OHSU_0050155_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/OHSU_0050155_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/OHSU_0050155_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/OHSU_0050155_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/OHSU_0050155_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/OHSU_0050155_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/OHSU_0050155_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/OHSU_0050155_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/OHSU_0050155_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/OHSU_0050155_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/OHSU_0050155_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/OHSU_0050155_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/OHSU_0050155_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/OHSU_0050155_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/OHSU_0050155_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/OHSU_0050155_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/OHSU_0050155_rois_tt.1D]
+OHSU_0050165:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/OHSU_0050165_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/OHSU_0050165_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/OHSU_0050165_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/OHSU_0050165_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/OHSU_0050165_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/OHSU_0050165_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/OHSU_0050165_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/OHSU_0050165_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/OHSU_0050165_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/OHSU_0050165_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/OHSU_0050165_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/OHSU_0050165_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/OHSU_0050165_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/OHSU_0050165_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/OHSU_0050165_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/OHSU_0050165_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/OHSU_0050165_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/OHSU_0050165_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/OHSU_0050165_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/OHSU_0050165_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/OHSU_0050165_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/OHSU_0050165_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/OHSU_0050165_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/OHSU_0050165_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/OHSU_0050165_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/OHSU_0050165_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/OHSU_0050165_rois_tt.1D]
+Olin_0050108:
+  func_preproc: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_preproc/Olin_0050108_func_preproc.nii.gz]
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Olin_0050108_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Olin_0050108_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Olin_0050108_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Olin_0050108_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Olin_0050108_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Olin_0050108_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Olin_0050108_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Olin_0050108_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Olin_0050108_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Olin_0050108_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Olin_0050108_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Olin_0050108_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Olin_0050108_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Olin_0050108_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Olin_0050108_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Olin_0050108_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Olin_0050108_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Olin_0050108_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Olin_0050108_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Olin_0050108_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Olin_0050108_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Olin_0050108_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Olin_0050108_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Olin_0050108_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Olin_0050108_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Olin_0050108_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Olin_0050108_rois_tt.1D]
+Olin_0050137:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Olin_0050137_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Olin_0050137_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Olin_0050137_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Olin_0050137_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Olin_0050137_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Olin_0050137_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Olin_0050137_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Olin_0050137_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Olin_0050137_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Olin_0050137_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Olin_0050137_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Olin_0050137_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Olin_0050137_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Olin_0050137_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Olin_0050137_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Olin_0050137_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Olin_0050137_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Olin_0050137_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Olin_0050137_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Olin_0050137_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Olin_0050137_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Olin_0050137_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Olin_0050137_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Olin_0050137_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Olin_0050137_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Olin_0050137_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Olin_0050137_rois_tt.1D]
+Pitt_0050002:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Pitt_0050002_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Pitt_0050002_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Pitt_0050002_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Pitt_0050002_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Pitt_0050002_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Pitt_0050002_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Pitt_0050002_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Pitt_0050002_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Pitt_0050002_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Pitt_0050002_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Pitt_0050002_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Pitt_0050002_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Pitt_0050002_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Pitt_0050002_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Pitt_0050002_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Pitt_0050002_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Pitt_0050002_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Pitt_0050002_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Pitt_0050002_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Pitt_0050002_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Pitt_0050002_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Pitt_0050002_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Pitt_0050002_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Pitt_0050002_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Pitt_0050002_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Pitt_0050002_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Pitt_0050002_rois_tt.1D]
+Stanford_0051176:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Stanford_0051176_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Stanford_0051176_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Stanford_0051176_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Stanford_0051176_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Stanford_0051176_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Stanford_0051176_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Stanford_0051176_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Stanford_0051176_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Stanford_0051176_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Stanford_0051176_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Stanford_0051176_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Stanford_0051176_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Stanford_0051176_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Stanford_0051176_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Stanford_0051176_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Stanford_0051176_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Stanford_0051176_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Stanford_0051176_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Stanford_0051176_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Stanford_0051176_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Stanford_0051176_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Stanford_0051176_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Stanford_0051176_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Stanford_0051176_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Stanford_0051176_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Stanford_0051176_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Stanford_0051176_rois_tt.1D]
+Trinity_0050238:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Trinity_0050238_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Trinity_0050238_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Trinity_0050238_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Trinity_0050238_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Trinity_0050238_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Trinity_0050238_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Trinity_0050238_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Trinity_0050238_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Trinity_0050238_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Trinity_0050238_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Trinity_0050238_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Trinity_0050238_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Trinity_0050238_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Trinity_0050238_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Trinity_0050238_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Trinity_0050238_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Trinity_0050238_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Trinity_0050238_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Trinity_0050238_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Trinity_0050238_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Trinity_0050238_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Trinity_0050238_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Trinity_0050238_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Trinity_0050238_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Trinity_0050238_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Trinity_0050238_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Trinity_0050238_rois_tt.1D]
+Trinity_0050244:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/Trinity_0050244_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/Trinity_0050244_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/Trinity_0050244_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/Trinity_0050244_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/Trinity_0050244_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/Trinity_0050244_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/Trinity_0050244_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/Trinity_0050244_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/Trinity_0050244_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/Trinity_0050244_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/Trinity_0050244_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/Trinity_0050244_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/Trinity_0050244_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/Trinity_0050244_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/Trinity_0050244_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/Trinity_0050244_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/Trinity_0050244_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/Trinity_0050244_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/Trinity_0050244_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/Trinity_0050244_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/Trinity_0050244_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/Trinity_0050244_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/Trinity_0050244_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/Trinity_0050244_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/Trinity_0050244_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/Trinity_0050244_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/Trinity_0050244_rois_tt.1D]
+UCLA_1_0051259:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/UCLA_1_0051259_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/UCLA_1_0051259_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/UCLA_1_0051259_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/UCLA_1_0051259_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/UCLA_1_0051259_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/UCLA_1_0051259_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/UCLA_1_0051259_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/UCLA_1_0051259_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/UCLA_1_0051259_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/UCLA_1_0051259_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/UCLA_1_0051259_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/UCLA_1_0051259_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/UCLA_1_0051259_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/UCLA_1_0051259_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/UCLA_1_0051259_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/UCLA_1_0051259_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/UCLA_1_0051259_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/UCLA_1_0051259_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/UCLA_1_0051259_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/UCLA_1_0051259_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/UCLA_1_0051259_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/UCLA_1_0051259_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/UCLA_1_0051259_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/UCLA_1_0051259_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/UCLA_1_0051259_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/UCLA_1_0051259_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/UCLA_1_0051259_rois_tt.1D]
+UM_1_0050309:
+  alff: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/alff/UM_1_0050309_alff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/alff/UM_1_0050309_alff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/alff/UM_1_0050309_alff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/alff/UM_1_0050309_alff.nii.gz]
+  degree_binarize: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/degree_binarize/UM_1_0050309_degree_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/degree_binarize/UM_1_0050309_degree_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/degree_binarize/UM_1_0050309_degree_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/degree_binarize/UM_1_0050309_degree_binarize.nii.gz]
+  degree_weighted: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/degree_weighted/UM_1_0050309_degree_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/degree_weighted/UM_1_0050309_degree_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/degree_weighted/UM_1_0050309_degree_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/degree_weighted/UM_1_0050309_degree_weighted.nii.gz]
+  dual_regression: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/dual_regression/UM_1_0050309_dual_regression.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/dual_regression/UM_1_0050309_dual_regression.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/dual_regression/UM_1_0050309_dual_regression.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/dual_regression/UM_1_0050309_dual_regression.nii.gz]
+  eigenvector_binarize: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/eigenvector_binarize/UM_1_0050309_eigenvector_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/eigenvector_binarize/UM_1_0050309_eigenvector_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/eigenvector_binarize/UM_1_0050309_eigenvector_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/eigenvector_binarize/UM_1_0050309_eigenvector_binarize.nii.gz]
+  eigenvector_weighted: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/eigenvector_weighted/UM_1_0050309_eigenvector_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/eigenvector_weighted/UM_1_0050309_eigenvector_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/eigenvector_weighted/UM_1_0050309_eigenvector_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/eigenvector_weighted/UM_1_0050309_eigenvector_weighted.nii.gz]
+  falff: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/falff/UM_1_0050309_falff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/falff/UM_1_0050309_falff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/falff/UM_1_0050309_falff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/falff/UM_1_0050309_falff.nii.gz]
+  func_mask: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/func_mask/UM_1_0050309_func_mask.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/func_mask/UM_1_0050309_func_mask.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_mask/UM_1_0050309_func_mask.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/func_mask/UM_1_0050309_func_mask.nii.gz]
+  func_mean: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/func_mean/UM_1_0050309_func_mean.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/func_mean/UM_1_0050309_func_mean.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_mean/UM_1_0050309_func_mean.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/func_mean/UM_1_0050309_func_mean.nii.gz]
+  func_preproc: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/func_preproc/UM_1_0050309_func_preproc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/func_preproc/UM_1_0050309_func_preproc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_preproc/UM_1_0050309_func_preproc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/func_preproc/UM_1_0050309_func_preproc.nii.gz]
+  lfcd: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/lfcd/UM_1_0050309_lfcd.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/lfcd/UM_1_0050309_lfcd.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/lfcd/UM_1_0050309_lfcd.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/lfcd/UM_1_0050309_lfcd.nii.gz]
+  reho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/reho/UM_1_0050309_reho.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/reho/UM_1_0050309_reho.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/reho/UM_1_0050309_reho.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/reho/UM_1_0050309_reho.nii.gz]
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/UM_1_0050309_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/UM_1_0050309_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/UM_1_0050309_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/UM_1_0050309_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/UM_1_0050309_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/UM_1_0050309_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/UM_1_0050309_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/UM_1_0050309_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/UM_1_0050309_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/UM_1_0050309_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/UM_1_0050309_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/UM_1_0050309_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/UM_1_0050309_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/UM_1_0050309_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/UM_1_0050309_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/UM_1_0050309_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/UM_1_0050309_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/UM_1_0050309_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/UM_1_0050309_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/UM_1_0050309_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/UM_1_0050309_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/UM_1_0050309_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/UM_1_0050309_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/UM_1_0050309_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/UM_1_0050309_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/UM_1_0050309_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/UM_1_0050309_rois_tt.1D]
+  vmhc: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/vmhc/UM_1_0050309_vmhc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/vmhc/UM_1_0050309_vmhc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/vmhc/UM_1_0050309_vmhc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/vmhc/UM_1_0050309_vmhc.nii.gz]
+UM_1_0050323:
+  alff: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/alff/UM_1_0050323_alff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/alff/UM_1_0050323_alff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/alff/UM_1_0050323_alff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/alff/UM_1_0050323_alff.nii.gz]
+  degree_binarize: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/degree_binarize/UM_1_0050323_degree_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/degree_binarize/UM_1_0050323_degree_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/degree_binarize/UM_1_0050323_degree_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/degree_binarize/UM_1_0050323_degree_binarize.nii.gz]
+  degree_weighted: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/degree_weighted/UM_1_0050323_degree_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/degree_weighted/UM_1_0050323_degree_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/degree_weighted/UM_1_0050323_degree_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/degree_weighted/UM_1_0050323_degree_weighted.nii.gz]
+  dual_regression: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/dual_regression/UM_1_0050323_dual_regression.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/dual_regression/UM_1_0050323_dual_regression.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/dual_regression/UM_1_0050323_dual_regression.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/dual_regression/UM_1_0050323_dual_regression.nii.gz]
+  eigenvector_binarize: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/eigenvector_binarize/UM_1_0050323_eigenvector_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/eigenvector_binarize/UM_1_0050323_eigenvector_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/eigenvector_binarize/UM_1_0050323_eigenvector_binarize.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/eigenvector_binarize/UM_1_0050323_eigenvector_binarize.nii.gz]
+  eigenvector_weighted: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/eigenvector_weighted/UM_1_0050323_eigenvector_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/eigenvector_weighted/UM_1_0050323_eigenvector_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/eigenvector_weighted/UM_1_0050323_eigenvector_weighted.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/eigenvector_weighted/UM_1_0050323_eigenvector_weighted.nii.gz]
+  falff: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/falff/UM_1_0050323_falff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/falff/UM_1_0050323_falff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/falff/UM_1_0050323_falff.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/falff/UM_1_0050323_falff.nii.gz]
+  func_mask: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/func_mask/UM_1_0050323_func_mask.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/func_mask/UM_1_0050323_func_mask.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_mask/UM_1_0050323_func_mask.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/func_mask/UM_1_0050323_func_mask.nii.gz]
+  func_mean: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/func_mean/UM_1_0050323_func_mean.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/func_mean/UM_1_0050323_func_mean.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_mean/UM_1_0050323_func_mean.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/func_mean/UM_1_0050323_func_mean.nii.gz]
+  func_preproc: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/func_preproc/UM_1_0050323_func_preproc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/func_preproc/UM_1_0050323_func_preproc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/func_preproc/UM_1_0050323_func_preproc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/func_preproc/UM_1_0050323_func_preproc.nii.gz]
+  lfcd: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/lfcd/UM_1_0050323_lfcd.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/lfcd/UM_1_0050323_lfcd.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/lfcd/UM_1_0050323_lfcd.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/lfcd/UM_1_0050323_lfcd.nii.gz]
+  reho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/reho/UM_1_0050323_reho.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/reho/UM_1_0050323_reho.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/reho/UM_1_0050323_reho.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/reho/UM_1_0050323_reho.nii.gz]
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/UM_1_0050323_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/UM_1_0050323_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/UM_1_0050323_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/UM_1_0050323_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/UM_1_0050323_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/UM_1_0050323_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/UM_1_0050323_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/UM_1_0050323_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/UM_1_0050323_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/UM_1_0050323_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/UM_1_0050323_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/UM_1_0050323_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/UM_1_0050323_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/UM_1_0050323_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/UM_1_0050323_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/UM_1_0050323_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/UM_1_0050323_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/UM_1_0050323_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/UM_1_0050323_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/UM_1_0050323_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/UM_1_0050323_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/UM_1_0050323_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/UM_1_0050323_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/UM_1_0050323_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/UM_1_0050323_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/UM_1_0050323_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/UM_1_0050323_rois_tt.1D]
+  vmhc: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/vmhc/UM_1_0050323_vmhc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/vmhc/UM_1_0050323_vmhc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/vmhc/UM_1_0050323_vmhc.nii.gz,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/vmhc/UM_1_0050323_vmhc.nii.gz]
+UM_1_0050328:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/UM_1_0050328_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/UM_1_0050328_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/UM_1_0050328_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/UM_1_0050328_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/UM_1_0050328_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/UM_1_0050328_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/UM_1_0050328_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/UM_1_0050328_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/UM_1_0050328_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/UM_1_0050328_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/UM_1_0050328_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/UM_1_0050328_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/UM_1_0050328_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/UM_1_0050328_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/UM_1_0050328_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/UM_1_0050328_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/UM_1_0050328_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/UM_1_0050328_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/UM_1_0050328_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/UM_1_0050328_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/UM_1_0050328_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/UM_1_0050328_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/UM_1_0050328_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/UM_1_0050328_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/UM_1_0050328_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/UM_1_0050328_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/UM_1_0050328_rois_tt.1D]
+UM_1_0050378:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/UM_1_0050378_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/UM_1_0050378_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/UM_1_0050378_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/UM_1_0050378_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/UM_1_0050378_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/UM_1_0050378_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/UM_1_0050378_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/UM_1_0050378_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/UM_1_0050378_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/UM_1_0050378_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/UM_1_0050378_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/UM_1_0050378_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/UM_1_0050378_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/UM_1_0050378_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/UM_1_0050378_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/UM_1_0050378_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/UM_1_0050378_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/UM_1_0050378_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/UM_1_0050378_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/UM_1_0050378_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/UM_1_0050378_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/UM_1_0050378_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/UM_1_0050378_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/UM_1_0050378_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/UM_1_0050378_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/UM_1_0050378_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/UM_1_0050378_rois_tt.1D]
+UM_2_0050423:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/UM_2_0050423_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/UM_2_0050423_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/UM_2_0050423_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/UM_2_0050423_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/UM_2_0050423_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/UM_2_0050423_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/UM_2_0050423_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/UM_2_0050423_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/UM_2_0050423_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/UM_2_0050423_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/UM_2_0050423_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/UM_2_0050423_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/UM_2_0050423_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/UM_2_0050423_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/UM_2_0050423_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/UM_2_0050423_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/UM_2_0050423_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/UM_2_0050423_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/UM_2_0050423_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/UM_2_0050423_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/UM_2_0050423_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/UM_2_0050423_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/UM_2_0050423_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/UM_2_0050423_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/UM_2_0050423_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/UM_2_0050423_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/UM_2_0050423_rois_tt.1D]
+USM_0050432:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050432_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050432_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050432_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050432_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050432_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050432_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050432_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050432_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050432_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050432_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050432_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050432_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050432_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050432_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050432_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050432_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050432_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050432_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050432_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050432_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050432_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050432_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050432_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050432_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050432_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050432_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050432_rois_tt.1D]
+USM_0050450:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050450_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050450_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050450_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050450_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050450_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050450_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050450_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050450_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050450_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050450_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050450_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050450_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050450_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050450_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050450_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050450_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050450_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050450_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050450_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050450_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050450_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050450_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050450_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050450_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050450_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050450_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050450_rois_tt.1D]
+USM_0050451:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050451_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050451_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050451_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050451_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050451_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050451_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050451_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050451_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050451_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050451_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050451_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050451_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050451_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050451_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050451_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050451_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050451_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050451_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050451_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050451_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050451_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050451_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050451_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050451_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050451_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050451_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050451_rois_tt.1D]
+USM_0050452:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050452_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050452_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050452_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050452_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050452_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050452_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050452_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050452_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050452_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050452_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050452_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050452_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050452_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050452_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050452_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050452_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050452_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050452_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050452_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050452_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050452_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050452_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050452_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050452_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050452_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050452_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050452_rois_tt.1D]
+USM_0050454:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050454_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050454_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050454_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050454_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050454_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050454_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050454_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050454_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050454_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050454_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050454_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050454_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050454_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050454_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050454_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050454_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050454_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050454_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050454_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050454_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050454_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050454_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050454_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050454_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050454_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050454_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050454_rois_tt.1D]
+USM_0050456:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050456_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050456_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050456_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050456_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050456_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050456_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050456_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050456_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050456_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050456_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050456_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050456_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050456_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050456_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050456_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050456_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050456_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050456_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050456_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050456_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050456_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050456_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050456_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050456_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050456_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050456_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050456_rois_tt.1D]
+USM_0050457:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050457_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050457_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050457_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050457_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050457_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050457_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050457_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050457_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050457_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050457_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050457_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050457_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050457_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050457_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050457_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050457_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050457_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050457_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050457_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050457_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050457_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050457_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050457_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050457_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050457_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050457_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050457_rois_tt.1D]
+USM_0050458:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050458_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050458_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050458_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050458_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050458_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050458_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050458_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050458_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050458_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050458_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050458_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050458_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050458_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050458_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050458_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050458_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050458_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050458_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050458_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050458_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050458_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050458_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050458_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050458_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050458_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050458_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050458_rois_tt.1D]
+USM_0050459:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050459_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050459_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050459_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050459_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050459_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050459_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050459_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050459_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050459_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050459_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050459_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050459_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050459_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050459_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050459_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050459_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050459_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050459_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050459_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050459_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050459_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050459_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050459_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050459_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050459_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050459_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050459_rois_tt.1D]
+USM_0050460:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050460_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050460_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050460_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050460_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050460_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050460_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050460_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050460_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050460_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050460_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050460_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050460_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050460_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050460_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050460_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050460_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050460_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050460_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050460_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050460_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050460_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050460_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050460_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050460_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050460_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050460_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050460_rois_tt.1D]
+USM_0050461:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050461_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050461_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050461_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050461_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050461_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050461_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050461_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050461_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050461_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050461_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050461_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050461_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050461_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050461_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050461_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050461_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050461_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050461_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050461_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050461_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050461_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050461_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050461_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050461_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050461_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050461_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050461_rois_tt.1D]
+USM_0050462:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050462_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050462_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050462_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050462_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050462_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050462_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050462_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050462_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050462_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050462_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050462_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050462_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050462_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050462_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050462_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050462_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050462_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050462_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050462_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050462_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050462_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050462_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050462_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050462_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050462_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050462_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050462_rois_tt.1D]
+USM_0050464:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050464_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050464_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050464_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050464_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050464_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050464_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050464_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050464_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050464_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050464_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050464_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050464_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050464_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050464_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050464_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050464_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050464_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050464_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050464_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050464_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050464_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050464_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050464_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050464_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050464_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050464_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050464_rois_tt.1D]
+USM_0050465:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050465_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050465_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050465_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050465_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050465_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050465_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050465_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050465_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050465_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050465_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050465_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050465_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050465_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050465_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050465_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050465_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050465_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050465_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050465_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050465_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050465_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050465_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050465_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050465_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050465_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050465_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050465_rois_tt.1D]
+USM_0050471:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050471_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050471_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050471_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050471_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050471_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050471_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050471_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050471_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050471_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050471_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050471_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050471_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050471_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050471_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050471_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050471_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050471_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050471_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050471_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050471_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050471_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050471_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050471_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050471_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050471_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050471_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050471_rois_tt.1D]
+USM_0050472:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050472_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050472_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050472_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050472_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050472_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050472_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050472_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050472_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050472_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050472_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050472_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050472_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050472_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050472_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050472_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050472_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050472_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050472_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050472_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050472_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050472_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050472_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050472_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050472_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050472_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050472_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050472_rois_tt.1D]
+USM_0050473:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050473_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050473_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050473_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050473_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050473_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050473_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050473_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050473_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050473_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050473_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050473_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050473_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050473_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050473_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050473_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050473_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050473_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050473_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050473_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050473_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050473_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050473_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050473_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050473_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050473_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050473_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050473_rois_tt.1D]
+USM_0050474:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050474_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050474_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050474_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050474_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050474_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050474_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050474_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050474_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050474_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050474_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050474_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050474_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050474_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050474_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050474_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050474_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050474_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050474_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050474_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050474_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050474_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050474_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050474_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050474_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050474_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050474_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050474_rois_tt.1D]
+USM_0050475:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050475_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050475_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050475_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050475_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050475_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050475_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050475_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050475_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050475_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050475_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050475_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050475_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050475_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050475_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050475_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050475_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050475_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050475_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050475_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050475_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050475_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050475_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050475_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050475_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050475_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050475_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050475_rois_tt.1D]
+USM_0050476:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050476_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050476_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050476_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050476_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050476_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050476_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050476_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050476_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050476_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050476_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050476_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050476_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050476_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050476_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050476_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050476_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050476_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050476_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050476_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050476_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050476_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050476_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050476_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050476_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050476_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050476_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050476_rois_tt.1D]
+USM_0050478:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050478_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050478_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050478_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050478_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050478_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050478_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050478_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050478_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050478_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050478_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050478_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050478_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050478_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050478_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050478_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050478_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050478_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050478_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050478_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050478_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050478_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050478_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050478_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050478_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050478_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050478_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050478_rois_tt.1D]
+USM_0050479:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050479_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050479_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050479_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050479_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050479_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050479_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050479_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050479_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050479_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050479_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050479_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050479_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050479_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050479_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050479_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050479_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050479_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050479_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050479_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050479_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050479_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050479_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050479_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050479_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050479_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050479_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050479_rois_tt.1D]
+USM_0050484:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050484_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050484_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050484_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050484_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050484_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050484_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050484_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050484_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050484_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050484_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050484_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050484_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050484_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050484_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050484_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050484_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050484_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050484_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050484_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050484_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050484_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050484_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050484_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050484_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050484_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050484_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050484_rois_tt.1D]
+USM_0050495:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050495_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050495_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050495_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050495_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050495_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050495_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050495_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050495_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050495_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050495_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050495_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050495_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050495_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050495_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050495_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050495_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050495_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050495_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050495_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050495_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050495_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050495_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050495_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050495_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050495_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050495_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050495_rois_tt.1D]
+USM_0050506:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050506_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050506_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050506_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050506_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050506_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050506_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050506_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050506_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050506_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050506_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050506_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050506_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050506_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050506_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050506_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050506_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050506_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050506_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050506_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050506_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050506_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050506_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050506_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050506_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050506_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050506_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050506_rois_tt.1D]
+USM_0050508:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050508_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050508_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050508_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050508_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050508_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050508_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050508_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050508_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050508_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050508_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050508_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050508_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050508_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050508_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050508_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050508_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050508_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050508_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050508_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050508_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050508_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050508_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050508_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050508_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050508_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050508_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050508_rois_tt.1D]
+USM_0050512:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050512_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050512_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050512_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050512_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050512_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050512_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050512_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050512_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050512_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050512_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050512_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050512_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050512_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050512_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050512_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050512_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050512_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050512_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050512_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050512_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050512_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050512_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050512_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050512_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050512_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050512_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050512_rois_tt.1D]
+USM_0050513:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050513_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050513_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050513_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050513_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050513_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050513_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050513_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050513_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050513_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050513_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050513_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050513_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050513_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050513_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050513_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050513_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050513_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050513_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050513_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050513_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050513_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050513_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050513_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050513_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050513_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050513_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050513_rois_tt.1D]
+USM_0050517:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050517_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050517_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050517_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050517_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050517_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050517_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050517_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050517_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050517_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050517_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050517_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050517_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050517_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050517_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050517_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050517_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050517_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050517_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050517_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050517_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050517_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050517_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050517_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050517_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050517_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050517_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050517_rois_tt.1D]
+USM_0050522:
+  rois_aal: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_aal/USM_0050522_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_aal/USM_0050522_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_aal/USM_0050522_rois_aal.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_aal/USM_0050522_rois_aal.1D]
+  rois_cc200: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_cc200/USM_0050522_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc200/USM_0050522_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc200/USM_0050522_rois_cc200.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc200/USM_0050522_rois_cc200.1D]
+  rois_cc400: [data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_cc400/USM_0050522_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_cc400/USM_0050522_rois_cc400.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_cc400/USM_0050522_rois_cc400.1D]
+  rois_dosenbach160: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_dosenbach160/USM_0050522_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_dosenbach160/USM_0050522_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_dosenbach160/USM_0050522_rois_dosenbach160.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_dosenbach160/USM_0050522_rois_dosenbach160.1D]
+  rois_ez: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ez/USM_0050522_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ez/USM_0050522_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ez/USM_0050522_rois_ez.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ez/USM_0050522_rois_ez.1D]
+  rois_ho: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_ho/USM_0050522_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_ho/USM_0050522_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_ho/USM_0050522_rois_ho.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_ho/USM_0050522_rois_ho.1D]
+  rois_tt: [data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_noglobal/rois_tt/USM_0050522_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_noglobal/rois_tt/USM_0050522_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/filt_global/rois_tt/USM_0050522_rois_tt.1D,
+    data/Projects/ABIDE_Initiative/Outputs/ccs/nofilt_global/rois_tt/USM_0050522_rois_tt.1D]

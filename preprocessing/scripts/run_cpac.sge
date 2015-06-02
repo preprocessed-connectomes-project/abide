@@ -1,0 +1,13 @@
+#! /bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -V
+#$ -t 1-1102
+#$ -q all.q
+#$ -pe mpi_smp 4
+##$ -e /home/ubuntu/abide_run/abide_run.err
+##$ -o /home/ubuntu/abide_run/abide_run.out
+source /etc/profile.d/cpac_env.sh
+echo "Start - TASKID " $SGE_TASK_ID " : " $(date)
+python /home/ubuntu/abide_run/run_cpac.py $SGE_TASK_ID
+echo "End - TASKID " $SGE_TASK_ID " : " $(date)

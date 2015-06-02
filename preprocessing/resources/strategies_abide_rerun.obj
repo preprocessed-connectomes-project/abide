@@ -1,0 +1,15 @@
+(lp0
+(lp1
+S'_compcor_ncomponents_5_selector_pc10.linear1.wm0.global0.motion1.quadratic1.gm0.compcor1.csf0.ncomponents_5_selector_pc10.linear1.wm0.global1.motion1.quadratic1.gm0.compcor1.csf0'
+p2
+aS'_csf_threshold_0.96'
+p3
+aS'_gm_threshold_0.7'
+p4
+aS'_target_angle_deg_90'
+p5
+aS'_threshold_0.2'
+p6
+aS'_wm_threshold_0.96'
+p7
+aa.
