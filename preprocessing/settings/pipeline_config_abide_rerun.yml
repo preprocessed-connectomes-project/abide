@@ -365,7 +365,7 @@ runROITimeseries :  [1]
 # Each line in this file should be the path to a NIfTI file containing one or more ROIs.
 # If you only wish to extract time series for newly defined spherical seed ROIs, set this field to None.
 # Note that all ROI masks values are converted to integers within C-PAC.
-roiSpecificationFile :  /home/ubuntu/abide_run/settings/abide_rois.txt
+roiSpecificationFile :  /home/ubuntu/abide/preprocessing/settings/abide_rois.txt
 
 
 # Full path to a text file containing a list ROI files.
@@ -428,7 +428,7 @@ runSpatialRegression :  [1]
 
 # Full path to a text file containing a list spatial maps.
 # Each line in this file should be the path to a 4D NIfTI file containing one spatial map per volume.
-spatialPatternMaps :  /home/ubuntu/abide_run/settings/abide_spatial_maps.txt
+spatialPatternMaps :  /home/ubuntu/abide/preprocessing/settings/abide_spatial_maps.txt
 
 
 # Demean spatial maps before running spatial regression.
@@ -516,7 +516,7 @@ runNetworkCentrality :  [1]
 # Each line of this file should contain the path to an ROI or mask.
 # If a mask is specified, centrality will be calculated for all voxels within the mask.
 # If a list of ROIs is specified, each ROI will be treated as a node, and centrality will be calculated for each node.
-templateSpecificationFile :  /home/ubuntu/abide_run/settings/centrality_mask.txt
+templateSpecificationFile :  /home/ubuntu/abide/preprocessing/settings/centrality_mask.txt
 
 
 # Enable/Disable degree centrality by selecting the connectivity weights

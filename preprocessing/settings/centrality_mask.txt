@@ -1,1 +1,1 @@
-/home/ubuntu/abide_run/resources/abide_masks/Mask_ABIDE_85Percent_GM.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_masks/Mask_ABIDE_85Percent_GM.nii.gz

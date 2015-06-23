@@ -1,7 +1,7 @@
-/home/ubuntu/abide_run/resources/abide_rois/aal_mask_pad.nii.gz
-/home/ubuntu/abide_run/resources/abide_rois/CC200.nii.gz
-/home/ubuntu/abide_run/resources/abide_rois/CC400.nii,gz
-/home/ubuntu/abide_run/resources/abide_rois/ez_mask_pad.nii.gz
-/home/ubuntu/abide_run/resources/abide_rois/ho_mask_pad.nii.gz
-/home/ubuntu/abide_run/resources/abide_rois/tt_mask_pad.nii.gz
-/home/ubuntu/abide_run/resources/abide_rois/rois_3mm.nii.gz.gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/aal_mask_pad.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/CC200.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/CC400.nii,gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/ez_mask_pad.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/ho_mask_pad.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/tt_mask_pad.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_rois/rois_3mm.nii.gz.gz

@@ -1,1 +1,1 @@
-/home/ubuntu/abide_run/resources/abide_spatial_maps/PNAS_Smith09_rsn10.nii.gz
+/home/ubuntu/abide/preprocessing/resources/abide_spatial_maps/PNAS_Smith09_rsn10.nii.gz
