@@ -47,7 +47,7 @@ workingDirectory :  /mnt/working
 
 
 # Directory where CPAC should write crash logs.
-crashLogDirectory :  /home/ubuntu/abide_crashes
+crashLogDirectory :  /home/ubuntu/crashes
 
 
 # Directory where CPAC should place processed data.
@@ -253,7 +253,7 @@ runNuisance :  [1]
 
 
 # Standard Lateral Ventricles Binary Mask
-lateral_ventricles_mask :  /usr/share/fsl/5.0/data/atlases/HarvardOxford/HarvardOxford-lateral-ventricles-thr25-2mm.nii.gz
+lateral_ventricles_mask :  /usr/share/fsl/5.0/data/standard/HarvardOxford-lateral-ventricles-thr25-2mm.nii.gz
 
 
 # Select which nuisance signal corrections to apply:
