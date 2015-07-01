@@ -4,17 +4,17 @@ import sys
 
 # Init variables
 config = '/home/ubuntu/abide/preprocessing/settings/pipeline_config_abide_rerun.yml'
-subject_list = '/home/ubuntu/abide/preprocessing/settings/CPAC_subject_list_abide_rerun.yml'
+subject_list = '/home/ubuntu/abide/preprocessing/settings/CPAC_subject_list_nfb_3_37.yml'
 index = int(sys.argv[1])
 strategies = '/home/ubuntu/abide/preprocessing/resources/strategies.obj'
 mask_spec = None
 roi_spec = '/home/ubuntu/abide/preprocessing/settings/abide_rois.txt'
 tmp_spec = '/home/ubuntu/abide/preprocessing/settings/centrality_mask.txt'
 p_name = 'abide_rerun'
-creds_path = '/home/ubuntu/fcp-indi-keys2.csv'
+creds_path = '/home/ubuntu/dclark-fcp-indi-keys.csv'
 bucket_name = 'fcp-indi'
-bucket_prefix = 'data/Projects/ABIDE_Initiative/RawData'
-bucket_upload_prefix = 'data/Projects/ABIDE_Initiative/Outputs/cpac'
+bucket_prefix = 'data/Projects/RocklandSample'
+bucket_upload_prefix = 'data/Projects/RocklandSample/Outputs/cpac'
 local_prefix = '/mnt/inputs'
 
 cpac_pipeline.run(config, subject_list, index, strategies,

@@ -39,7 +39,7 @@ num_ants_threads :  8
 
 
 # Name for this pipeline configuration - useful for identification.
-pipelineName :  abide_rerun
+pipelineName :  nfb_3_37
 
 
 # Directory where CPAC should store temporary and intermediate files.
@@ -509,7 +509,7 @@ clusterSize :  27
 
 
 # Calculate Degree, Eigenvector Centrality, or Functional Connectivity Density.
-runNetworkCentrality :  [1]
+runNetworkCentrality :  [0]
 
 
 # Full path to a text file containing a mask or list of ROIs.
