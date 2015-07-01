@@ -73,11 +73,11 @@ The 3D binary derivatives (i.e. those ending in nii.gz except for 'func\_preproc
 
 [Minimally preprocessed](Pipelines.html#min_preproc) data is available for the C-PAC pipeline. This data can be downloaded from the bucket using:
 
-    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/minimal/[file identifier]_minimal.nii.gz
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/[file identifier]_func_minimal.nii.gz
 	
-For example, minimally preprocessed data for 'OHSU\_0050147' can be downloaded using: [link](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/minimal/OHSU_0050147_minimal.nii.gz)<br>
+For example, minimally preprocessed data for 'OHSU\_0050147' can be downloaded using: [link](https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz)<br>
     
-    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/minimal/OHSU_0050147_minimal.nii.gz
+    https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz
 	
 
 #### Structural Data
