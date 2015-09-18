@@ -59,6 +59,17 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
                 'ABIDE_Initiative'
     s3_pheno_path = os.path.join(s3_prefix, 'Phenotypic_V1_0b_preprocessed1.csv')
 
+    # Format input arguments to be lower case, if not already
+    derivative = derivative.lower()
+    pipeline = pipeline.lower()
+    strategy = strategy.lower()
+
+    # Check derivative for extension
+    if 'roi' in derivative:
+        extension = '.1D'
+    else:
+        extension = '.nii.gz'
+
     # If output path doesn't exist, create it
     if not os.path.exists(out_dir):
         print 'Could not find %s, creating now...' % out_dir
@@ -113,7 +124,7 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
             continue
         # Test age range
         if row_age < less_than and row_age > greater_than:
-            filename = row_file_id + '_' + derivative + '.nii.gz'
+            filename = row_file_id + '_' + derivative + extension
             s3_path = os.path.join(s3_prefix, 'Outputs', pipeline, strategy,
                                    derivative, filename)
             print 'Adding %s to download queue...' % s3_path
@@ -129,16 +140,21 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
         download_dir = os.path.dirname(download_file)
         if not os.path.exists(download_dir):
             os.makedirs(download_dir)
-        if not os.path.exists(download_file):
-            print 'Retrieving: %s' % download_file
-            urllib.urlretrieve(s3_path, download_file)
-            print '%.3f%% percent complete' % \
-                  (100*(float(path_idx+1)/total_num_files))
-        else:
-            print 'File %s already exists, skipping...' % download_file
+        try:
+            if not os.path.exists(download_file):
+                print 'Retrieving: %s' % download_file
+                urllib.urlretrieve(s3_path, download_file)
+                print '%.3f%% percent complete' % \
+                      (100*(float(path_idx+1)/total_num_files))
+            else:
+                print 'File %s already exists, skipping...' % download_file
+        except Exception as exc:
+            print 'There was a problem downloading %s.\n'\
+                  'Check input arguments and try again.' % s3_path
 
     # Print all done
     print 'Done!'
+
 
 # Make module executable
 if __name__ == '__main__':

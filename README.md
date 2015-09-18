@@ -3,7 +3,7 @@ preprocessed-connectomes-project/abide
 
 Contents
 ========
-- get_s3_paths.py - script to find and download the S3 paths for the ABIDE outputs
+- download_abide_preproc.py - script to download ABIDE preprocessed data from S3, given phenotypic information
 - map_rawout_to_organized_s3.py - script to organize the CPAC raw outputs from a pipeline run and organize them in the output format on S3
 
 concordances
