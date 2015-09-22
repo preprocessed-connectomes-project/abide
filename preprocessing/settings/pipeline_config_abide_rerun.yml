@@ -39,7 +39,7 @@ num_ants_threads :  8
 
 
 # Name for this pipeline configuration - useful for identification.
-pipelineName :  nfb_3_37
+pipelineName :  abide_rerun
 
 
 # Directory where CPAC should store temporary and intermediate files.
