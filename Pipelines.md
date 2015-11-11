@@ -5,7 +5,7 @@ title: pipelines
 
 # Functional Preprocessing
 
-There is no concensus on the best methods for preprocessing resting state fMRI data. Rather than being perscriptive and favoring a single processing strategy, we have preprocessed the data using four different preprocessing pipelines, each of which was implemented using the chosen parameters and settings of the pipeline developers.
+There is no consensus on the best methods for preprocessing resting state fMRI data. Rather than being prescriptive and favoring a single processing strategy, we have preprocessed the data using four different preprocessing pipelines, each of which was implemented using the chosen parameters and settings of the pipeline developers.
 
 * [Connectome Computation System (CCS)](http://preprocessed-connectomes-project.github.io/abide/ccs.html)
 * [Configurable Pipeline for the Analysis of Connectomes (CPAC)](http://preprocessed-connectomes-project.github.io/abide/cpac.html)
@@ -188,7 +188,7 @@ Statistical derivatives (e.g., regional homogeneity) were generated from preproc
 
 ### Approach 1
 
-For CCS, CPAC, and DPARSF, the derivatives listed below were calculated in native space using unsmooted functional data. The results were then written into template space (MNI152) and spatially smoothed with a 6-mm FWHM Gaussian kernel. The registration and smoothing were performed using steps specific to each pipeline.
+For CCS, CPAC, and DPARSF, the derivatives listed below were calculated in native space using unsmoothed functional data. The results were then written into template space (MNI152) and spatially smoothed with a 6-mm FWHM Gaussian kernel. The registration and smoothing were performed using steps specific to each pipeline.
 
 * [Amplitude of low frequency fluctuations (ALFF) and Fractional ALFF (fALFF)](http://fcp-indi.github.io/docs/user/alff.html)
 * [Regional homogeneity (REHO)](http://fcp-indi.github.io/docs/user/reho.html)

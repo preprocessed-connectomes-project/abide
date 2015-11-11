@@ -44,7 +44,7 @@ These columns reflect automated metrics with descriptions given further down. To
 For each point below, we will describe a given measure via the following format: "Measure - Column: Summary"
 
 * **Contrast to Noise Ratio [anat_cnr]:** Calculated as the mean of the gray matter values minus the mean of the white matter values, divided by the standard deviation of the air values [^1].
-* **Entopy Focus Criterion [anat_efc]:** Shannon’s entropy is used to summarize the principal directions distribution, higher energy indicating the distribution is more uniform (i.e., less noisy) [^2].
+* **Entropy Focus Criterion [anat_efc]:** Shannon’s entropy is used to summarize the principal directions distribution, higher energy indicating the distribution is more uniform (i.e., less noisy) [^2].
 * **Foreground to Background Energy Ratio [anat_fber]:** Mean energy of image values (i.e., mean of squares) within the head relative to outside the head.
 * **Smoothness of Voxels [anat_fwhm]:** The full-width half maximum (FWHM) of the spatial distribution of the image intensity values in terms of voxels (e.g., a value of 3 implies smoothness of 3 voxels) [^3].
 * **Percent of Artifact Voxels [anat_qi1]:** The proportion of voxels with intensity corrupted by artifacts normalized by the number of voxels in the background [^4].
