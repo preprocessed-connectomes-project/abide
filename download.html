@@ -38,56 +38,37 @@
             
                 <div id="main_content_wrap" class="outer">
                     <section id="main_content" class="inner">
-                        <p>The results of the ABIDE Preprocessed initiative are available on a public Amazon S3 bucket and on NITRC. The data is available on the S3 bucket as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. The data on NITRC will be stored as a tar file for each derivative, pipeline and strategy.</p>
+                        <p>The results of the ABIDE Preprocessed initiative are currently available on a public Amazon S3 bucket. The data on S3 are stored as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. In the future, we hope to offer the data on NITRC as well with a tar file for each derivative, pipeline and strategy.</p>
 
 <h3 id="accessing-data-from-the-amazon-s3-bucket">Accessing data from the Amazon S3 bucket</h3>
-<p>Each file in the S3 bucket is accessed using HTTP and is addressed by a corresponding URL. Because of this, data <strong>cannot be accessed using ftp or scp</strong>. Instead, a URL is constructed for each desired file (described below) and then this file can be downloaded using an HTTP client such as a web browser, <code>wget</code>, <code>curl</code>, or a custom script. Each file must be referred to by name, wildcards will not work. An example python script for downloading a subset of the data based on participant demographics is available <a href="https://github.com/preprocessed-connectomes-project/abide/raw/master/get_s3_paths.py">here</a> (right click and select <code>Save Link As...</code>).</p>
+<p>Each file in the S3 bucket can only be accessed using HTTP (i.e.,<strong>no ftp or scp</strong>). You must contruct a URL for each desired file (see URL templates below) and then download it using an HTTP client such as a web browser, <code>wget</code>, or <code>curl</code>. Each file can only be accessed using its literal name- wildcards will not work. An example python script for downloading a subset of the data based on participant demographics is available <a href="https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py">here</a> (right click and select <code>Save Link As...</code>).</p>
 
-<p>There are file transfer programs that can handle S3 natively and will allow you to navigate through the data using a file browser. <a href="https://cyberduck.io/">Cyberduck</a> is one such program that works with Windows and Mac OS X as a GUI and there is a <a href="https://duck.sh">command line version</a> that works with Windows, Mac OS X, and Linux. The following screenshot illustrates configuring Cyberduck to connect to the ABIDE Preprocessed data.</p>
+<p>There are also file transfer programs that can handle S3 natively and will allow you to navigate through the data using a file browser. <a href="https://cyberduck.io/">Cyberduck</a> is one such program that works with Windows and Mac OS X (see screenshot illustrating a configuration to connect to the ABIDE preprocessed data below). Cyberduck also has a <a href="https://duck.sh">command line version</a> that works with Windows, Mac OS X, and Linux.  Another program, <a href="https://github.com/rusher81572/cloudExplorer">CloudExplorer</a> is Java-based and will work on Windows, Mac OS X, and Linux.</p>
 
 <p><img src="images/cyberduck_config.png" alt="Configuring Cyberduck to access ABIDE Preprocessed data" title="Configuring Cyberduck" /></p>
 
-<h4 id="meta-data">Meta-Data</h4>
-<p>A spreadsheet that contains phenotypic data and quality assessment information is available at: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv</a>. Information from this file can be used to select a subset of the data that you would like to download. This file contains all of the information from the <a href="http://www.nitrc.org/frs/downloadlink.php/4912">original phenotypic file</a> provided with the ABIDE release, which is described in the ABIDE <a href="http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf">phenotypic data legend</a>, except that information about the preprocessed data has been added.</p>
+<h4 id="summary-spreadsheet">Summary Spreadsheet</h4>
+<p>A summary spreadsheet that contains phenotypic data and quality assessment information is available <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">here</a>. This file contains all of the information from the <a href="http://www.nitrc.org/frs/downloadlink.php/4912">original phenotypic file</a> provided with the ABIDE release (which is described in the ABIDE <a href="http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf">phenotypic data legend</a>), with additional metadata about the preprocessed data. This additional data includes:</p>
 
 <ul>
-  <li>The <code>FILE_ID</code> column provides a mapping between the phenotypic data and the preprocessed data filenames (see below).</li>
-  <li>
-    <p>Several columns of the spreadsheet contain quality measures from the <a href="http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/">PCP Quality Assessment Protocol</a> and are illustrated in detail on the <a href="quality_assessment.html">ABIDE Preprocessed quality assessment page</a>:</p>
-
-    <pre><code>  anat_cnr, anat_efc, anat_fber, anat_fwhm, anat_qi1, anat_snr, func_efc, func_fber,
-  func_fwhm, func_dvars, func_outlier, func_quality, func_mean_fd, func_num_fd, 
-  func_perc_fd, func_gsr
-</code></pre>
-  </li>
-  <li>
-    <p>Also on this page are a description of the manual quality assessment annotations included in the columns:</p>
-
-    <pre><code>  qc_rater_1, qc_notes_rater_1, qc_anat_rater_2, qc_anat_notes_rater_2, qc_func_rater_2, 
-  qc_func_notes_rater_2, qc_anat_rater_3, qc_anat_notes_rater_3, qc_func_rater_3, 
-  qc_func_notes_rater_3 
-</code></pre>
-  </li>
+  <li>The <code>FILE_ID</code> column, which provides a mapping between the phenotypic data and the preprocessed data filenames. It is formed by combining <code>SITE_ID</code> and <code>SUB_ID</code> (the latter of which is zero-padded to have 7 digits).  <strong>It is used in every URL template described below.</strong></li>
+  <li>Several columns that contain quality measures from the <a href="http://preprocessed-connectomes-project.github.io/quality-assessment-protocol/">PCP Quality Assessment Protocol</a> (<code>anat_cnr</code>, <code>anat_efc</code>, <code>anat_fber</code>, <code>anat_fwhm</code>, <code>anat_qi1</code>, <code>anat_snr</code>, <code>func_efc</code>, <code>func_fber</code>, <code>func_fwhm</code>, <code>func_dvars</code>, <code>func_outlier</code>, <code>func_quality</code>, <code>func_mean_fd</code>, <code>func_num_fd</code>, <code>func_perc_fd</code>, <code>func_gsr</code>).  For more detail click <a href="quality_assessment.html">here</a>.</li>
+  <li>Several columns that contain a description of the manual quality assessment annotations (<code>qc_rater_1</code>, <code>qc_notes_rater_1</code>, <code>qc_anat_rater_2</code>, <code>qc_anat_notes_rater_2</code>, <code>qc_func_rater_2</code>, <code>qc_func_notes_rater_2</code>, <code>qc_anat_rater_3</code>, <code>qc_anat_notes_rater_3</code>, <code>qc_func_rater_3</code>, and <code>qc_func_notes_rater_3</code>). For more detail click <a href="quality_assessment.html">here</a>.</li>
   <li>The <code>SUB_IN_SMP</code> column indicates whether the data was included in (<a href="http://www.ncbi.nlm.nih.gov/pubmed/23774715">Di Martino et al. 2014</a>).</li>
 </ul>
 
-<h4 id="functional-data">Functional Data</h4>
+<h4 id="functional-data-url-template">Functional Data URL Template</h4>
 
-<p>Preprocessed functional data can be downloaded from the bucket using the url:</p>
+<p>Preprocessed functional data can be downloaded using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/
+<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
 </code></pre>
 
-<p>appended with the string:</p>
-
-<pre><code>[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
-</code></pre>
-
-<p>Where:<br /></p>
+<p>Where:</p>
 
 <pre><code>[pipeline] = ccs | cpac | dparsf | niak 
-[stratgey] = filt_global | filt_noglobal | nofilt_global | nofilt_noglobal
-[file identifier] comes from FILE_ID column of the summary spreadsheet
+[strategy] = filt_global | filt_noglobal | nofilt_global | nofilt_noglobal
+[file identifier] = the FILE_ID value from the summary spreadsheet
 [derivative] = alff | degree_binarize | degree_weighted | dual_regression | ... 
                eigenvector_binarize | eigenvector_weighted | falff | func_mask | ... 
                func_mean | func_preproc | lfcd | reho | rois_aal | rois_cc200 | ... 
@@ -95,16 +76,16 @@
 [ezt] = 1D | nii.gz
 </code></pre>
 
-<p>The file extension is determined by the derivative type. Use <code>nii.gz</code> for all derivatives except for the ROI time series files which end in <code>1D</code> (these derivative names begin with <code>rois_</code>). Refer to the <a href="Pipelines.html#regions_of_interest">ROI description</a> for more information about the definition of the ROIs used to extract these time series and their labels.</p>
+<p>The file extension is determined by the derivative type. Use <code>.nii.gz</code> for all derivatives except for the ROI time series files, which end in <code>.1D</code> (these derivative names begin with <code>rois_</code>). Refer to the <a href="Pipelines.html#regions_of_interest">ROI description</a> for more information about the definition of the ROIs used to extract these time series and their labels.</p>
 
 <p>Here are a few examples that illustrate the construction of paths for a few different files:</p>
 
-<p>ALFF for ‘OHSU_0050147’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a><br /></p>
+<p>ALFF for <code>OHSU_0050147</code> preprocessed using <code>filt_global</code> from C-PAC (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a>):</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz
 </code></pre>
 
-<p>Harvard-Oxford ROI time series for ‘KKI_0050822’ preprocessed using ‘filt_global’ from CPAC: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a><br /></p>
+<p>Harvard-Oxford ROI time series for <code>KKI_0050822</code> preprocessed using <code>filt_global</code> from C-PAC (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a>):</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D
 </code></pre>
@@ -114,23 +95,28 @@
 <!--- Resting state fMRI derivatives for each subject and pipeline can be [viewed online](OnlineViewer.html).
 -->
 
-<h5 id="minimally-preprocessed-data">Minimally preprocessed data</h5>
+<h5 id="minimally-preprocessed-data-url-template">Minimally Preprocessed Data URL Template</h5>
 
-<p><a href="Pipelines.html#min_preproc">Minimally preprocessed</a> data is available for the C-PAC pipeline. This data can be downloaded from the bucket using:</p>
+<p><a href="Pipelines.html#min_preproc">Minimally preprocessed</a> data using the C-PAC pipeline is available. These data can be downloaded from using the following template:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/[file identifier]_func_minimal.nii.gz
 </code></pre>
 
-<p>For example, minimally preprocessed data for ‘OHSU_0050147’ can be downloaded using: <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz">link</a><br /></p>
+<p>Where:</p>
+
+<pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
+</code></pre>
+
+<p>For example, the URL for minimally preprocessed data for <code>OHSU_0050147</code> (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz">link</a>) would be:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz
 </code></pre>
 
-<h4 id="structural-data">Structural Data</h4>
-<p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="link_to_python_script">python script</a> also provides examples for downloading this data. Again, file identifiers correspond to values from the <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">ABIDE Preprocessed phenotype file</a>.</p>
+<h4 id="structural-data-url-templates">Structural Data URL Templates</h4>
+<p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py">Python script</a> also provides examples for downloading this data. Again, file identifiers correspond to <code>FILE_ID</code> values from the <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">summary spreadsheet</a>.</p>
 
-<h5 id="ants-cortical-thickness">ANTS Cortical Thickness</h5>
-<p>Cortical thickness measures calculated using the <a href="http://stnava.github.io/ANTs/">ANTs</a> pipeline can be downloaded using the root url:</p>
+<h5 id="ants-cortical-thickness-url-templates">ANTS Cortical Thickness URL Templates</h5>
+<p>Cortical thickness measures calculated using the <a href="http://stnava.github.io/ANTs/">ANTs</a> pipeline can be downloaded using the root URL:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/ants/
 </code></pre>
@@ -157,55 +143,63 @@
 <!---ANTS cortical thickness volumes for each subject can be [viewed online](OnlineViewer.html).
 -->
 
-<h5 id="civet">CIVET</h5>
+<h5 id="civet-url-templates">CIVET URL Templates</h5>
 
 <p>More information about CIVET can be found at its <a href="http://www.bic.mni.mcgill.ca/ServicesSoftware/CIVET">documentation page</a>, which includes a <a href="http://www.bic.mni.mcgill.ca/ServicesSoftware/OutputsOfCIVET">description of output files</a>.</p>
 
-<p>CIVET generated <strong>surfaces</strong> in stereotaxic space can be downloaded from the bucket using the url:</p>
+<h6 id="surfaces">Surfaces</h6>
+
+<p>CIVET generated surfaces in stereotaxic space can be downloaded using the following template:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[surface]/[file identifier]_[surface].obj
 </code></pre>
 
-<p>Where:<br /></p>
+<p>Where:</p>
 
-<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+<pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [surface] =  gray_surface_rsl_left_81920 | gray_surface_rsl_right_81920 | mid_surface_rsl_left_81920 | ...
      mid_surface_rsl_right_81920 | white_surface_rsl_left_81920 | white_surface_rsl_right_81920
 </code></pre>
 
-<p><strong>Vertex-based measures</strong> in stereotaxic space can be downloaded from the bucket using the url:</p>
+<h6 id="vertex-based-measures">Vertex-based Measures</h6>
+
+<p>Vertex-based measures in stereotaxic space can be downloaded using the following template:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].txt
 </code></pre>
 
-<p>Where:<br /></p>
+<p>Where:</p>
 
-<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+<pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [derivative] = mid_surface_rsl_left_native_area_40mm | mid_surface_rsl_right_native_area_40mm | ... 
     native_pos_rsl_asym_hemi | surface_rsl_left_native_volume_40mm | surface_rsl_right_native_volume_40mm 
 </code></pre>
 
-<p><strong>Region-based measures</strong> can be downloaded from the bucket using the url:</p>
+<h6 id="region-based-measures">Region-based Measures</h6>
+
+<p>Region-based measures can be downloaded using the following template:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].dat
 </code></pre>
 
-<p>Where:<br /></p>
+<p>Where:</p>
 
-<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+<pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [derivative] = gi_left | gi_right | lobe_areas_40mm_left | lobe_areas_40mm_right | lobe_native_cortex_area_left | ...
     lobe_native_cortex_area_right | lobe_thickness_tlink_30mm_left | lobe_thickness_tlink_30mm_right | ... 
 	lobe_volumes_40mm_left | lobe_volumes_40mm_right
 </code></pre>
 
-<p><strong>Cortical thickness maps</strong> in stereotaxic space can be downloaded from the bucket using the url:</p>
+<h6 id="cortical-thickness-maps">Cortical Thickness Maps</h6>
+
+<p>Cortical thickness maps in stereotaxic space can be downloaded using the following template:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/thickness_[derivative]/[file identifier]_[derivative].txt
 </code></pre>
 
-<p>Where:<br /></p>
+<p>Where:</p>
 
-<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
+<pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [derivative] = cerebral_volume | native_rms_rsl_tlink_30mm_asym_hemi | native_rms_rsl_tlink_30mm_left | ...
     native_rms_rsl_tlink_30mm_right
 </code></pre>
@@ -213,18 +207,18 @@
 <!---CIVET surfaces for each subject can be [viewed online](OnlineViewer.html).
 -->
 
-<h5 id="freesurfer">Freesurfer</h5>
+<h6 id="freesurfer-url-template">Freesurfer URL Template</h6>
 
-<p>The entirety of the Freesurfer output folders for each subject are available for download using the following URL structure:</p>
+<p>The entirety of the Freesurfer output folders for each subject are available for download using the following template:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/5.1/[file identifier]/[sub directory]/[output file]
 </code></pre>
 
-<p>where:</p>
+<p>Where:</p>
 
-<pre><code>[file identifier] comes from FILE_ID column of the summary spreadsheet
-[sub directory] is one of the standard Freesurfer subdirectories: label | mri | scripts | stats | surf 
-[output file] is the name of the desired output file
+<pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
+[sub directory] = one of the standard Freesurfer subdirectories: label | mri | scripts | stats | surf 
+[output file] = the name of the desired output file
 </code></pre>
 
 <p>There are 284 files distributed across the subdirectories of each subject’s output directory. An example listing of the files for one subject is available <a href="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/freesurfer_files.json">here</a> (right click and select <code>Save Link As ...</code>). The <code>-qcache</code> flag was used during reconstruction resulting in versions of the different surface metrics that have been smoothed at 0, 5, 10, 15, 20 and 25 mm FWHM. Information about the different subdirectories and files can be found in the <a href="http://surfer.nmr.mgh.harvard.edu/fswiki/">Freesurfer documentation</a>:</p>
