@@ -81,11 +81,17 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
 
     # Get header indices
     header = pheno_list[0].split(',')
-    site_idx = header.index('SITE_ID')
-    file_idx = header.index('FILE_ID')
-    age_idx = header.index('AGE_AT_SCAN')
-    sex_idx = header.index('SEX')
-    mean_fd_idx = header.index('func_mean_fd')
+    try:
+        site_idx = header.index('SITE_ID')
+        file_idx = header.index('FILE_ID')
+        age_idx = header.index('AGE_AT_SCAN')
+        sex_idx = header.index('SEX')
+        mean_fd_idx = header.index('func_mean_fd')
+    except Exception as exc:
+        err_msg = 'Unable to extract header information from the pheno file: %s'\
+                '\nHeader should have pheno info: %s\nError: %s'\
+                % (s3_pheno_path, str(header), exc)
+        raise Exception(err_msg)
 
     # Go through pheno file and build download paths
     print 'Collecting images of interest...'
