@@ -57,7 +57,7 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
     mean_fd_thresh = 0.2
     s3_prefix = 'https://s3.amazonaws.com/fcp-indi/data/Projects/'\
                 'ABIDE_Initiative'
-    s3_pheno_path = os.path.join(s3_prefix, 'Phenotypic_V1_0b_preprocessed1.csv')
+    s3_pheno_path = '/'.join([s3_prefix, 'Phenotypic_V1_0b_preprocessed1.csv'])
 
     # Format input arguments to be lower case, if not already
     derivative = derivative.lower()
@@ -131,8 +131,8 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
         # Test age range
         if row_age < less_than and row_age > greater_than:
             filename = row_file_id + '_' + derivative + extension
-            s3_path = os.path.join(s3_prefix, 'Outputs', pipeline, strategy,
-                                   derivative, filename)
+            s3_path = '/'.join([s3_prefix, 'Outputs', pipeline, strategy,
+                                   derivative, filename])
             print 'Adding %s to download queue...' % s3_path
             s3_paths.append(s3_path)
         else:
