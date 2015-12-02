@@ -89,8 +89,8 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
         mean_fd_idx = header.index('func_mean_fd')
     except Exception as exc:
         err_msg = 'Unable to extract header information from the pheno file: %s'\
-                '\nHeader should have pheno info: %s\nError: %s'\
-                % (s3_pheno_path, str(header), exc)
+                  '\nHeader should have pheno info: %s\nError: %s'\
+                  % (s3_pheno_path, str(header), exc)
         raise Exception(err_msg)
 
     # Go through pheno file and build download paths
