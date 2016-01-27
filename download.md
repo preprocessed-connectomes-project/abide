@@ -6,9 +6,9 @@ title: Downloads
 The results of the ABIDE Preprocessed initiative are currently available on a public Amazon S3 bucket. The data on S3 are stored as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. In the future, we hope to offer the data on NITRC as well with a tar file for each derivative, pipeline and strategy. 
 
 ### Accessing data from the Amazon S3 bucket
-Each file in the S3 bucket can only be accessed using HTTP (i.e.,**no ftp or scp**). You must contruct a URL for each desired file (see URL templates below) and then download it using an HTTP client such as a web browser, `wget`, or `curl`. Each file can only be accessed using its literal name- wildcards will not work. An example python script for downloading a subset of the data based on participant demographics is available [here](https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py) (right click and select `Save Link As...`).
+Each file in the S3 bucket can only be accessed using HTTP (i.e.,**no ftp or scp**). You must contruct a URL for each desired file (see URL templates below) and then download it using an HTTP client such as a web browser, `wget`, or `curl`. Each file can only be accessed using its literal name- wildcards will not work. An example python script for downloading a subset of the data based on participant demographics is available [here](https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py) (right click and select `Save Link As...`).  You can find instructions for using this script [here](https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/download_abide_preproc_guide.txt).
 
-There are also file transfer programs that can handle S3 natively and will allow you to navigate through the data using a file browser. [Cyberduck](https://cyberduck.io/) is one such program that works with Windows and Mac OS X (see screenshot illustrating a configuration to connect to the ABIDE preprocessed data below). Cyberduck also has a [command line version](https://duck.sh) that works with Windows, Mac OS X, and Linux.  Another program, [CloudExplorer](https://github.com/rusher81572/cloudExplorer) is Java-based and will work on Windows, Mac OS X, and Linux.
+There are also file transfer programs that can handle S3 natively and will allow you to navigate through the data using a file browser. [Cyberduck](https://cyberduck.io/) is one such program that works with Windows and Mac OS X (see screenshot illustrating a configuration to connect to the ABIDE preprocessed data below). Cyberduck also has a [command line version](https://duck.sh) that works with Windows, Mac OS X, and Linux.
 
 ![Configuring Cyberduck to access ABIDE Preprocessed data](images/cyberduck_config.png "Configuring Cyberduck")
 
@@ -35,7 +35,7 @@ Where:
                    eigenvector_binarize | eigenvector_weighted | falff | func_mask | ... 
                    func_mean | func_preproc | lfcd | reho | rois_aal | rois_cc200 | ... 
                    rois_cc400 | rois_dosenbach160 | rois_ez | rois_ho | rois_tt | vmhc
-    [ezt] = 1D | nii.gz
+    [ext] = 1D | nii.gz
 
 The file extension is determined by the derivative type. Use `.nii.gz` for all derivatives except for the ROI time series files, which end in `.1D` (these derivative names begin with `rois_`). Refer to the [ROI description](Pipelines.html#regions_of_interest) for more information about the definition of the ROIs used to extract these time series and their labels.
 

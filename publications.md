@@ -3,8 +3,7 @@ layout: page
 title: Publications
 ---
 
-
-<link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
+<!-- link rel="stylesheet" href="stylesheets/bib-publication-list.css"/>
 
 <noscript>
    <!-- bibtex source hidden by default, show it if JS disabled -->
@@ -21,8 +20,6 @@ title: Publications
     $(document).ready(function() {
         bibtexify("abide_pubs.bib", "pubTable",{'tweet': 'RCCraddock'});
     });
-</script>
-
-
+</script -->
 
 ## Coming Soon
