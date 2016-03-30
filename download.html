@@ -38,7 +38,7 @@
             
                 <div id="main_content_wrap" class="outer">
                     <section id="main_content" class="inner">
-                        <p>The results of the ABIDE Preprocessed initiative are currently available on a public Amazon S3 bucket. The data on S3 are stored as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. In the future, we hope to offer the data on NITRC as well with a tar file for each derivative, pipeline and strategy. </p>
+                        <p>The results of the ABIDE Preprocessed initiative are currently available on a public Amazon S3 bucket. The data on S3 are stored as a single file per derivative for each participant, pipeline and strategy, which provides flexibility about the files that are downloaded. In the future, we hope to offer the data on NITRC as well with a tar file for each derivative, pipeline and strategy.</p>
 
 <h3 id="accessing-data-from-the-amazon-s3-bucket">Accessing data from the Amazon S3 bucket</h3>
 <p>Each file in the S3 bucket can only be accessed using HTTP (i.e.,<strong>no ftp or scp</strong>). You must contruct a URL for each desired file (see URL templates below) and then download it using an HTTP client such as a web browser, <code>wget</code>, or <code>curl</code>. Each file can only be accessed using its literal name- wildcards will not work. An example python script for downloading a subset of the data based on participant demographics is available <a href="https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py">here</a> (right click and select <code>Save Link As...</code>).  You can find instructions for using this script <a href="https://raw.githubusercontent.com/preprocessed-connectomes-project/abide/master/download_abide_preproc_guide.txt">here</a>.</p>
@@ -64,7 +64,7 @@
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
 </code></pre>
 
-<p>Where: </p>
+<p>Where:</p>
 
 <pre><code>[pipeline] = ccs | cpac | dparsf | niak 
 [strategy] = filt_global | filt_noglobal | nofilt_global | nofilt_noglobal
@@ -116,7 +116,7 @@
 <p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py">Python script</a> also provides examples for downloading this data. Again, file identifiers correspond to <code>FILE_ID</code> values from the <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">summary spreadsheet</a>.</p>
 
 <h5 id="ants-cortical-thickness-url-templates">ANTS Cortical Thickness URL Templates</h5>
-<p>Cortical thickness measures calculated using the <a href="http://stnava.github.io/ANTs/">ANTs</a> pipeline can be downloaded using the root URL:         </p>
+<p>Cortical thickness measures calculated using the <a href="http://stnava.github.io/ANTs/">ANTs</a> pipeline can be downloaded using the root URL:</p>
 
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/ants/
 </code></pre>
@@ -154,7 +154,7 @@
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[surface]/[file identifier]_[surface].obj
 </code></pre>
 
-<p>Where: </p>
+<p>Where:</p>
 
 <pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [surface] =  gray_surface_rsl_left_81920 | gray_surface_rsl_right_81920 | mid_surface_rsl_left_81920 | ...
@@ -182,7 +182,7 @@
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].dat
 </code></pre>
 
-<p>Where: </p>
+<p>Where:</p>
 
 <pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [derivative] = gi_left | gi_right | lobe_areas_40mm_left | lobe_areas_40mm_right | lobe_native_cortex_area_left | ...
@@ -197,7 +197,7 @@
 <pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/thickness_[derivative]/[file identifier]_[derivative].txt
 </code></pre>
 
-<p>Where: </p>
+<p>Where:</p>
 
 <pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 [derivative] = cerebral_volume | native_rms_rsl_tlink_30mm_asym_hemi | native_rms_rsl_tlink_30mm_left | ...

@@ -124,8 +124,6 @@
         var overlay_volume = this;
         var values = [];
 
-        //overlay_volume.volumes[0];
-
         overlay_volume.volumes.forEach(function(volume) {
           var header = volume.header;
 
@@ -134,7 +132,6 @@
             z < 0 || z > header.zspace.space_length) {
             values.push(0);
           }
-          alert(values);
 
           var slice = volume.slice("zspace", z, time);
           var data = slice.data;
