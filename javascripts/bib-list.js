@@ -2686,13 +2686,13 @@ var bibtexify = (function($) {
             'conference': 'Talk',
             'inbook': 'Book chapter',
             'incollection': '',
-            'inproceedings': 'Abstract',
+            'inproceedings': 'In Proceedings',
             'manual': 'Manual',
-            'mastersthesis': 'Thesis',
-            'misc': 'Misc',
-            'phdthesis': 'PhD Thesis',
+            'mastersthesis': 'MS Thesis',
+            'misc': 'Patent',
+            'phdthesis': 'PhD Dissertation',
             'proceedings': 'Conference proceeding',
-            'techreport': 'Technical report',
+            'techreport': 'arXiv',
             'unpublished': 'Unpublished'}
     };
     // format a phd thesis similarly to masters thesis
