@@ -48,7 +48,7 @@
 <p><img src="images/cyberduck_config.png" alt="Configuring Cyberduck to access ABIDE Preprocessed data" title="Configuring Cyberduck" /></p>
 
 <h4 id="summary-spreadsheet">Summary Spreadsheet</h4>
-<p>A summary spreadsheet that contains phenotypic data and quality assessment information is available <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">here</a>. This file contains all of the information from the <a href="http://www.nitrc.org/frs/downloadlink.php/4912">original phenotypic file</a> provided with the ABIDE release (which is described in the ABIDE <a href="http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf">phenotypic data legend</a>), with additional metadata about the preprocessed data. This additional data includes:</p>
+<p>A summary spreadsheet that contains phenotypic data and quality assessment information is available <a href="https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">here</a>. This file contains all of the information from the <a href="http://www.nitrc.org/frs/downloadlink.php/4912">original phenotypic file</a> provided with the ABIDE release (which is described in the ABIDE <a href="http://fcon_1000.projects.nitrc.org/indi/abide/ABIDE_LEGEND_V1.02.pdf">phenotypic data legend</a>), with additional metadata about the preprocessed data. This additional data includes:</p>
 
 <ul>
   <li>The <code>FILE_ID</code> column, which provides a mapping between the phenotypic data and the preprocessed data filenames. It is formed by combining <code>SITE_ID</code> and <code>SUB_ID</code> (the latter of which is zero-padded to have 7 digits).  <strong>It is used in every URL template described below.</strong></li>
@@ -61,7 +61,7 @@
 
 <p>Preprocessed functional data can be downloaded using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/[pipeline]/[strategy]/[derivative]/[file identifier]_[derivative].[ext]
 </code></pre>
 
 <p>Where:</p>
@@ -80,14 +80,14 @@
 
 <p>Here are a few examples that illustrate the construction of paths for a few different files:</p>
 
-<p>ALFF for <code>OHSU_0050147</code> preprocessed using <code>filt_global</code> from C-PAC (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a>):</p>
+<p>ALFF for <code>OHSU_0050147</code> preprocessed using <code>filt_global</code> from C-PAC (<a href="https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz">link</a>):</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/alff/OHSU_0050147_alff.nii.gz
 </code></pre>
 
-<p>Harvard-Oxford ROI time series for <code>KKI_0050822</code> preprocessed using <code>filt_global</code> from C-PAC (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a>):</p>
+<p>Harvard-Oxford ROI time series for <code>KKI_0050822</code> preprocessed using <code>filt_global</code> from C-PAC (<a href="https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D">link</a>):</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/filt_global/rois_ho/KKI_0050822_rois_ho.1D
 </code></pre>
 
 <p>The 3D binary derivatives (i.e. those ending in nii.gz except for ‘func_preproc’ and ‘dual_reg’) are roughly 256 KB to 512KB in size. The ‘dual_reg’ files are 10 times the size of the others (i.e. 2.5MB - 5MB) and the ‘func_preproc’ files are very large (30 MB - 200 MB). Extracted time series files are .5 - 1 MB in size.</p>
@@ -99,7 +99,7 @@
 
 <p><a href="Pipelines.html#min_preproc">Minimally preprocessed</a> data using the C-PAC pipeline is available. These data can be downloaded from using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/[file identifier]_func_minimal.nii.gz
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/[file identifier]_func_minimal.nii.gz
 </code></pre>
 
 <p>Where:</p>
@@ -107,18 +107,18 @@
 <pre><code>[file identifier] = the FILE_ID value from the summary spreadsheet
 </code></pre>
 
-<p>For example, the URL for minimally preprocessed data for <code>OHSU_0050147</code> (<a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz">link</a>) would be:</p>
+<p>For example, the URL for minimally preprocessed data for <code>OHSU_0050147</code> (<a href="https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz">link</a>) would be:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/cpac/func_minimal/OHSU_0050147_func_minimal.nii.gz
 </code></pre>
 
 <h4 id="structural-data-url-templates">Structural Data URL Templates</h4>
-<p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py">Python script</a> also provides examples for downloading this data. Again, file identifiers correspond to <code>FILE_ID</code> values from the <a href="https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">summary spreadsheet</a>.</p>
+<p>Due to the diversity of the structural pipelines, each pipeline has a different format for specifying its derivatives. The aforementioned <a href="https://github.com/preprocessed-connectomes-project/abide/blob/master/download_abide_preproc.py">Python script</a> also provides examples for downloading this data. Again, file identifiers correspond to <code>FILE_ID</code> values from the <a href="https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Phenotypic_V1_0b_preprocessed1.csv">summary spreadsheet</a>.</p>
 
 <h5 id="ants-cortical-thickness-url-templates">ANTS Cortical Thickness URL Templates</h5>
 <p>Cortical thickness measures calculated using the <a href="http://stnava.github.io/ANTs/">ANTs</a> pipeline can be downloaded using the root URL:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/ants/
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/ants/
 </code></pre>
 
 <p>appended with a string corresponding to one of the two available cortical thickness derivatives:</p>
@@ -151,7 +151,7 @@
 
 <p>CIVET generated surfaces in stereotaxic space can be downloaded using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[surface]/[file identifier]_[surface].obj
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[surface]/[file identifier]_[surface].obj
 </code></pre>
 
 <p>Where:</p>
@@ -165,7 +165,7 @@
 
 <p>Vertex-based measures in stereotaxic space can be downloaded using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].txt
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].txt
 </code></pre>
 
 <p>Where:</p>
@@ -179,7 +179,7 @@
 
 <p>Region-based measures can be downloaded using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].dat
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/civet/surfaces_[derivative]/[file identifier]_[derivative].dat
 </code></pre>
 
 <p>Where:</p>
@@ -194,7 +194,7 @@
 
 <p>Cortical thickness maps in stereotaxic space can be downloaded using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/civet/thickness_[derivative]/[file identifier]_[derivative].txt
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/civet/thickness_[derivative]/[file identifier]_[derivative].txt
 </code></pre>
 
 <p>Where:</p>
@@ -211,7 +211,7 @@
 
 <p>The entirety of the Freesurfer output folders for each subject are available for download using the following template:</p>
 
-<pre><code>https://s3.amazonaws.com/fcp-indi/data/Projects/ABIDE_Initiative/Outputs/freesurfer/5.1/[file identifier]/[sub directory]/[output file]
+<pre><code>https://s3.amazonaws.com/fcp-indi-new/data/Projects/ABIDE_Initiative/Outputs/freesurfer/5.1/[file identifier]/[sub directory]/[output file]
 </code></pre>
 
 <p>Where:</p>
