@@ -55,7 +55,7 @@ def collect_and_download(derivative, pipeline, strategy, out_dir,
 
     # Init variables
     mean_fd_thresh = 0.2
-    s3_prefix = 'https://s3.amazonaws.com/fcp-indi-new/data/Projects/'\
+    s3_prefix = 'https://s3.amazonaws.com/fcp-indi/data/Projects/'\
                 'ABIDE_Initiative'
     s3_pheno_path = '/'.join([s3_prefix, 'Phenotypic_V1_0b_preprocessed1.csv'])
 
