@@ -2,20 +2,20 @@
  * Javascript BibTex Parser v0.1
  * Copyright (c) 2008 Simon Fraser University
  * @author Steve Hannah <shannah at sfu dot ca>
- * 
+ *
  *
  * License:
- * 
+ *
  *     This program is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation, either version 3 of the License, or
  *     (at your option) any later version.
- * 
+ *
  *     This program is distributed in the hope that it will be useful,
  *     but WITHOUT ANY WARRANTY; without even the implied warranty of
  *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *     GNU General Public License for more details.
- * 
+ *
  *     You should have received a copy of the GNU General Public License
  *     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
@@ -28,11 +28,11 @@
  * In order to make porting the parser into javascript easier, I have made
  * use of many phpjs functions, which are distributed here under the MIT License:
  *
- * 
+ *
  * More info at: http://kevin.vanzonneveld.net/techblog/category/php2js
- * 
+ *
  * php.js is copyright 2008 Kevin van Zonneveld.
- * 
+ *
  * Portions copyright Ates Goral (http://magnetiq.com), Legaev Andrey,
  * _argos, Jonas Raoni Soares Silva (http://www.jsfromhell.com),
  * Webtoolkit.info (http://www.webtoolkit.info/), Carlos R. L. Rodrigues, Ash
@@ -43,9 +43,9 @@
  * Kowalski, Leslie Hoare, Lincoln Ramsay, Mick@el, Nick Callen, Peter-Paul
  * Koch (http://www.quirksmode.org/js/beat.html), Philippe Baumann, Steve
  * Clay, booeyOH
- * 
+ *
  * Licensed under the MIT (MIT-LICENSE.txt) license.
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the
  * "Software"), to deal in the Software without restriction, including
@@ -53,16 +53,16 @@
  * distribute, sublicense, and/or sell copies of the Software, and to
  * permit persons to whom the Software is furnished to do so, subject to
  * the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included
  * in all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
  * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
  * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
- * IN NO EVENT SHALL KEVIN VAN ZONNEVELD BE LIABLE FOR ANY CLAIM, DAMAGES 
+ * IN NO EVENT SHALL KEVIN VAN ZONNEVELD BE LIABLE FOR ANY CLAIM, DAMAGES
  * OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
- * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+ * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  *
  *
@@ -73,7 +73,7 @@
  *    1. Parse BibTex into a logical data javascript data structure.
  *    2. Output parsed BibTex entries as HTML, RTF, or BibTex.
  *
- *  
+ *
  * The following usage instructions have been copyed and adapted from the PHP instructions located
  * at http://pear.php.net/manual/en/package.structures.structures-bibtex.intro.php
  * Introduction
@@ -84,76 +84,76 @@
  * file. During parsing it is possible to let the data be validated. In
  * addition. the creation of BibTex Strings as well as RTF Strings is also
  * supported. A few examples
- * 
+ *
  * Example 1. Loading a BibTex File and printing the parsed array
  * <script src="BibTex.js"></script>
  * <script>
  * bibtex = new BibTex();
  * bibtex.content = content; // the bibtex content as a string
- * 
+ *
  * bibtex->parse();
  * alert(print_r($bibtex->data,true));
  * </script>
- * 
- * 
+ *
+ *
  * Options
  * --------
  * Options can be set either in the constructor or with the method
  * setOption(). When setting in the constructor the options are given in an
  * associative array. The options are:
- * 
- * 	-	stripDelimiter (default: true) Stripping the delimiter surrounding the entries. 
- * 	-	validate (default: true) Validation while parsing. 
- * 	-	unwrap (default: false) Unwrapping entries while parsing. 
+ *
+ * 	-	stripDelimiter (default: true) Stripping the delimiter surrounding the entries.
+ * 	-	validate (default: true) Validation while parsing.
+ * 	-	unwrap (default: false) Unwrapping entries while parsing.
  * 	-	wordWrapWidth (default: false) If set to a number higher one
- * 	    that the entries are wrapped after that amount of characters. 
- * 	-	wordWrapBreak (default: \n) String used to break the line (attached to the line). 
+ * 	    that the entries are wrapped after that amount of characters.
+ * 	-	wordWrapBreak (default: \n) String used to break the line (attached to the line).
  * 	-	wordWrapCut (default: 0) If set to zero the line will we
  * 	    wrapped at the next possible space, if set to one the line will be
- * 	    wrapped exactly after the given amount of characters. 
- * 	-	removeCurlyBraces (default: false) If set to true Curly Braces will be removed. 
- * 
+ * 	    wrapped exactly after the given amount of characters.
+ * 	-	removeCurlyBraces (default: false) If set to true Curly Braces will be removed.
+ *
  * Example of setting options in the constructor:
- * 
+ *
  * Example 2. Setting options in the constructor
  * bibtex = new BibTex({'validate':false, 'unwrap':true});
- * 
- * 
+ *
+ *
  * Example of setting options using the method setOption():
- * 
+ *
  * Example 62-3. Setting options using setOption
  * bibtex = new BibTex();
  * bibtex.setOption('validate', false);
  * bibtex.setOption('unwrap', true);
- * 
+ *
  * Stored Data
  * ------------
  * The data is stored in the class variable data. This is a a list where
  * each entry is a hash table representing one bibtex-entry. The keys of
  * the hash table correspond to the keys used in bibtex and the values are
  * the corresponding values. Some of these keys are:
- * 
- * 	-	cite - The key used in a LaTeX source to do the citing. 
- * 	-	entryType - The type of the entry, like techreport, book and so on. 
+ *
+ * 	-	cite - The key used in a LaTeX source to do the citing.
+ * 	-	entryType - The type of the entry, like techreport, book and so on.
  * 	-	author - One or more authors of the entry. This entry is also a
  * 	    list with hash tables representing the authors as entries. The
- * 	    author has table is explained later. 
- * 	-	title - Title of the entry. 
- * 
+ * 	    author has table is explained later.
+ * 	-	title - Title of the entry.
+ *
  * Author
  * ------
  * As described before the authors are stored in a list. Every entry
  * representing one author as a has table. The hash table consits of four
  * keys: first, von, last and jr. The keys are explained in the following
  * list:
- * 
- * 	-	first - The first name of the author. 
- * 	-	von - Some names have a 'von' part in their name. This is usually a sign of nobleness. 
- * 	-	last - The last name of the author. 
+ *
+ * 	-	first - The first name of the author.
+ * 	-	von - Some names have a 'von' part in their name. This is usually a sign of nobleness.
+ * 	-	last - The last name of the author.
  * 	-	jr - Sometimes a author is the son of his father and has the
  * 	    same name, then the value would be jr. The same is true for the
- * 	    value sen but vice versa. 
- * 
+ * 	    value sen but vice versa.
+ *
  * Adding an entry
  * ----------------
  * To add an entry simply create a hash table with the needed keys and
@@ -177,7 +177,7 @@
 // {{{ array
 function array( ) {
     // #!#!#!#!# array::$descr1 does not contain valid 'array' at line 258
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_array/
     // +       version: 805.1716
     // +   original by: d3x
@@ -190,7 +190,7 @@ function array( ) {
 // {{{ array_key_exists
 function array_key_exists ( key, search ) {
     // Checks if the given key or index exists in the array
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_array_key_exists/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -207,7 +207,7 @@ function array_key_exists ( key, search ) {
 }// }}}// {{{ array_keys
 function array_keys( input, search_value, strict ) {
     // Return all the keys of an array
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_array_keys/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -238,7 +238,7 @@ function array_keys( input, search_value, strict ) {
 // {{{ in_array
 function in_array(needle, haystack, strict) {
     // Checks if a value exists in an array
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_in_array/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -260,7 +260,7 @@ function in_array(needle, haystack, strict) {
 // {{{ sizeof
 function sizeof ( mixed_var, mode ) {
     // Alias of count()
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_sizeof/
     // +       version: 804.1712
     // +   original by: Philip Peterson
@@ -269,14 +269,14 @@ function sizeof ( mixed_var, mode ) {
     // *     returns 1: 6
     // *     example 2: sizeof({'one' : [1,2,3,4,5]}, 'COUNT_RECURSIVE');
     // *     returns 2: 6
- 
+
     return count( mixed_var, mode );
 }// }}}
 
 // {{{ count
 function count( mixed_var, mode ) {
     // Count elements in an array, or properties in an object
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_count/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -304,7 +304,7 @@ function count( mixed_var, mode ) {
 // {{{ explode
 function explode( delimiter, string, limit ) {
     // Split a string by string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_explode/
     // +       version: 805.1715
     // +     original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -316,9 +316,9 @@ function explode( delimiter, string, limit ) {
     // *     returns 1: {0: 'Kevin', 1: 'van', 2: 'Zonneveld'}
     // *     example 2: explode('=', 'a=bc=d', 2);
     // *     returns 2: ['a', 'bc=d']
- 
+
     var emptyArray = { 0: '' };
-    
+
     // third argument is not required
     if ( arguments.length < 2
         || typeof arguments[0] == 'undefined'
@@ -326,14 +326,14 @@ function explode( delimiter, string, limit ) {
     {
         return null;
     }
- 
+
     if ( delimiter === ''
         || delimiter === false
         || delimiter === null )
     {
         return false;
     }
- 
+
     if ( typeof delimiter == 'function'
         || typeof delimiter == 'object'
         || typeof string == 'function'
@@ -341,11 +341,11 @@ function explode( delimiter, string, limit ) {
     {
         return emptyArray;
     }
- 
+
     if ( delimiter === true ) {
         delimiter = '1';
     }
-    
+
     if (!limit) {
         return string.toString().split(delimiter.toString());
     } else {
@@ -361,7 +361,7 @@ function explode( delimiter, string, limit ) {
 // {{{ implode
 function implode( glue, pieces ) {
     // Join array elements with a string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_implode/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -375,7 +375,7 @@ function implode( glue, pieces ) {
 // {{{ join
 function join( glue, pieces ) {
     // Alias of implode()
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_join/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -389,7 +389,7 @@ function join( glue, pieces ) {
 // {{{ split
 function split( delimiter, string ) {
     // Split string into array by regular expression
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_split/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -403,7 +403,7 @@ function split( delimiter, string ) {
 // {{{ str_replace
 function str_replace(search, replace, subject) {
     // Replace all occurrences of the search string with the replacement string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_str_replace/
     // +       version: 805.3114
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -415,22 +415,22 @@ function str_replace(search, replace, subject) {
     // *     example 1: str_replace(' ', '.', 'Kevin van Zonneveld');
     // *     returns 1: 'Kevin.van.Zonneveld'
     // *     example 2: str_replace(['{name}', 'l'], ['hello', 'm'], '{name}, lars');
-    // *     returns 2: 'hemmo, mars'    
-    
+    // *     returns 2: 'hemmo, mars'
+
     var f = search, r = replace, s = subject;
     var ra = is_array(r), sa = is_array(s), f = [].concat(f), r = [].concat(r), i = (s = [].concat(s)).length;
 
     while (j = 0, i--) {
         while (s[i] = s[i].split(f[j]).join(ra ? r[j] || "" : r[0]), ++j in f){};
     };
-     
+
     return sa ? s : s[0];
 }// }}}
 
 // {{{ strlen
 function strlen( string ){
     // Get string length
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_strlen/
     // +       version: 805.1616
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -444,7 +444,7 @@ function strlen( string ){
 // {{{ strpos
 function strpos( haystack, needle, offset){
     // Find position of first occurrence of a string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_strpos/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -458,7 +458,7 @@ function strpos( haystack, needle, offset){
 // {{{ strrpos
 function strrpos( haystack, needle, offset){
     // Find position of last occurrence of a char in a string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_strrpos/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -472,7 +472,7 @@ function strrpos( haystack, needle, offset){
 // {{{ strtolower
 function strtolower( str ) {
     // Make a string lowercase
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_strtolower/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -485,7 +485,7 @@ function strtolower( str ) {
 // {{{ strtoupper
 function strtoupper( str ) {
     // Make a string uppercase
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_strtoupper/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -498,7 +498,7 @@ function strtoupper( str ) {
 // {{{ substr
 function substr( f_string, f_start, f_length ) {
     // Return part of a string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_substr/
     // +       version: 804.1712
     // +     original by: Martijn Wieringa
@@ -527,7 +527,7 @@ function substr( f_string, f_start, f_length ) {
 // {{{ trim
 function trim( str, charlist ) {
     // Strip whitespace (or other characters) from the beginning and end of a string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_trim/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -543,13 +543,13 @@ function trim( str, charlist ) {
     // *     returns 2: 'o Wor'
     if (!str) { return ''; }
     var whitespace;
-    
+
     if(!charlist){
         whitespace = ' \n\r\t\f\x0b\xa0\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u2028\u2029\u3000';
     } else{
         whitespace = charlist.replace(/([\[\]\(\)\.\?\/\*\{\}\+\$\^\:])/g, '\$1');
     }
-  
+
 	for (var i = 0; i < str.length; i++) {
 		if (whitespace.indexOf(str.charAt(i)) === -1) {
 		str = str.substring(i);
@@ -569,7 +569,7 @@ function trim( str, charlist ) {
 // {{{ wordwrap
 function wordwrap( str, int_width, str_break, cut ) {
     // Wraps a string to a given number of characters
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_wordwrap/
     // +       version: 804.1715
     // +   original by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
@@ -577,10 +577,10 @@ function wordwrap( str, int_width, str_break, cut ) {
     // +    revised by: Jonas Raoni Soares Silva (http://www.jsfromhell.com)
     // *     example 1: wordwrap('Kevin van Zonneveld', 6, '|', true);
     // *     returns 1: 'Kevin |van |Zonnev|eld'
-    
+
     var m = int_width, b = str_break, c = cut;
     var i, j, l, s, r;
-    
+
     if(m < 1) {
         return str;
     }
@@ -589,14 +589,14 @@ function wordwrap( str, int_width, str_break, cut ) {
             j = c == 2 || (j = s.slice(0, m + 1).match(/\S*(\s)?$/))[1] ? m : j.input.length - j[0].length || c == 1 && m || j.input.length + (j = s.slice(m).match(/^\S*/)).input.length;
         }
     }
-    
+
     return r.join("\n");
 }// }}}
 
 // {{{ is_string
 function is_string( mixed_var ){
     // Find whether the type of a variable is string
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_is_string/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -612,7 +612,7 @@ function is_string( mixed_var ){
 // {{{ ord
 function ord( string ) {
     // Return ASCII value of character
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_ord/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -625,7 +625,7 @@ function ord( string ) {
 // {{{ array_unique
 function array_unique( array ) {
     // Removes duplicate values from an array
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_array_unique/
     // +       version: 805.211
     // +   original by: Carlos R. L. Rodrigues (http://www.jsfromhell.com)
@@ -650,7 +650,7 @@ function array_unique( array ) {
 // {{{ print_r
 function print_r( array, return_val ) {
     // Prints human-readable information about a variable
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_print_r/
     // +       version: 805.2023
     // +   original by: Michael White (http://crestidg.com)
@@ -688,8 +688,8 @@ function print_r( array, return_val ) {
 
     var repeat_char = function (len, pad_char) {
         var str = "";
-        for(var i=0; i < len; i++) { 
-            str += pad_char; 
+        for(var i=0; i < len; i++) {
+            str += pad_char;
         };
         return str;
     };
@@ -705,7 +705,7 @@ function print_r( array, return_val ) {
 // {{{ is_array
 function is_array( mixed_var ) {
     // Finds whether a variable is an array
-    // 
+    //
     // +    discuss at: http://kevin.vanzonneveld.net/techblog/article/javascript_equivalent_for_phps_is_array/
     // +       version: 804.1712
     // +   original by: Kevin van Zonneveld (http://kevin.vanzonneveld.net)
@@ -835,7 +835,7 @@ function BibTex(options)
      * @var string
      */
     this.authorstring;
-    
+
     this._delimiters     = {'"':'"',
                                         '{':'}'};
 	this.data            = [];
@@ -875,22 +875,23 @@ function BibTex(options)
 		'phdthesis',
 		'proceedings',
 		'techreport',
+    'preprint',
 		'unpublished'
 	);
 	this.authorstring = 'VON LAST, JR, FIRST';
-    
+
 }
 
 
 BibTex.prototype = {
-     
+
     /**
      * Constructor
      *
      * @access public
      * @return void
      */
-   
+
 
     /**
      * Sets run-time configuration options
@@ -1212,7 +1213,7 @@ BibTex.prototype = {
     {
         return in_array(entry, this.allowedEntryTypes);
     },
-    
+
     /**
      * Checking whether an at is outside an entry
      *
@@ -1490,11 +1491,11 @@ BibTex.prototype = {
         }
         return ret;
     },
-    
-    
+
+
     'isError': function(obj){
     	return ( typeof(obj) == 'Object' && obj.isError == 1 );
-    
+
     },
 
     /**
@@ -1572,7 +1573,7 @@ BibTex.prototype = {
         value       = begin+value+end;
         return value;
     },
-    
+
     /**
      * Generates a warning
      *
@@ -1742,7 +1743,7 @@ BibTex.prototype = {
         }
         return ret;
     },
-    
+
     /**
      * Returns the stored data in RTF format
      *
@@ -1849,7 +1850,7 @@ BibTex.prototype = {
                     authors = entry['author'];
                 }
             }
-            
+
             if ((''!=title) || (''!=journal) || (''!=year) || (''!=authors)) {
                 line = str_replace("TITLE", title, line);
                 line = str_replace("JOURNAL", journal, line);
@@ -1869,14 +1870,14 @@ BibTex.prototype = {
  * Version:     1.6.2
  * Author:      Allan Jardine (www.sprymedia.co.uk)
  * Info:        www.datatables.net
- * 
+ *
  * Copyright 2008-2010 Allan Jardine, all rights reserved.
  *
  * This source file is free software, under either the GPL v2 license or a
  * BSD style license, as supplied with this software.
- * 
- * This source file is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+ *
+ * This source file is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
  * or FITNESS FOR A PARTICULAR PURPOSE. See the license files for details.
  */
 (function($){$.fn.dataTableSettings=[];var _aoSettings=$.fn.dataTableSettings;$.fn.dataTableExt={};
@@ -2544,7 +2545,7 @@ var bibtexify = (function($) {
                 itemStr += ' (<a title="Open source software for this article" href="' + entryData.prj +
                             '">open source<\/a>)';
             }
-            
+
             return itemStr;
         },
         // adds links to the PDF or url of the item
@@ -2630,6 +2631,11 @@ var bibtexify = (function($) {
                 "pp. " + entryData.pages + ". " +
                 ((entryData.address)?entryData.address + ".":"") + "<\/em>";
         },
+        preprint: function(entryData) {
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+                entryData.title + ". <em>" + entryData.journal +
+                ((entryData.address)?entryData.address + ".":"") + "<\/em>";
+        },
         misc: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
                 entryData.title + ". " +
@@ -2639,7 +2645,12 @@ var bibtexify = (function($) {
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
             entryData.title + ". " + entryData.type + ". " +
-            entryData.organization + ", " + entryData.school + ".";
+            ((entryData.organization)?entryData.organization + ", ":"")  + entryData.school + ".";
+        },
+        phdthesis: function(entryData) {
+            return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
+            entryData.title + ". " + entryData.type + ". " +
+            ((entryData.organization)?entryData.organization + ", ":"") + entryData.school + ".";
         },
         techreport: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
@@ -2692,7 +2703,8 @@ var bibtexify = (function($) {
             'misc': 'Patent',
             'phdthesis': 'PhD Dissertation',
             'proceedings': 'Conference proceeding',
-            'techreport': 'arXiv',
+            'techreport': 'Tech Report',
+            'preprint': 'Preprint',
             'unpublished': 'Unpublished'}
     };
     // format a phd thesis similarly to masters thesis
@@ -2858,12 +2870,12 @@ var bibtexify = (function($) {
     //     as the bibtex data
     //   - a URL, which is loaded and used as data. Note, that same-origin
     //     policy restricts where you can load the data.
-    // Supported options: 
+    // Supported options:
     //   - visualization: A boolean to control addition of the visualization.
     //                    Defaults to true.
     //   - tweet: Twitter username to add Tweet links to bib items with a url field.
-    //   - sorting: Control the default sorting of the list. Defaults to [[0, "desc"], 
-    //              [1, "desc"]]. See http://datatables.net/api fnSort for details 
+    //   - sorting: Control the default sorting of the list. Defaults to [[0, "desc"],
+    //              [1, "desc"]]. See http://datatables.net/api fnSort for details
     //              on formatting.
     //   - bib2html: Can be used to override any of the functions or properties of
     //               the bib2html object. See above, starting around line 40.
