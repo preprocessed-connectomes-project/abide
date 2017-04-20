@@ -62,8 +62,6 @@ kramdown:
   enable_coderay: false
 
   syntax_highlighter_opts:
-    line_numbers: inline
-    line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: style
