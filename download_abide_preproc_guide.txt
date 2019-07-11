@@ -1,4 +1,4 @@
-The download_abide_preproc.py script allows any user to download outputs from the ABIDE preprocessed data release. The user specifies the desired derivative, pipeline, and noise removal strategy of interest, and the script finds the data on FCP-INDI's S3 bucket, hosted by Amazon Web Services, and downloads the data to a local directory. The script also allows for phenotypic specifications for targeting only the particpants whose information meets the desired criteria; these specifications include: an age range (e.g. particpants between 2 and 30 years of age), sex (male or female), and site (location where the images where acquired from). * Note the script only downloads images where the functional image's mean framewise displacement is less than 0.2.
+The download_abide_preproc.py script allows any user to download outputs from the ABIDE preprocessed data release. The user specifies the desired derivative, pipeline, and noise removal strategy of interest, and the script finds the data on FCP-INDI's S3 bucket, hosted by Amazon Web Services, and downloads the data to a local directory. The script also allows for phenotypic specifications for targeting only the particpants whose information meets the desired criteria; these specifications include: diagnosis (either ASD, TDC, or both), an age range (e.g. particpants between 2 and 30 years of age), sex (male or female), and site (location where the images where acquired from). * Note the script only downloads images where the functional image's mean framewise displacement is less than 0.2.
 
 At a minimum, the script needs a specific derivative, pipeline, and strategy to search for.
 Acceptable derivatives include:
@@ -39,7 +39,7 @@ For example, to download all particpants across all sites' ReHo images processed
 
 The script will then search for and download the data to the local directory specified with the -o flag.
 
-Participants can also be selected based on phenotypic information. For example, to download the same outputs from the previous example, but using only male subjects scanned from Caltech between the ages of 2 and 30 years:
-    python download_abide_preproc.py -d reho -p cpac -s nofilt_noglobal -o /path/to/local/download/dir -gt 2 -lt 30 -x M -t Caltech
+Participants can also be selected based on phenotypic information. For example, to download the same outputs from the previous example, but using only male ASD participants scanned from Caltech between the ages of 2 and 30 years:
+    python download_abide_preproc.py -a -d reho -p cpac -s nofilt_noglobal -o /path/to/local/download/dir -gt 2 -lt 30 -x M -t Caltech
 
 For more information on the ABIDE preprocessed initiative, please check out http://preprocessed-connectomes-project.github.io/abide
