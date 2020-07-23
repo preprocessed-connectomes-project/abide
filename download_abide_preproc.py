@@ -10,7 +10,7 @@ directory; users specify derivative, pipeline, strategy, and optionally
 age ranges, sex, site of interest
 
 Usage:
-    python download_abide_preproc.py -d <derivative> -p <pipeline>
+    python3 download_abide_preproc.py -d <derivative> -p <pipeline>
                                      -s <strategy> -o <out_dir>
                                      [-lt <less_than>] [-gt <greater_than>]
                                      [-x <sex>] [-t <site>]
