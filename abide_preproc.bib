@@ -1080,12 +1080,21 @@ keywords = "Graphs, Graph convolutional networks, Spectral theory, Semi-supervis
   publisher={Frontiers}
 }
 
-@Preprint{lanciano2020explainable,
-  title={Explainable Classification of Brain Networks via Contrast Subgraphs},
-  author={Lanciano, Tommaso and Bonchi, Francesco and Gionis, Aristides},
-  journal={arXiv preprint arXiv:2006.05176},
-  year={2020}
+@inproceedings{10.1145/3394486.3403383,
+author = {Lanciano, Tommaso and Bonchi, Francesco and Gionis, Aristides},
+title = {Explainable Classification of Brain Networks via Contrast Subgraphs},
+year = {2020},
+isbn = {9781450379984},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://https://arxiv.org/abs/2006.05176},
+abstract = {Mining human-brain networks to discover patterns that can be used to discriminate between healthy individuals and patients affected by some neurological disorder, is a fundamental task in neuro-science. Learning simple and interpretable models is as important as mere classification accuracy. In this paper we introduce a novel approach for classifying brain networks based on extracting contrast subgraphs, i.e., a set of vertices whose induced subgraphs are dense in one class of graphs and sparse in the other. We formally define the problem and present an algorithmic solution for extracting contrast subgraphs. We then apply our method to a brain-network dataset consisting of children affected by Autism Spectrum Disorder and children Typically Developed. Our analysis confirms the interestingness of the discovered patterns, which match background knowledge in the neuro-science literature. Further analysis on other classification tasks confirm the simplicity, soundness, and high explainability of our proposal, which also exhibits superior classification accuracy, to more complex state-of-the-art methods.},
+booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining},
+pages = {3308–3318},
+numpages = {11}
 }
+
+
 
 @article{Yang2020,
 title = {A Deep Neural Network Study of the ABIDE Repository on Autism Spectrum Classification},
@@ -1122,15 +1131,21 @@ author = {Xin Yang and Paul T. Schrader and Ning Zhang}
   title={Revisiting non-linear functional brain co-activations: directed, dynamic and delayed},
   author={Cifre, Ignacio and Flores, Maria T Miller and Ochab, Jeremi K and Chialvo, Dante R},
   journal={arXiv preprint arXiv:2007.15728},
+  url={https://arxiv.org/abs/2007.15728},
   year={2020}
 }
 
-@Preprint{eklund2020does,
-  title={How does group differences in motion scrubbing affect false positives in functional connectivity studies?},
-  author={Eklund, Anders and Nichols, Thomas and Afyouni, Soroosh and Craddock, Cameron},
-  journal={BioRxiv},
-  year={2020},
-  publisher={Cold Spring Harbor Laboratory}
+@preprint{Eklund2020.02.12.944454,
+	author = {Eklund, Anders and Nichols, Thomas E. and Afyouni, Soroosh and Craddock, Cameron},
+	title = {How does group differences in motion scrubbing affect false positives in functional connectivity studies?},
+	elocation-id = {2020.02.12.944454},
+	year = {2020},
+	doi = {10.1101/2020.02.12.944454},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Analyzing resting state fMRI data is difficult due to a weak signal and several noise sources. Head motion is also a major problem and it is common to apply motion scrubbing, i.e. to remove time points where a subject has moved more than some pre-defined motion threshold. A problem arises if one cohort on average moves more than another, since the remaining temporal degrees of freedom are then different for the two groups. The effect of this is that the uncertainty of the functional connectivity estimates (e.g. Pearson correlations) are different for the two groups, but this is seldom modelled in resting state fMRI. We demonstrate that group differences in motion scrubbing can result in inflated false positives, depending on how the temporal auto correlation is modelled when performing the Fisher r-to-z transform.},
+	URL = {https://www.biorxiv.org/content/early/2020/02/12/2020.02.12.944454},
+	eprint = {https://www.biorxiv.org/content/early/2020/02/12/2020.02.12.944454.full.pdf},
+	journal = {bioRxiv}
 }
 
 @article{he2020multi,
@@ -1148,6 +1163,7 @@ author = {Xin Yang and Paul T. Schrader and Ning Zhang}
   title={Deep Hypergraph U-Net for Brain Graph Embedding and Classification},
   author={Lostar, Mert and Rekik, Islem},
   journal={arXiv preprint arXiv:2008.13118},
+  url={https://arxiv.org/abs/2008.13118},
   year={2020}
 }
 
@@ -1278,13 +1294,19 @@ author = {Xin Yang and Paul T. Schrader and Ning Zhang}
   publisher={Multidisciplinary Digital Publishing Institute}
 }
 
-@Preprint{kunda2020improving,
-  title={Improving multi-site autism classification based on site-dependence minimisation and second-order functional connectivity},
-  author={Kunda, Mwiza and Zhou, Shuo and Gong, Gaolang and Lu, Haiping},
-  journal={bioRxiv},
-  year={2020},
-  publisher={Cold Spring Harbor Laboratory}
+@article {Kunda2020.02.01.930073,
+	author = {Kunda, Mwiza and Zhou, Shuo and Gong, Gaolang and Lu, Haiping},
+	title = {Improving multi-site autism classification based on site-dependence minimisation and second-order functional connectivity},
+	elocation-id = {2020.02.01.930073},
+	year = {2020},
+	doi = {10.1101/2020.02.01.930073},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Autism spectrum disorder (ASD) has no objective diagnosis method despite having a high prevalence. Machine learning has been widely used to develop classification models for ASD using neuroimaging data. Recently, studies have shifted towards using large multi-site neuroimaging datasets to boost the clinical applicability and statistical power of results. However, the classification performance is hindered by the heterogeneous nature of agglomerative datasets. In this paper, we propose new methods for multi-site autism classification using the Autism Brain Imaging Data Exchange (ABIDE) dataset. We firstly propose a new second-order measure of functional connectivity (FC) named as Tangent Pearson embedding to extract better features for classification. Then we assess the statistical dependence between acquisition sites and FC features, and apply a domain adaptation approach to minimise the site dependence of FC features to improve classification. Our analysis shows that 1) statistical dependence between site and FC features is statistically significant at the 5\% level, and 2) extracting second-order features from neuroimaging data and minimising their site dependence can improve over state-of-the-art classification results on the ABIDE dataset, achieving a classification accuracy of 73\%.},
+	URL = {https://www.biorxiv.org/content/early/2020/02/02/2020.02.01.930073},
+	eprint = {https://www.biorxiv.org/content/early/2020/02/02/2020.02.01.930073.full.pdf},
+	journal = {bioRxiv}
 }
+
 
 @article{beer2019incorporating,
   title={Incorporating prior information with fused sparse group lasso: Application to prediction of clinical measures from neuroimages},
@@ -1341,11 +1363,25 @@ author = {Xin Yang and Paul T. Schrader and Ning Zhang}
   publisher={Oxford University Press}
 }
 
-@Preprint{bilgen2020machine,
-  title={Machine Learning Methods for Brain Network Classification: Application to Autism Diagnosis using Cortical Morphological Networks},
-  author={Bilgen, Ismail and Guvercin, Goktug and Rekik, Islem},
-  journal={arXiv preprint arXiv:2004.13321},
-  year={2020}
+@article{BILGEN2020108799,
+title = {Machine learning methods for brain network classification: Application to autism diagnosis using cortical morphological networks},
+journal = {Journal of Neuroscience Methods},
+volume = {343},
+pages = {108799},
+year = {2020},
+issn = {0165-0270},
+doi = {https://doi.org/10.1016/j.jneumeth.2020.108799},
+url = {https://www.sciencedirect.com/science/article/pii/S0165027020302223},
+author = {Ismail Bilgen and Goktug Guvercin and Islem Rekik},
+keywords = {Neurological disorders, Machine Learning, Computer-aided diagnosis, A Python toolbox for network classification, Autism spectrum disorder},
+abstract = {Background
+Autism spectrum disorder (ASD) affects the brain connectivity at different levels. Nonetheless, non-invasively distinguishing such effects using magnetic resonance imaging (MRI) remains very challenging to machine learning diagnostic frameworks due to ASD heterogeneity. So far, existing network neuroscience works mainly focused on functional (derived from functional MRI) and structural (derived from diffusion MRI) brain connectivity, which might not directly capture relational morphological changes between brain regions. Indeed, machine learning (ML) studies for ASD diagnosis using morphological brain networks derived from conventional T1-weighted MRI are very scarce.
+New method
+To fill this gap, we leverage crowdsourcing by organizing a Kaggle competition to build a pool of machine learning pipelines for neurological disorder diagnosis with application to ASD diagnosis using cortical morphological networks derived from T1-weighted MRI.
+Results
+During the competition, participants were provided with a training dataset and only allowed to check their performance on a public test data. The final evaluation was performed on both public and hidden test datasets based on accuracy, sensitivity, and specificity metrics. Teams were ranked using each performance metric separately and the final ranking was determined based on the mean of all rankings. The first-ranked team achieved 70% accuracy, 72.5% sensitivity, and 67.5% specificity, where the second-ranked team achieved 63.8%, 62.5%, 65% respectively.
+Conclusion
+Leveraging participants to design ML diagnostic methods within a competitive machine learning setting has allowed the exploration and benchmarking of wide spectrum of ML methods for ASD diagnosis using cortical morphological networks.}
 }
 
 @article{pruttiakaravanich2020convex,
