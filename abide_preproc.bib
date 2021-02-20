@@ -298,16 +298,7 @@ doi = {10.3897/rio.3.e12569},
 pages={e12569},
 year = {2017}
 }
-@preprint{Afyouni2017,
-author = Afyouni, Soroosh and Nichols, Thomas E
-abstract = {Estimates of functional connectivity using resting state functional magnetic resonance imaging (rs-fMRI) are acutely sensitive to artifacts and large scale nuisance variation. As a result much effort is dedicated to preprocessing rs-fMRI data and using diagnostic measure to identify bad scans. One such diagnostic measure is DVARS, the spatial standard deviation of the data after temporal differencing. A limitation of DVARS however is the lack of concrete interpretation of the absolute values of DVARS, and finding a threshold to distinguish bad scans from good. In this work we describe a variance decomposition of the entire 4D dataset that shows DVARS to be just one of three sources of variation we refer to as D-var, S-var and E-var. D-var and S-var partition the average variance between adjacent time points, while E-var accounts for edge effects, and each can be used to make spatial and temporal summary diagnostic measures. Extending the partitioning to global (and non-global) signal leads to a rs-fMRI DSE ANOVA table, which decomposes the total and global variance into fast (D-var), slow (S-var) and edge (E-var) components. We find expected values for each variance component under nominal models, showing how D-var (and thus DVARS) scales with overall variance and is diminished by temporal autocorrelation. Finally we propose a sampling distribution for squared DVARS (a multiple of D-var) and robust methods to estimate this null model, allowing computations of DVARS p-values. We propose that these diagnostic time series, images, p-values and ANOVA table will provide a succinct summary of the quality of a rs-fMRI dataset that will support comparisons of datasets over preprocessing steps and between subjects.},
-journal = {bioRxiv},
-month = {May},
-title = {Insight and Inference for DVARS},
-doi = {https://doi.org/10.1101/125021},
-url = {http://biorxiv.org/content/early/2017/05/17/125021.abstract},
-year = {2017}
-}
+
 @INPROCEEDINGS{You2017,
 author={H. You and A. Liska and N. Russell and P. Das},
 booktitle={2017 International Workshop on Pattern Recognition in Neuroimaging (PRNI)},
@@ -336,14 +327,32 @@ doi = {10.3233/JIN-170006},
 pages={157--175},
 year = {2017}
 }
-@preprint{Parisot2017,
-author = {Parisot, Sarah and Ktena, Sofia Ira and Ferrante, Enzo and Lee, Matthew and Moreno, Ricardo Guerrerro and Glocker, Ben and Rueckert, Daniel},
-title = {Spectral Graph Convolutions for Population-based Disease Prediction},
-journal = {ArXiv e-prints},
-arxivID = {arXiv:1703.03020},
-url = {https://arxiv.org/abs/1703.03020},
-year = {2017}
+
+@InProceedings{10.1007/978-3-319-66179-7_21,
+author="Parisot, Sarah
+and Ktena, Sofia Ira
+and Ferrante, Enzo
+and Lee, Matthew
+and Moreno, Ricardo Guerrerro
+and Glocker, Ben
+and Rueckert, Daniel",
+editor="Descoteaux, Maxime
+and Maier-Hein, Lena
+and Franz, Alfred
+and Jannin, Pierre
+and Collins, D. Louis
+and Duchesne, Simon",
+title="Spectral Graph Convolutions for Population-Based Disease Prediction",
+booktitle="Medical Image Computing and Computer Assisted Intervention - MICCAI 2017",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="177--185",
+abstract="Exploiting the wealth of imaging and non-imaging information for disease prediction tasks requires models capable of representing, at the same time, individual features as well as data associations between subjects from potentially large populations. Graphs provide a natural framework for such tasks, yet previous graph-based approaches focus on pairwise similarities without modelling the subjects' individual characteristics and features. On the other hand, relying solely on subject-specific imaging feature vectors fails to model the interaction and similarity between subjects, which can reduce performance. In this paper, we introduce the novel concept of Graph Convolutional Networks (GCN) for brain analysis in populations, combining imaging and non-imaging data. We represent populations as a sparse graph where its vertices are associated with image-based feature vectors and the edges encode phenotypic information. This structure was used to train a GCN model on partially labelled graphs, aiming to infer the classes of unlabelled nodes from the node features and pairwise associations between subjects. We demonstrate the potential of the method on the challenging ADNI and ABIDE databases, as a proof of concept of the benefit from integrating contextual information in classification tasks. This has a clear impact on the quality of the predictions, leading to 69.5{\%} accuracy for ABIDE (outperforming the current state of the art of 66.8{\%}) and 77{\%} for ADNI for prediction of MCI conversion, significantly outperforming standard linear classifiers where only individual features are considered.",
+isbn="978-3-319-66179-7"
 }
+
+
 @article{Subbaraju2017,
 author = {Vigneshwaran Subbaraju and Mahanand Belathur Suresh and Suresh Sundaram and Sundararajan Narasimhan},
 title = {Identifying differences in brain activities and an accurate detection of autism spectrum disorder using resting state functional-magnetic resonance imaging : A spatial filtering approach},
@@ -363,14 +372,32 @@ arxivID = {arXiv:1704.07487v1},
 url = {https://arxiv.org/abs/1704.07487},
 year = {2017}
 }
-@preprint{Ktena2017,
-author = {Ktena, Sofia Ira and Parisot, Sarah and Ferrante, Enzo and Rajchl, Martin and Lee, Matthew and Glocker, Ben and Rueckert, Daniel},
-title = {Distance Metric Learning using Graph Convolutional Networks: Application to Functional Brain Networks},
-journal = {ArXiv e-prints},
-arxivID = {arXiv:1703.02161v2},
-url = {https://arxiv.org/abs/1703.02161},
-year = {2017}
+
+@InProceedings{10.1007/978-3-319-66182-7_54,
+author="Ktena, Sofia Ira
+and Parisot, Sarah
+and Ferrante, Enzo
+and Rajchl, Martin
+and Lee, Matthew
+and Glocker, Ben
+and Rueckert, Daniel",
+editor="Descoteaux, Maxime
+and Maier-Hein, Lena
+and Franz, Alfred
+and Jannin, Pierre
+and Collins, D. Louis
+and Duchesne, Simon",
+title="Distance Metric Learning Using Graph Convolutional Networks: Application toÂ Functional Brain Networks",
+booktitle="Medical Image Computing and Computer Assisted Intervention â MICCAI 2017",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="469--477",
+abstract="Evaluating similarity between graphs is of major importance in several computer vision and pattern recognition problems, where graph representations are often used to model objects or interactions between elements. The choice of a distance or similarity metric is, however, not trivial and can be highly dependent on the application at hand. In this work, we propose a novel metric learning method to evaluate distance between graphs that leverages the power of convolutional neural networks, while exploiting concepts from spectral graph theory to allow these operations on irregular graphs. We demonstrate the potential of our method in the field of connectomics, where neuronal pathways or functional connections between brain regions are commonly modelled as graphs. In this problem, the definition of an appropriate graph similarity function is critical to unveil patterns of disruptions associated with certain brain disorders. Experimental results on the ABIDE dataset show that our method can learn a graph similarity metric tailored for a clinical application, improving the performance of a simple k-nn classifier by 11.9{\%} compared to a traditional distance metric.",
+isbn="978-3-319-66182-7"
 }
+
+
 @article{Lacy2017,
 author = {N. de Lacy and D. Doherty and B.H. King and S. Rachakonda and V.D. Calhoun},
 title = {Disruption to control network function correlates with altered dynamic connectivity in the wider autism spectrum},
@@ -382,14 +409,20 @@ doi = {http://dx.doi.org/10.1016/j.nicl.2017.05.024},
 pages={513--524},
 year = {2017}
 }
-@preprint{Esteban2017,
-author = {Esteban, Oscar and Birman, Daniel and Schaer, Marie and Koyejo, Oluwasanmi O. and Poldrack, Russell A. and Gorgolewski, Krzysztof J.},
-title = {MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites (article)
-Author},
-journal = {bioRxiv},
-url = {http://biorxiv.org/content/early/2017/07/15/111294.abstract},
-doi = {https://doi.org/10.1101/111294},
-year = {2017}
+
+@article{10.1371/journal.pone.0184661,
+    author = {Esteban, Oscar AND Birman, Daniel AND Schaer, Marie AND Koyejo, Oluwasanmi O. AND Poldrack, Russell A. AND Gorgolewski, Krzysztof J.},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {MRIQC: Advancing the automatic prediction of image quality in MRI from unseen sites},
+    year = {2017},
+    month = {09},
+    volume = {12},
+    url = {https://doi.org/10.1371/journal.pone.0184661},
+    pages = {1-21},
+    abstract = {Quality control of MRI is essential for excluding problematic acquisitions and avoiding bias in subsequent image processing and analysis. Visual inspection is subjective and impractical for large scale datasets. Although automated quality assessments have been demonstrated on single-site datasets, it is unclear that solutions can generalize to unseen data acquired at new sites. Here, we introduce the MRI Quality Control tool (MRIQC), a tool for extracting quality measures and fitting a binary (accept/exclude) classifier. Our tool can be run both locally and as a free online service via the OpenNeuro.org portal. The classifier is trained on a publicly available, multi-site dataset (17 sites, N = 1102). We perform model selection evaluating different normalization and feature exclusion approaches aimed at maximizing across-site generalization and estimate an accuracy of 76%Â±13% on new sites, using leave-one-site-out cross-validation. We confirm that result on a held-out dataset (2 sites, N = 265) also obtaining a 76% accuracy. Even though the performance of the trained classifier is statistically above chance, we show that it is susceptible to site effects and unable to account for artifacts specific to new sites. MRIQC performs with high accuracy in intra-site prediction, but performance on unseen sites leaves space for improvement which might require more labeled data and new approaches to the between-site variability. Overcoming these limitations is crucial for a more objective quality assessment of neuroimaging data, and to enable the analysis of extremely large and multi-site samples.},
+    number = {9},
+    doi = {10.1371/journal.pone.0184661}
 }
 
 @ARTICLE{10.3389/conf.fnins.2015.91.00047,
@@ -598,17 +631,19 @@ ABSTRACT={}
 }
 
 @article{AFYOUNI2018291,
-title = "Insight and inference for DVARS",
-journal = "NeuroImage",
-volume = "172",
-pages = "291 - 312",
-year = "2018",
-issn = "1053-8119",
-doi = "https://doi.org/10.1016/j.neuroimage.2017.12.098",
-url = "http://www.sciencedirect.com/science/article/pii/S1053811917311229",
-author = "Soroosh Afyouni and Thomas E. Nichols",
-keywords = "DVARS, Mean square of successive differences, Autocorrelation, Sum of squares decomposition, Time series, fMRI, Resting-state"
+title = {Insight and inference for DVARS},
+journal = {NeuroImage},
+volume = {172},
+pages = {291-312},
+year = {2018},
+issn = {1053-8119},
+doi = {https://doi.org/10.1016/j.neuroimage.2017.12.098},
+url = {https://www.sciencedirect.com/science/article/pii/S1053811917311229},
+author = {Soroosh Afyouni and Thomas E. Nichols},
+keywords = {DVARS, Mean square of successive differences, Autocorrelation, Sum of squares decomposition, Time series, fMRI, Resting-state},
+abstract = {Estimates of functional connectivity using resting state functional Magnetic Resonance Imaging (rs-fMRI) are acutely sensitive to artifacts and large scale nuisance variation. As a result much effort is dedicated to preprocessing rs-fMRI data and using diagnostic measures to identify bad scans. One such diagnostic measure is DVARS, the spatial root mean square of the data after temporal differencing. A limitation of DVARS however is the lack of concrete interpretation of the absolute values of DVARS, and finding a threshold to distinguish bad scans from good. In this work we describe a sum of squares decomposition of the entire 4D dataset that shows DVARS to be just one of three sources of variation we refer to as D-var (closely linked to DVARS), S-var and E-var. D-var and S-var partition the sum of squares at adjacent time points, while E-var accounts for edge effects; each can be used to make spatial and temporal summary diagnostic measures. Extending the partitioning to global (and non-global) signal leads to a rs-fMRI DSE table, which decomposes the total and global variability into fast (D-var), slow (S-var) and edge (E-var) components. We find expected values for each component under nominal models, showing how D-var (and thus DVARS) scales with overall variability and is diminished by temporal autocorrelation. Finally we propose a null sampling distribution for DVARS-squared and robust methods to estimate this null model, allowing computation of DVARS p-values. We propose that these diagnostic time series, images, p-values and DSE table will provide a succinct summary of the quality of a rs-fMRI dataset that will support comparisons of datasets over preprocessing steps and between subjects.}
 }
+
 
 @article{alexander2017open,
   title={An open resource for transdiagnostic research in pediatric mental health and learning disorders},
