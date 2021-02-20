@@ -2644,12 +2644,12 @@ var bibtexify = (function($) {
         },
         mastersthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
-            entryData.title + ". " + entryData.type + ". " +
+            entryData.title + ". " + 
             ((entryData.organization)?entryData.organization + ", ":"")  + entryData.school + ".";
         },
         phdthesis: function(entryData) {
             return this.authors2html(entryData.author) + " (" + entryData.year + "). " +
-            entryData.title + ". " + entryData.type + ". " +
+            entryData.title + ". " + 
             ((entryData.organization)?entryData.organization + ", ":"") + entryData.school + ".";
         },
         techreport: function(entryData) {
