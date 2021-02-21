@@ -964,7 +964,7 @@ span.undefined { color:red; }
 .yearlabel { position: absolute; bottom: -20px; text-align: center; width: 100%; font-size: smaller;}
 .pub { border: 1px solid white; background-color: #eee; }
 .conference { background-color: rgb(245,128,37); }
-.inproceedings { background-color: #663399; }
+.inproceedings { background-color: #f1c93d; }
 .article { background-color: #1d781d; }
 .inbook { background-color: #eaa; }
 .phdthesis { background-color: #1460aa; }
