@@ -875,7 +875,7 @@ function BibTex(options)
 		'phdthesis',
 		'proceedings',
 		'techreport',
-    'preprint',
+                'preprint',
 		'unpublished'
 	);
 	this.authorstring = 'VON LAST, JR, FIRST';
@@ -2843,6 +2843,7 @@ var bibtexify = (function($) {
             types.sort(function(x, y) {
               return bib2html.importance[y] - bib2html.importance[x];
             });
+            str += '<div class="yearlabel">' + sum + '</div>'
             str += '<div class="filler" style="height:' + ((pubHeight+2)*(max-sum)) + 'px;"></div>';
             for (var i = 0; i < types.length; i++) {
                 var type = types[i];
