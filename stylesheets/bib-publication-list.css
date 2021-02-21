@@ -7,11 +7,11 @@ span.undefined { color:red; }
 .pub { border: 1px solid white; background-color: #eee; }
 .conference { background-color: rgb(245,128,37); }
 .inproceedings { background-color: #ccf; }
-.article { background-color: #beb; }
+.article { background-color: #1d781d; }
 .inbook { background-color: #eaa; }
-.phdthesis { background-color: #999; }
+.phdthesis { background-color: #1460AA; }
 .unpublished { background-color: #eae; }
-.mastersthesis { background-color: #eea; }
+.mastersthesis { background-color: #d35400; }
 .techreport { background-color: #b77; }
 .legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
 .legend { margin-bottom: 20px; text-align: center; width: 100%;}
