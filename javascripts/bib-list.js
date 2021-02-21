@@ -2459,9 +2459,12 @@ var bibtexify = (function($) {
         str = str.replace(/\\"\{a\}/g, '&auml;')
             .replace(/\{\\aa\}/g, '&aring;')
             .replace(/\\aa\{\}/g, '&aring;')
+            .replace(/\\~n/g, '&ntilde;')
             .replace(/\\"a/g, '&auml;')
             .replace(/\\"u/g, '&uuml;')
             .replace(/\\"\{o\}/g, '&ouml;')
+            .replace(/\\'o/g, '&oacute;')
+            .replace(/\\'i/g, '&iacute;')
             .replace(/\\'e/g, '&eacute;')
             .replace(/\\"e/g, '&euml;')
             .replace(/\\'\{e\}/g, '&eacute;')
@@ -2678,13 +2681,14 @@ var bibtexify = (function($) {
             'TITLE': 9999,
             'misc': 0,
             'manual': 10,
+            'preprint': 20,
             'techreport': 20,
-            'mastersthesis': 30,
             'inproceedings': 40,
             'incollection': 50,
             'proceedings': 60,
-            'conference': 70,
-            'article': 30,
+            'conference': 60,
+            'article': 70,
+            'mastersthesis': 80,
             'phdthesis': 90,
             'inbook': 100,
             'book': 110,
