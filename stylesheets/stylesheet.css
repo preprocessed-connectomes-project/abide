@@ -964,11 +964,12 @@ span.undefined { color:red; }
 .yearlabel { position: absolute; bottom: -20px; text-align: center; width: 100%; font-size: smaller;}
 .pub { border: 1px solid white; background-color: #eee; }
 .conference { background-color: rgb(245,128,37); }
-.inproceedings { background-color: #ccf; }
+.inproceedings { background-color: #663399; }
 .article { background-color: #1d781d; }
 .inbook { background-color: #eaa; }
 .phdthesis { background-color: #1460aa; }
 .unpublished { background-color: #2a2a2a; }
+.preprint { background-color: #2a2a2a; }
 .mastersthesis { background-color: #d35400; }
 .techreport { background-color: #b77; }
 .legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
