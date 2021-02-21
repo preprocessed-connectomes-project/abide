@@ -12,7 +12,7 @@ encoding:    utf-8
 future:      true
 show_drafts: nil
 limit_posts: 1
-highlighter: pygments
+highlighter: rouge
 
 
 permalink:     date
